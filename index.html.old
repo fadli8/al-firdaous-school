@@ -878,7 +878,6 @@ body:not(.home) header#masthead {
 				<div class="elementor-widget-container">
 			<h2 class="elementor-heading-title elementor-size-default">News & More</h2>		</div>
 				</div>
-				<!-- News and more images -->
 				<div class="elementor-element elementor-element-5de238f elementor-widget-divider--view-line_icon elementor-view-default elementor-widget-divider--element-align-center elementor-invisible elementor-widget elementor-widget-divider" data-id="5de238f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="divider.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-divider">
@@ -921,7 +920,6 @@ body:not(.home) header#masthead {
 						</div>
 					</div>
 		</div>
-		<!-- Welcome to -->
 				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-85a5fa9" data-id="85a5fa9" data-element_type="column">
 			<div class="elementor-column-wrap elementor-element-populated">
 							<div class="elementor-widget-wrap">
@@ -951,38 +949,6 @@ body:not(.home) header#masthead {
 						</div>
 					</div>
 		</div>
-		<!-- -->
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-85a5fa9" data-id="85a5fa9" data-element_type="column">
-                        <div class="elementor-column-wrap elementor-element-populated">
-                                                        <div class="elementor-widget-wrap">
-                                                <div class="elementor-element elementor-element-9f1c500 elementor-widget elementor-widget-image" data-id="9f1c500" data-element_type="widget" data-widget_type="image.default">
-                                <div class="elementor-widget-container">
-                                        <div class="elementor-image">
-                                                                                        <a href="./wp-content/uploads/2020/09/pexels-photo-210186-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-title="pexels-photo-210186">
-                                                        <img width="640" height="387" src="./wp-content/uploads/2020/09/pexels-photo-210186-1-1024x619.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="./wp-content/uploads/2020/09/pexels-photo-210186-1-1024x619.jpg 1024w, ./wp-content/uploads/2020/09/pexels-photo-210186-1-300x181.jpg 300w, ./wp-content/uploads/2020/09/pexels-photo-210186-1-768x464.jpg 768w, ./wp-content/uploads/2020/09/pexels-photo-210186-1-1536x929.jpg 1536w, ./wp-content/uploads/2020/09/pexels-photo-210186-1.jpg 1880w" sizes="(max-width: 640px) 100vw, 640px" />                                                          </a>
-                                                                                        </div>
-                                </div>
-                                </div>
-                                <div class="elementor-element elementor-element-b737bc0 elementor-widget elementor-widget-heading" data-id="b737bc0" data-element_type="widget" data-widget_type="heading.default">
-                                <div class="elementor-widget-container">
-                        <h3 class="elementor-heading-title elementor-size-default">Welcome To Natural Start Preschool</h3>              </div>
-                                </div>
-                                <div class="elementor-element elementor-element-fdc71e5 elementor-widget elementor-widget-button" data-id="fdc71e5" data-element_type="widget" data-widget_type="button.default">
-                                <div class="elementor-widget-container">
-                                        <div class="elementor-button-wrapper">
-                        <a href="./wp-content/uploads/2020/09/Welcome-to-Natural-Start-preschool-page-001.jpg" class="elementor-button-link elementor-button elementor-size-xs elementor-animation-grow" role="button">
-                                                <span class="elementor-button-content-wrapper">
-                                                <span class="elementor-button-text">READ MORE</span>
-                </span>
-                                        </a>
-                </div>
-                                </div>
-                                </div>
-                                                </div>
-                                        </div>
-                </div>
-		
-	<!--	
 				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-9865d62" data-id="9865d62" data-element_type="column">
 			<div class="elementor-column-wrap elementor-element-populated">
 							<div class="elementor-widget-wrap">
@@ -991,6 +957,7 @@ body:not(.home) header#masthead {
 					<div class="elementor-image">
 											<a href="./wp-content/uploads/2020/09/spring-tree-flowers-meadow-60006.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-title="spring-tree-flowers-meadow-60006">
 							<img width="640" height="387"  src="./wp-content/uploads/2020/09/spring-tree-flowers-meadow-60006-1024x651.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="./wp-content/uploads/2020/09/spring-tree-flowers-meadow-60006-1024x651.jpg 1024w, ./wp-content/uploads/2020/09/spring-tree-flowers-meadow-60006-300x191.jpg 300w, ./wp-content/uploads/2020/09/spring-tree-flowers-meadow-60006-768x489.jpg 768w, ./wp-content/uploads/2020/09/spring-tree-flowers-meadow-60006-1536x977.jpg 1536w, ./wp-content/uploads/2020/09/spring-tree-flowers-meadow-60006.jpg 1880w" sizes="(max-width: 640px) 100vw, 640px" />								</a>
+							<!--img width="640" height="407"  src="./wp-content/uploads/2020/09/spring-tree-flowers-meadow-60006-1024x651.jpg" class="attachment-large size-large" alt="" loading="lazy" srcset="./wp-content/uploads/2020/09/spring-tree-flowers-meadow-60006-1024x651.jpg 1024w, ./wp-content/uploads/2020/09/spring-tree-flowers-meadow-60006-300x191.jpg 300w, ./wp-content/uploads/2020/09/spring-tree-flowers-meadow-60006-768x489.jpg 768w, ./wp-content/uploads/2020/09/spring-tree-flowers-meadow-60006-1536x977.jpg 1536w, ./wp-content/uploads/2020/09/spring-tree-flowers-meadow-60006.jpg 1880w" sizes="(max-width: 640px) 100vw, 640px" />								</a-->
 											</div>
 				</div>
 				</div>
@@ -1012,8 +979,6 @@ body:not(.home) header#masthead {
 						</div>
 					</div>
 		</div>
-		-->
-		<!-- end -->
 								</div>
 					</div>
 		</section>
