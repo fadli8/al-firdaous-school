@@ -1,0 +1,4063 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Kids
+ * @version 	1.1.4
+ * 
+ * Theme Secondary Color Schemes Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+/***************** Start Default CMSMASTERS Donations Color Scheme Rules ******************/
+
+	/* Start Main Content Font Color */
+	/* Finish Main Content Font Color */
+	
+	
+	/* Start Primary Color */
+	/* Finish Primary Color */
+	
+	
+	/* Start Highlight Color */
+		.tt_booking a.tt_btn {
+			background-color:#454a4c;
+		}
+	/* Finish Highlight Color */
+	
+	
+	/* Start Headings Color */
+	.tt_upcoming_events_wrapper .tt_upcoming_event_controls > a {
+		color:#434a54;
+	}
+	/* Finish Headings Color */
+	
+	
+	/* Start Main Background Color */
+	.tt_upcoming_events_wrapper .tt_upcoming_event_controls > a:hover,
+	.tt_booking a.tt_btn, 
+	.tt_booking a.tt_btn:hover {
+		color:#ffffff;
+	}
+
+	.tt_booking .tt_booking_message_wrapper {
+		background-color:#ffffff;
+	}
+	/* Finish Main Background Color */
+	
+	
+	/* Start Alternate Background Color */
+	.cmsmasters_tt_event_details_title, 
+	.tt_upcoming_events_wrapper .tt_upcoming_event_controls > a, 
+	.cmsmasters_tt_event_hours_title,
+	ul.tt_items_list li {
+		background-color:#efefef;
+	}
+	/* Finish Alternate Background Color */
+	
+	
+	/* Start Borders Color */
+	/* Finish Borders Color */
+	
+	
+	
+	/* Start Secondary Color */
+	.tt_booking a.tt_btn:hover, 
+	.tt_upcoming_events_wrapper .tt_upcoming_event_controls > a:hover {
+		background-color:#fb6b47;
+	}
+	/* Finish Secondary Color */
+	
+/***************** Finish Default CMSMASTERS Donations Color Scheme Rules ******************/
+
+
+
+/***************** Start Default WooCommerce Color Scheme Rules ******************/
+
+	/* Start Main Content Font Color */
+	#shipping_method li label, 
+	.widget_price_filter .price_slider_amount .price_label, 
+	.widget > .product_list_widget .amount, 
+	.shop_table.my_account_orders tbody tr td, 
+	.shop_table.customer_details td, 
+	ul.order_details strong, 
+	.shop_table.order_details tfoot tr td, 
+	.shop_table.order_details .product-name strong, 
+	.woocommerce input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]), 
+	.woocommerce-checkout .payment_methods label, 
+	.select2-container .select2-choice, 
+	.shop_table .amount, 
+	.shop_attributes th, 
+	.woocommerce select, 
+	.checkout .product-quantity, 
+	.woocommerce-message, 
+	.woocommerce-info, 
+	.woocommerce-error, 
+	.woocommerce-error li, 
+	.select2-container--default .select2-selection--single .select2-selection__rendered, 
+	.select2-container.select2-drop-above .select2-choice, 
+	.select2-container.select2-container-active .select2-choice, 
+	.select2-container.select2-container-active.select2-drop-above .select2-choice,
+	.cmsmasters_woo_wrap_result .woocommerce-result-count,  
+	.select2-drop.select2-drop-active, 
+	.select2-drop.select2-drop-above.select2-drop-active {
+		color:#656f73;
+	}
+	
+	.woocommerce input::-webkit-input-placeholder {
+		color:#656f73;
+	}
+	
+	.woocommerce input:-moz-placeholder {
+		color:#656f73;
+	}
+	
+	.woocommerce textarea:-moz-placeholder {
+		color:#656f73;
+	}
+	
+	.woocommerce textarea::-webkit-input-placeholder {
+		color:#656f73;
+	}
+	
+	/* Finish Main Content Font Color */
+	
+	
+	/* Start Primary Color */
+	.cmsmasters_star_rating .cmsmasters_star_color_wrap, 
+	.widget_layered_nav ul li a:hover, 
+	.widget_layered_nav ul li.chosen a, 
+	.widget_layered_nav_filters ul li a:hover, 
+	.widget_layered_nav_filters ul li.chosen a, 
+	.widget_product_categories ul li a:hover, 
+	.widget_product_categories ul li.current-cat a, 
+	.woocommerce-store-notice .woocommerce-store-notice__dismiss-link {
+		color:#a6a6a6;
+	}
+	
+	.widget_price_filter .ui-slider-handle, 
+	.woocommerce-store-notice {
+		background-color:#a6a6a6;
+	}
+	
+	.select2-container.select2-container-active .select2-choice, 
+	.select2-container.select2-container-active.select2-drop-above .select2-choice, 
+	.select2-drop.select2-drop-active, 
+	.select2-drop.select2-drop-above.select2-drop-active {
+		border-color:#a6a6a6;
+	}
+	/* Finish Primary Color */
+	
+	
+	/* Start Highlight Color */
+	.link_hover_color {
+		border-color:#454a4c;
+	}
+	
+	.shipping-calculator-button,
+	.cmsmasters_tabs.cmsmasters_woo_tabs .cmsmasters_tabs_list_item a, 
+	#page .woocommerce .widget_shopping_cart_content .cart_list a, 
+	.cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list a, 
+	.woocommerce-MyAccount-navigation ul > li.is-active, 
+	.woocommerce-MyAccount-navigation ul > li.is-active a {
+		color:#454a4c;
+	}
+	
+	.input-checkbox + label:after, 
+	.widget_product_tag_cloud a:hover, 
+	.input-radio + label:after, 
+	input.shipping_method + label:after, 
+	.cmsmasters_product .button:hover,
+	.tribe-bar-views-toggle {
+		background-color:#454a4c;
+	}
+	/* Finish Highlight Color */
+	
+	
+	/* Start Headings Color */
+	.woocommerce-checkout label, 
+	#page .woocommerce .remove, 
+	.cmsmasters_product .cmsmasters_product_cat, 
+	.cmsmasters_product .price, 
+	.cmsmasters_single_product .price, 
+	.shop_table, 
+	.shop_table a:not(.button), 
+	.cart_totals table, 
+	.cmsmasters_dynamic_cart .widget_shopping_cart_content .total, 
+	.cmsmasters_dynamic_cart .widget_shopping_cart_content .total strong, 
+	.comment-form-rating > label, 
+	.shop_table.customer_details th, 
+	.widget_layered_nav ul li, 
+	.widget_layered_nav ul li a, 
+	.cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button, 
+	.widget_layered_nav_filters ul li, 
+	.widget_layered_nav_filters ul li a, 
+	.widget_product_categories ul li, 
+	.widget_product_categories ul li a, 
+	#page .widget > .product_list_widget a, 
+	.widget_shopping_cart .total {
+		color:#434a54;
+	}
+	
+	.out-of-stock, 
+	ul.order_details li, 
+	.shop_table thead tr th, 
+	.stock {
+		background-color:#434a54;
+	}
+	/* Finish Headings Color */
+	
+	
+	/* Start Main Background Color */
+	.cmsmasters_product .button, 
+	.woocommerce input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]):focus, 
+	.shop_table thead, 
+	.cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button:hover, 
+	.cmsmasters_dynamic_cart:hover .cmsmasters_dynamic_cart_button,
+	.woocommerce-store-notice, 
+	.woocommerce-store-notice p a, 
+	.woocommerce-store-notice p a:hover,
+	#page .widget_product_tag_cloud a, 
+	#page .widget_product_tag_cloud a:hover, 
+	.shop_table.order_details tfoot tr:last-child th, 
+	.shop_table.order_details tfoot tr:last-child td .amount, 
+	.cmsmasters_tabs.cmsmasters_woo_tabs .cmsmasters_tabs_list_item:hover a,
+	.cmsmasters_tabs.cmsmasters_woo_tabs .cmsmasters_tabs_list_item.current_tab a,
+	.shop_table tfoot .order-total .amount, 
+	.shop_table tfoot .order-total th,
+	.tribe-bar-views-toggle,
+	.tribe-bar-views-toggle:hover {
+		color:#ffffff;
+	}
+	
+	#page .cmsmasters_dynamic_cart .remove, 
+	.woocommerce-store-notice .woocommerce-store-notice__dismiss-link {
+		background-color:#ffffff;
+	}
+	
+	.cmsmasters_product .cmsmasters_product_add_wrap {
+		background-color:rgba(255, 255, 255, 0.85);
+	}
+	
+	.woocommerce textarea:focus:-moz-placeholder {
+		color:#ffffff;
+	}
+	
+	.woocommerce textarea:focus::-webkit-input-placeholder {
+		color:#ffffff;
+	}
+	
+	.woocommerce input:focus:-moz-placeholder {
+		color:#ffffff;
+	}
+	
+	.woocommerce input:focus::-webkit-input-placeholder {
+		color:#ffffff;
+	}
+	
+	/* Finish Main Background Color */
+	
+	
+	/* Start Alternate Background Color */
+	.onsale, 
+	.out-of-stock, 
+	.stock, 
+	.cmsmasters_star.cmsmasters_theme_icon_star_empty, 
+	ul.order_details {
+		color:#efefef;
+	}
+	
+	.woocommerce-info, 
+	.woocommerce-message, 
+	.woocommerce-error, 
+	.cmsmasters_added_product_info, 
+	.widget_price_filter .price_slider, 
+	.cmsmasters_dynamic_cart .cmsmasters_added_product_info, 
+	.cmsmasters_dynamic_cart .widget_shopping_cart_content, 
+	.select2-container .select2-choice, 
+	.select2-container.select2-drop-above .select2-choice, 
+	.select2-container.select2-container-active .select2-choice, 
+	.select2-container.select2-container-active.select2-drop-above .select2-choice, 
+	.select2-container .select2-selection--single, 
+	.select2-drop.select2-drop-active, 
+	.select2-drop.select2-drop-above.select2-drop-active, 
+	.input-checkbox + label:before, 
+	.cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button, 
+	.input-radio + label:before, 
+	input.shipping_method + label:before, 
+	ul.order_details strong, 
+	.remove, 
+	.shop_table.my_account_orders tr td, 
+	.cmsmasters_tabs.cmsmasters_woo_tabs .cmsmasters_tabs_list_item a {
+		background-color:#efefef;
+	}
+	
+	.cmsmasters_dynamic_cart .widget_shopping_cart_content:after {
+		border-bottom-color:#efefef;
+	}
+	
+	/* Finish Alternate Background Color */
+	
+	
+	/* Start Borders Color */
+	.cmsmasters_star_rating .cmsmasters_star_trans_wrap, 
+	.comment-form-rating .stars > span {
+		color:#efefef;
+	}
+	
+	.cmsmasters_woo_tabs:before, 
+	div.products:before {
+		background-color:#efefef;
+	}
+	
+	.select2-container .select2-choice, 
+	.select2-container.select2-drop-above .select2-choice, 
+	.input-checkbox + label:before, 
+	.input-radio + label:before, 
+	input.shipping_method + label:before, 
+	.shop_table th, 
+	.shop_table td, 
+	.cmsmasters_products .product.product-category img, 
+	.cart_totals table th, 
+	.cart_totals table td, 
+	.shop_table .cart_item {
+		border-color:#efefef;
+	}
+	/* Finish Borders Color */
+	
+	
+	/* Start Secondary Color */
+	.cmsmasters_product .button, 
+	.widget_product_tag_cloud a, 
+	.shop_table.order_details tfoot tr:last-child th, 
+	.shop_table.order_details tfoot tr:last-child td, 
+	.cmsmasters_tabs.cmsmasters_woo_tabs .cmsmasters_tabs_list_item.current_tab a, 
+	.cmsmasters_tabs.cmsmasters_woo_tabs .cmsmasters_tabs_list_item:hover a, 
+	.cmsmasters_dynamic_cart:hover .cmsmasters_dynamic_cart_button, 
+	.cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button:hover, 
+	.shop_table tfoot .order-total th, 
+	.shop_table tfoot .order-total td, 
+	.widget_price_filter .ui-slider-range, 
+	.onsale,
+	.tribe-bar-views-toggle:hover {
+		background-color:#fb6b47;
+	}
+	
+	.shipping-calculator-button:hover, 
+	.required, 
+	.cmsmasters_products .product.product-category h2:hover, 
+	.cmsmasters_products .product.product-category h2 mark, 
+	#page .widget > .product_list_widget a:hover, 
+	.comment-form-rating .stars > span a:hover, 
+	.comment-form-rating .stars > span a.active, 
+	.shop_table a:not(.button):hover, 
+	.cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list a:hover, 
+	#page .woocommerce .widget_shopping_cart_content .cart_list a:hover, 
+	#page .woocommerce .remove:hover, 
+	.cmsmasters_star.cmsmasters_theme_icon_star_full {
+		color:#fb6b47;
+	}
+	/* Finish Secondary Color */
+	
+/***************** Finish Default WooCommerce Color Scheme Rules ******************/
+
+
+
+/***************** Start Default Events Color Scheme Rules ******************/
+
+	/* Start Main Content Font Color */
+	.tribe-mini-calendar tbody, 
+	.cmsmasters_single_event_meta .cmsmasters_event_meta_info_item_title, 
+	.cmsmasters_single_event .tribe-events-schedule, 
+	.cmsmasters_single_event .tribe-events-cost, 
+	#tribe-events input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]), 
+	.tribe-events-list .tribe-events-event-meta, 
+	.tribe-events-photo .tribe-events-event-meta, 
+	#tribe-bar-views .tribe-bar-views-list li, 
+	table.tribe-events-calendar tbody td div[id*=tribe-events-daynum-], 
+	table.tribe-events-calendar tbody td div[id*=tribe-events-daynum-] a, 
+	.tribe-this-week-events-widget .tribe-events-page-title, 
+	.tribe-this-week-events-widget .tribe-this-week-event .tribe-venue a {
+		color:#656f73;
+	}
+	
+	#tribe-events textarea::-moz-placeholder {
+		color:#656f73;
+	}
+	
+	#tribe-events textarea::-webkit-input-placeholder {
+		color:#656f73;
+	}
+	
+	#tribe-events input::-moz-placeholder {
+		color:#656f73;
+	}
+	
+	#tribe-events input::-webkit-input-placeholder {
+		color:#656f73;
+	}
+	
+	/* Finish Main Content Font Color */
+	
+	
+	/* Start Primary Color */
+	#tribe-bar-views .tribe-bar-views-list li:hover, 
+	table.tribe-events-calendar tbody td.tribe-events-past div[id*=tribe-events-daynum-] a, 
+	.tribe-events-venue .cmsmasters_events_venue_header_right a:before, 
+	.tribe-events-venue .cmsmasters_events_venue_header_right a:hover, 
+	.tribe-events-organizer .cmsmasters_events_organizer_header_right a:before, 
+	.tribe-events-organizer .cmsmasters_events_organizer_header_right a:hover, 
+	.tribe-mini-calendar tbody a:hover, 
+	.tribe-mini-calendar tbody .tribe-events-othermonth, 
+	.tribe-mini-calendar tbody .tribe-events-othermonth a, 
+	.tribe-mini-calendar-list-wrapper [class*=cmsmasters_theme_icon]:before, 
+	.tribe-events-countdown-widget .tribe-countdown-text a:hover {
+		color:#a6a6a6;
+	}
+	
+	.cmsmasters_event_date, 
+	table.tribe-events-calendar tbody td.tribe-events-has-events:before {
+		background-color:#a6a6a6;
+	}
+	/* Finish Primary Color */
+	
+	
+	/* Start Highlight Color */
+	.event_hover {
+		color:#454a4c;
+	}
+	/* Finish Highlight Color */
+	
+	
+	/* Start Headings Color */
+	.tribe-bar-filters-inner > div label, 
+	#tribe-bar-views .tribe-bar-views-list li:hover, 
+	#tribe-bar-views .tribe-bar-views-list li.tribe-bar-active, 
+	.tribe-events-sub-nav li a, 
+	.tribe-events-notices, 
+	.tribe-mini-calendar tbody a, 
+	.tribe-events-list .tribe-events-list-separator-month, 
+	.tribe-events-grid .tribe-week-event:hover .vevent .entry-title a, 
+	.cmsmasters_single_event_meta dt, 
+	.tribe-events-venue .tribe-events-event-meta, 
+	.tribe-events-venue .cmsmasters_events_venue_header_right a, 
+	.tribe-events-organizer .tribe-events-event-meta, 
+	.tribe-events-organizer .cmsmasters_events_organizer_header_right a, 
+	.tribe-mini-calendar thead a:hover, 
+	.tribe-this-week-events-widget .tribe-this-week-event .entry-title a, 
+	.tribe-events-grid .tribe-grid-header a:hover, 
+	.tribe-events-venue-widget .vcalendar .entry-title a, 
+	.tribe-mini-calendar-list-wrapper .cmsmasters_widget_event_info, 
+	.tribe-events-venue-widget .tribe-venue-widget-venue-name a, 
+	.tribe-events-countdown-widget .tribe-countdown-time, 
+	.tribe-events-countdown-widget .tribe-countdown-text, 
+	.tribe-events-countdown-widget .tribe-countdown-text a, 
+	.tribe-mobile-day .tribe-events-event-schedule-details, 
+	.tribe-mobile-day .tribe-event-schedule-details {
+		color:#434a54;
+	}
+	
+	.tribe-mini-calendar .tribe-mini-calendar-nav, 
+	table.tribe-events-calendar thead th, 
+	.tribe-events-grid .tribe-grid-header, 
+	.tribe-events-grid .tribe-events-tooltip, 
+	table.tribe-events-calendar tbody td.tribe-events-has-events.mobile-active:before {
+		background-color:#434a54;
+	}
+	/* Finish Headings Color */
+	
+	
+	/* Start Main Background Color */
+	.tribe-events-tooltip, 
+	.tribe-events-tooltip *, 
+	.tribe-mini-calendar thead, 
+	#page .tribe-mini-calendar thead a, 
+	.tribe-events-grid .tribe-week-event .vevent .entry-title a, 
+	table.tribe-events-calendar thead th, 
+	.tribe-events-grid .tribe-grid-header, 
+	.tribe-events-grid .tribe-grid-header a, 
+	.tribe-events-grid .tribe-grid-header .tribe-week-today, 
+	.tribe-events-sub-nav li a:hover, 
+	.widget.tribe-events-adv-list-widget .tribe-events-list-widget-content-wrap a:hover, 
+	.tribe-this-week-events-widget .this-week-today .tribe-this-week-widget-header-date, 
+	#tribe-events input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]):focus, 
+	table.tribe-events-calendar tbody td div[id*=tribe-events-daynum-] a:hover, 
+	.tribe-events-adv-list-widget .tribe-events-list-widget-content-wrap, 
+	.tribe-events-adv-list-widget .tribe-events-list-widget-content-wrap a, 
+	table.tribe-events-calendar tbody td.tribe-events-present div[id*=tribe-events-daynum-], 
+	table.tribe-events-calendar tbody td.tribe-events-present div[id*=tribe-events-daynum-] a, 
+	.event_bg {
+		color:#ffffff;
+	}
+	
+	.tribe-events-grid .tribe-week-event .vevent .entry-title {
+		border-color:#ffffff;
+	}
+	
+	.tribe-mini-calendar tbody a:before, 
+	.tribe-events-grid .tribe-scroller, 
+	.tribe-events-grid .tribe-week-grid-hours {
+		background-color:#ffffff;
+	}
+	
+	#tribe-events textarea:focus::-moz-placeholder {
+		color:#ffffff;
+	}
+	
+	#tribe-events textarea:focus::-webkit-input-placeholder {
+		color:#ffffff;
+	}
+	
+	#tribe-events input:focus::-moz-placeholder {
+		color:#ffffff;
+	}
+	
+	#tribe-events input:focus::-webkit-input-placeholder {
+		color:#ffffff;
+	}
+	
+	/* Finish Main Background Color */
+	
+	
+	/* Start Alternate Background Color */  
+	.cmsmasters_event_date {
+		color:#efefef;
+	}
+	
+	table.tribe-events-calendar tbody td div[id*=tribe-events-daynum-], 
+	.tribe-events-notices, 
+	.tribe-events-sub-nav li.tribe-events-nav-next span:not([class]), 
+	.tribe-events-sub-nav li.tribe-events-nav-previous span:not([class]), 
+	.tribe-events-sub-nav li.nav-next span:not([class]), 
+	.tribe-events-grid .tribe-grid-header a:hover, 
+	.tribe-events-grid .tribe-week-event:hover .vevent .entry-title a, 
+	#tribe-bar-views .tribe-bar-views-list li.tribe-bar-active, 
+	.tribe-mini-calendar, 
+	.tribe-events-venue-widget .tribe-venue-widget-venue {
+		background-color:#efefef;
+	}
+	/* Finish Alternate Background Color */
+	
+	
+	/* Start Borders Color */
+	table.tribe-events-calendar tbody td.tribe-events-othermonth div[id*=tribe-events-daynum-] {
+		color:#efefef;
+	}
+	
+	.tribe-events-photo #tribe-events-photo-events:before, 
+	.tribe-events-single .post_nav:before, 
+	.tribe-events-single .post_nav:after {
+		background-color:#efefef;
+	}
+	
+	table.tribe-events-calendar, 
+	table.tribe-events-calendar tbody td, 
+	table.tribe-events-calendar tbody td .tribe_events, 
+	.tribe-events-list .tribe-events-list-separator-month, 
+	.tribe-events-list .tribe-events-day-time-slot > h5, 
+	.tribe-events-list .type-tribe_events, 
+	.tribe-events-photo .tribe-events-page-title, 
+	.tribe-events-map .tribe-events-page-title, 
+	.tribe-events-grid .tribe-scroller, 
+	.tribe-events-grid .tribe-week-grid-block div, 
+	.tribe-events-grid .tribe-grid-allday, 
+	.tribe-events-grid .tribe-grid-content-wrap .column, 
+	.tribe-events-grid .tribe-week-grid-hours div, 
+	.cmsmasters_single_event, 
+	.widget .vcalendar .type-tribe_events, 
+	.tribe-mini-calendar-list-wrapper .type-tribe_events, 
+	.tribe-mobile-day .tribe-events-mobile, 
+	.tribe-this-week-events-widget .tribe-this-week-widget-day {
+		border-color:#efefef;
+	}
+	/* Finish Borders Color */
+	
+	/* Start Secondary Color */
+	.tribe-events-tooltip, 
+	.tribe-events-sub-nav li.tribe-events-nav-next:hover span:not([class]), 
+	.tribe-events-sub-nav li.tribe-events-nav-previous:hover span:not([class]), 
+	.tribe-this-week-events-widget .this-week-today .tribe-this-week-widget-header-date, 
+	.tribe-mini-calendar thead, 
+	.tribe-events-grid .tribe-week-event .vevent .entry-title a, 
+	.tribe-events-grid .tribe-grid-header .tribe-week-today, 
+	#tribe-bar-views.tribe-bar-views-open .button, 
+	.tribe-events-adv-list-widget .tribe-events-list-widget-content-wrap, 
+	table.tribe-events-calendar tbody td div[id*=tribe-events-daynum-] a:hover, 
+	.tribe-events-sub-nav li a:hover > span, 
+	table.tribe-events-calendar tbody td.tribe-events-present div[id*=tribe-events-daynum-] {
+		background-color:#fb6b47;
+	}
+	
+	.tribe-events-countdown-widget .tribe-countdown-time span, 
+	.tribe-events-photo .time-details:before, 
+	.tribe-events-venue-widget .cmsmasters_widget_event_info > div:before, 
+	.tribe-events-venue-widget .tribe-venue-widget-venue-name:before, 
+	.tribe-this-week-events-widget .tribe-this-week-event .entry-title a:hover, 
+	#page .tribe-mini-calendar tbody a:hover, 
+	#page .tribe-mini-calendar thead a:hover, 
+	.tribe-events-venue-widget .vcalendar .entry-title a:hover, 
+	.tribe-events-venue-widget .tribe-venue-widget-venue-name a:hover, 
+	.tribe-this-week-events-widget .tribe-this-week-event .duration:before, 
+	.tribe-this-week-events-widget .tribe-this-week-event .tribe-venue:before, 
+	.tribe-this-week-events-widget .tribe-events-sub-nav li a:hover, 
+	.tribe-mini-calendar tbody .tribe-events-present, 
+	.tribe-mini-calendar tbody .tribe-events-present a, 
+	.cmsmasters_single_event .tribe-events-date:before, 
+	.cmsmasters_single_event .cmsmasters_single_event_header_right a:before, 
+	.cmsmasters_single_event .tribe-events-cost:before, 
+	.tribe-events-list .tribe-events-event-meta .author > div:before {
+		color:#fb6b47;
+	}
+	
+	.tribe-this-week-events-widget .tribe-events-sub-nav li a:hover > span {
+		background-color:transparent;
+	}
+	
+	.tribe_mini_calendar_widget .tribe-events-list-widget-content-wrap {
+		background-color:transparent !important;
+	}
+	
+	.recurringinfo .recurring-info-tooltip:before {
+		border-bottom-color:#fb6b47;
+	}
+	
+	.tribe-events-tooltip:before {
+		border-top-color:#fb6b47;
+	}
+	
+	/* Finish Secondary Color */
+/***************** Finish Default Events Color Scheme Rules ******************/
+
+
+
+/***************** Start Footer CMSMASTERS Donations Color Scheme Rules ******************/
+
+	/* Start Main Content Font Color */
+	/* Finish Main Content Font Color */
+	
+	
+	/* Start Primary Color */
+	/* Finish Primary Color */
+	
+	
+	/* Start Highlight Color */
+		html .cmsmasters_color_scheme_footer .tt_booking a.tt_btn {
+			background-color:#abcd52;
+		}
+	/* Finish Highlight Color */
+	
+	
+	/* Start Headings Color */
+	html .cmsmasters_color_scheme_footer .tt_upcoming_events_wrapper .tt_upcoming_event_controls > a {
+		color:#ffffff;
+	}
+	/* Finish Headings Color */
+	
+	
+	/* Start Main Background Color */
+	html .cmsmasters_color_scheme_footer .tt_upcoming_events_wrapper .tt_upcoming_event_controls > a:hover,
+	html .cmsmasters_color_scheme_footer .tt_booking a.tt_btn, 
+	html .cmsmasters_color_scheme_footer .tt_booking a.tt_btn:hover {
+		color:#ffffff;
+	}
+
+	html .cmsmasters_color_scheme_footer .tt_booking .tt_booking_message_wrapper {
+		background-color:#ffffff;
+	}
+	/* Finish Main Background Color */
+	
+	
+	/* Start Alternate Background Color */
+	html .cmsmasters_color_scheme_footer .cmsmasters_tt_event_details_title, 
+	html .cmsmasters_color_scheme_footer .tt_upcoming_events_wrapper .tt_upcoming_event_controls > a, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_tt_event_hours_title,
+	html .cmsmasters_color_scheme_footer ul.tt_items_list li {
+		background-color:#f3ba29;
+	}
+	/* Finish Alternate Background Color */
+	
+	
+	/* Start Borders Color */
+	/* Finish Borders Color */
+	
+	
+	
+	/* Start Secondary Color */
+	html .cmsmasters_color_scheme_footer .tt_booking a.tt_btn:hover, 
+	html .cmsmasters_color_scheme_footer .tt_upcoming_events_wrapper .tt_upcoming_event_controls > a:hover {
+		background-color:#ffffff;
+	}
+	/* Finish Secondary Color */
+	
+/***************** Finish Footer CMSMASTERS Donations Color Scheme Rules ******************/
+
+
+
+/***************** Start Footer WooCommerce Color Scheme Rules ******************/
+
+	/* Start Main Content Font Color */
+	html .cmsmasters_color_scheme_footer #shipping_method li label, 
+	html .cmsmasters_color_scheme_footer .widget_price_filter .price_slider_amount .price_label, 
+	html .cmsmasters_color_scheme_footer .widget > .product_list_widget .amount, 
+	html .cmsmasters_color_scheme_footer .shop_table.my_account_orders tbody tr td, 
+	html .cmsmasters_color_scheme_footer .shop_table.customer_details td, 
+	html .cmsmasters_color_scheme_footer ul.order_details strong, 
+	html .cmsmasters_color_scheme_footer .shop_table.order_details tfoot tr td, 
+	html .cmsmasters_color_scheme_footer .shop_table.order_details .product-name strong, 
+	html .cmsmasters_color_scheme_footer .woocommerce input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]), 
+	html .cmsmasters_color_scheme_footer .woocommerce-checkout .payment_methods label, 
+	html .cmsmasters_color_scheme_footer .select2-container .select2-choice, 
+	html .cmsmasters_color_scheme_footer .shop_table .amount, 
+	html .cmsmasters_color_scheme_footer .shop_attributes th, 
+	html .cmsmasters_color_scheme_footer .woocommerce select, 
+	html .cmsmasters_color_scheme_footer .checkout .product-quantity, 
+	html .cmsmasters_color_scheme_footer .woocommerce-message, 
+	html .cmsmasters_color_scheme_footer .woocommerce-info, 
+	html .cmsmasters_color_scheme_footer .woocommerce-error, 
+	html .cmsmasters_color_scheme_footer .woocommerce-error li, 
+	html .cmsmasters_color_scheme_footer .select2-container--default .select2-selection--single .select2-selection__rendered, 
+	html .cmsmasters_color_scheme_footer .select2-container.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_footer .select2-container.select2-container-active .select2-choice, 
+	html .cmsmasters_color_scheme_footer .select2-container.select2-container-active.select2-drop-above .select2-choice,
+	html .cmsmasters_color_scheme_footer .cmsmasters_woo_wrap_result .woocommerce-result-count,  
+	html .cmsmasters_color_scheme_footer .select2-drop.select2-drop-active, 
+	html .cmsmasters_color_scheme_footer .select2-drop.select2-drop-above.select2-drop-active {
+		color:#656f73;
+	}
+	
+	html .cmsmasters_color_scheme_footer .woocommerce input::-webkit-input-placeholder {
+		color:#656f73;
+	}
+	
+	html .cmsmasters_color_scheme_footer .woocommerce input:-moz-placeholder {
+		color:#656f73;
+	}
+	
+	html .cmsmasters_color_scheme_footer .woocommerce textarea:-moz-placeholder {
+		color:#656f73;
+	}
+	
+	html .cmsmasters_color_scheme_footer .woocommerce textarea::-webkit-input-placeholder {
+		color:#656f73;
+	}
+	
+	/* Finish Main Content Font Color */
+	
+	
+	/* Start Primary Color */
+	html .cmsmasters_color_scheme_footer .cmsmasters_star_rating .cmsmasters_star_color_wrap, 
+	html .cmsmasters_color_scheme_footer .widget_layered_nav ul li a:hover, 
+	html .cmsmasters_color_scheme_footer .widget_layered_nav ul li.chosen a, 
+	html .cmsmasters_color_scheme_footer .widget_layered_nav_filters ul li a:hover, 
+	html .cmsmasters_color_scheme_footer .widget_layered_nav_filters ul li.chosen a, 
+	html .cmsmasters_color_scheme_footer .widget_product_categories ul li a:hover, 
+	html .cmsmasters_color_scheme_footer .widget_product_categories ul li.current-cat a, 
+	html .cmsmasters_color_scheme_footer .woocommerce-store-notice .woocommerce-store-notice__dismiss-link {
+		color:#434a54;
+	}
+	
+	html .cmsmasters_color_scheme_footer .widget_price_filter .ui-slider-handle, 
+	html .cmsmasters_color_scheme_footer .woocommerce-store-notice {
+		background-color:#434a54;
+	}
+	
+	html .cmsmasters_color_scheme_footer .select2-container.select2-container-active .select2-choice, 
+	html .cmsmasters_color_scheme_footer .select2-container.select2-container-active.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_footer .select2-drop.select2-drop-active, 
+	html .cmsmasters_color_scheme_footer .select2-drop.select2-drop-above.select2-drop-active {
+		border-color:#434a54;
+	}
+	/* Finish Primary Color */
+	
+	
+	/* Start Highlight Color */
+	html .cmsmasters_color_scheme_footer .link_hover_color {
+		border-color:#abcd52;
+	}
+	
+	html .cmsmasters_color_scheme_footer .shipping-calculator-button,
+	html .cmsmasters_color_scheme_footer .cmsmasters_tabs.cmsmasters_woo_tabs .cmsmasters_tabs_list_item a, 
+	html .cmsmasters_color_scheme_footer #page .woocommerce .widget_shopping_cart_content .cart_list a, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list a, 
+	html .cmsmasters_color_scheme_footer .woocommerce-MyAccount-navigation ul > li.is-active, 
+	html .cmsmasters_color_scheme_footer .woocommerce-MyAccount-navigation ul > li.is-active a {
+		color:#abcd52;
+	}
+	
+	html .cmsmasters_color_scheme_footer .input-checkbox + label:after, 
+	html .cmsmasters_color_scheme_footer .widget_product_tag_cloud a:hover, 
+	html .cmsmasters_color_scheme_footer .input-radio + label:after, 
+	html .cmsmasters_color_scheme_footer input.shipping_method + label:after, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_product .button:hover,
+	html .cmsmasters_color_scheme_footer .tribe-bar-views-toggle {
+		background-color:#abcd52;
+	}
+	/* Finish Highlight Color */
+	
+	
+	/* Start Headings Color */
+	html .cmsmasters_color_scheme_footer .woocommerce-checkout label, 
+	html .cmsmasters_color_scheme_footer #page .woocommerce .remove, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_product .cmsmasters_product_cat, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_product .price, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_single_product .price, 
+	html .cmsmasters_color_scheme_footer .shop_table, 
+	html .cmsmasters_color_scheme_footer .shop_table a:not(.button), 
+	html .cmsmasters_color_scheme_footer .cart_totals table, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_dynamic_cart .widget_shopping_cart_content .total, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_dynamic_cart .widget_shopping_cart_content .total strong, 
+	html .cmsmasters_color_scheme_footer .comment-form-rating > label, 
+	html .cmsmasters_color_scheme_footer .shop_table.customer_details th, 
+	html .cmsmasters_color_scheme_footer .widget_layered_nav ul li, 
+	html .cmsmasters_color_scheme_footer .widget_layered_nav ul li a, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button, 
+	html .cmsmasters_color_scheme_footer .widget_layered_nav_filters ul li, 
+	html .cmsmasters_color_scheme_footer .widget_layered_nav_filters ul li a, 
+	html .cmsmasters_color_scheme_footer .widget_product_categories ul li, 
+	html .cmsmasters_color_scheme_footer .widget_product_categories ul li a, 
+	html .cmsmasters_color_scheme_footer #page .widget > .product_list_widget a, 
+	html .cmsmasters_color_scheme_footer .widget_shopping_cart .total {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_footer .out-of-stock, 
+	html .cmsmasters_color_scheme_footer ul.order_details li, 
+	html .cmsmasters_color_scheme_footer .shop_table thead tr th, 
+	html .cmsmasters_color_scheme_footer .stock {
+		background-color:#ffffff;
+	}
+	/* Finish Headings Color */
+	
+	
+	/* Start Main Background Color */
+	html .cmsmasters_color_scheme_footer .cmsmasters_product .button, 
+	html .cmsmasters_color_scheme_footer .woocommerce input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]):focus, 
+	html .cmsmasters_color_scheme_footer .shop_table thead, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button:hover, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_dynamic_cart:hover .cmsmasters_dynamic_cart_button,
+	html .cmsmasters_color_scheme_footer .woocommerce-store-notice, 
+	html .cmsmasters_color_scheme_footer .woocommerce-store-notice p a, 
+	html .cmsmasters_color_scheme_footer .woocommerce-store-notice p a:hover,
+	html .cmsmasters_color_scheme_footer #page .widget_product_tag_cloud a, 
+	html .cmsmasters_color_scheme_footer #page .widget_product_tag_cloud a:hover, 
+	html .cmsmasters_color_scheme_footer .shop_table.order_details tfoot tr:last-child th, 
+	html .cmsmasters_color_scheme_footer .shop_table.order_details tfoot tr:last-child td .amount, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_tabs.cmsmasters_woo_tabs .cmsmasters_tabs_list_item:hover a,
+	html .cmsmasters_color_scheme_footer .cmsmasters_tabs.cmsmasters_woo_tabs .cmsmasters_tabs_list_item.current_tab a,
+	html .cmsmasters_color_scheme_footer .shop_table tfoot .order-total .amount, 
+	html .cmsmasters_color_scheme_footer .shop_table tfoot .order-total th,
+	html .cmsmasters_color_scheme_footer .tribe-bar-views-toggle,
+	html .cmsmasters_color_scheme_footer .tribe-bar-views-toggle:hover {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_footer #page .cmsmasters_dynamic_cart .remove, 
+	html .cmsmasters_color_scheme_footer .woocommerce-store-notice .woocommerce-store-notice__dismiss-link {
+		background-color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_footer .cmsmasters_product .cmsmasters_product_add_wrap {
+		background-color:rgba(255, 255, 255, 0.85);
+	}
+	
+	html .cmsmasters_color_scheme_footer .woocommerce textarea:focus:-moz-placeholder {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_footer .woocommerce textarea:focus::-webkit-input-placeholder {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_footer .woocommerce input:focus:-moz-placeholder {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_footer .woocommerce input:focus::-webkit-input-placeholder {
+		color:#ffffff;
+	}
+	
+	/* Finish Main Background Color */
+	
+	
+	/* Start Alternate Background Color */
+	html .cmsmasters_color_scheme_footer .onsale, 
+	html .cmsmasters_color_scheme_footer .out-of-stock, 
+	html .cmsmasters_color_scheme_footer .stock, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_star.cmsmasters_theme_icon_star_empty, 
+	html .cmsmasters_color_scheme_footer ul.order_details {
+		color:#f3ba29;
+	}
+	
+	html .cmsmasters_color_scheme_footer .woocommerce-info, 
+	html .cmsmasters_color_scheme_footer .woocommerce-message, 
+	html .cmsmasters_color_scheme_footer .woocommerce-error, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_added_product_info, 
+	html .cmsmasters_color_scheme_footer .widget_price_filter .price_slider, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_dynamic_cart .cmsmasters_added_product_info, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_dynamic_cart .widget_shopping_cart_content, 
+	html .cmsmasters_color_scheme_footer .select2-container .select2-choice, 
+	html .cmsmasters_color_scheme_footer .select2-container.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_footer .select2-container.select2-container-active .select2-choice, 
+	html .cmsmasters_color_scheme_footer .select2-container.select2-container-active.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_footer .select2-container .select2-selection--single, 
+	html .cmsmasters_color_scheme_footer .select2-drop.select2-drop-active, 
+	html .cmsmasters_color_scheme_footer .select2-drop.select2-drop-above.select2-drop-active, 
+	html .cmsmasters_color_scheme_footer .input-checkbox + label:before, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button, 
+	html .cmsmasters_color_scheme_footer .input-radio + label:before, 
+	html .cmsmasters_color_scheme_footer input.shipping_method + label:before, 
+	html .cmsmasters_color_scheme_footer ul.order_details strong, 
+	html .cmsmasters_color_scheme_footer .remove, 
+	html .cmsmasters_color_scheme_footer .shop_table.my_account_orders tr td, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_tabs.cmsmasters_woo_tabs .cmsmasters_tabs_list_item a {
+		background-color:#f3ba29;
+	}
+	
+	html .cmsmasters_color_scheme_footer .cmsmasters_dynamic_cart .widget_shopping_cart_content:after {
+		border-bottom-color:#f3ba29;
+	}
+	
+	/* Finish Alternate Background Color */
+	
+	
+	/* Start Borders Color */
+	html .cmsmasters_color_scheme_footer .cmsmasters_star_rating .cmsmasters_star_trans_wrap, 
+	html .cmsmasters_color_scheme_footer .comment-form-rating .stars > span {
+		color:#f4f4f4;
+	}
+	
+	html .cmsmasters_color_scheme_footer .cmsmasters_woo_tabs:before, 
+	html .cmsmasters_color_scheme_footer div.products:before {
+		background-color:#f4f4f4;
+	}
+	
+	html .cmsmasters_color_scheme_footer .select2-container .select2-choice, 
+	html .cmsmasters_color_scheme_footer .select2-container.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_footer .input-checkbox + label:before, 
+	html .cmsmasters_color_scheme_footer .input-radio + label:before, 
+	html .cmsmasters_color_scheme_footer input.shipping_method + label:before, 
+	html .cmsmasters_color_scheme_footer .shop_table th, 
+	html .cmsmasters_color_scheme_footer .shop_table td, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_products .product.product-category img, 
+	html .cmsmasters_color_scheme_footer .cart_totals table th, 
+	html .cmsmasters_color_scheme_footer .cart_totals table td, 
+	html .cmsmasters_color_scheme_footer .shop_table .cart_item {
+		border-color:#f4f4f4;
+	}
+	/* Finish Borders Color */
+	
+	
+	/* Start Secondary Color */
+	html .cmsmasters_color_scheme_footer .cmsmasters_product .button, 
+	html .cmsmasters_color_scheme_footer .widget_product_tag_cloud a, 
+	html .cmsmasters_color_scheme_footer .shop_table.order_details tfoot tr:last-child th, 
+	html .cmsmasters_color_scheme_footer .shop_table.order_details tfoot tr:last-child td, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_tabs.cmsmasters_woo_tabs .cmsmasters_tabs_list_item.current_tab a, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_tabs.cmsmasters_woo_tabs .cmsmasters_tabs_list_item:hover a, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_dynamic_cart:hover .cmsmasters_dynamic_cart_button, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button:hover, 
+	html .cmsmasters_color_scheme_footer .shop_table tfoot .order-total th, 
+	html .cmsmasters_color_scheme_footer .shop_table tfoot .order-total td, 
+	html .cmsmasters_color_scheme_footer .widget_price_filter .ui-slider-range, 
+	html .cmsmasters_color_scheme_footer .onsale,
+	html .cmsmasters_color_scheme_footer .tribe-bar-views-toggle:hover {
+		background-color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_footer .shipping-calculator-button:hover, 
+	html .cmsmasters_color_scheme_footer .required, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_products .product.product-category h2:hover, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_products .product.product-category h2 mark, 
+	html .cmsmasters_color_scheme_footer #page .widget > .product_list_widget a:hover, 
+	html .cmsmasters_color_scheme_footer .comment-form-rating .stars > span a:hover, 
+	html .cmsmasters_color_scheme_footer .comment-form-rating .stars > span a.active, 
+	html .cmsmasters_color_scheme_footer .shop_table a:not(.button):hover, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list a:hover, 
+	html .cmsmasters_color_scheme_footer #page .woocommerce .widget_shopping_cart_content .cart_list a:hover, 
+	html .cmsmasters_color_scheme_footer #page .woocommerce .remove:hover, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_star.cmsmasters_theme_icon_star_full {
+		color:#ffffff;
+	}
+	/* Finish Secondary Color */
+	
+/***************** Finish Footer WooCommerce Color Scheme Rules ******************/
+
+
+
+/***************** Start Footer Events Color Scheme Rules ******************/
+
+	/* Start Main Content Font Color */
+	html .cmsmasters_color_scheme_footer .tribe-mini-calendar tbody, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_single_event_meta .cmsmasters_event_meta_info_item_title, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_single_event .tribe-events-schedule, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_single_event .tribe-events-cost, 
+	html .cmsmasters_color_scheme_footer #tribe-events input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]), 
+	html .cmsmasters_color_scheme_footer .tribe-events-list .tribe-events-event-meta, 
+	html .cmsmasters_color_scheme_footer .tribe-events-photo .tribe-events-event-meta, 
+	html .cmsmasters_color_scheme_footer #tribe-bar-views .tribe-bar-views-list li, 
+	html .cmsmasters_color_scheme_footer table.tribe-events-calendar tbody td div[id*=tribe-events-daynum-], 
+	html .cmsmasters_color_scheme_footer table.tribe-events-calendar tbody td div[id*=tribe-events-daynum-] a, 
+	html .cmsmasters_color_scheme_footer .tribe-this-week-events-widget .tribe-events-page-title, 
+	html .cmsmasters_color_scheme_footer .tribe-this-week-events-widget .tribe-this-week-event .tribe-venue a {
+		color:#656f73;
+	}
+	
+	html .cmsmasters_color_scheme_footer #tribe-events textarea::-moz-placeholder {
+		color:#656f73;
+	}
+	
+	html .cmsmasters_color_scheme_footer #tribe-events textarea::-webkit-input-placeholder {
+		color:#656f73;
+	}
+	
+	html .cmsmasters_color_scheme_footer #tribe-events input::-moz-placeholder {
+		color:#656f73;
+	}
+	
+	html .cmsmasters_color_scheme_footer #tribe-events input::-webkit-input-placeholder {
+		color:#656f73;
+	}
+	
+	/* Finish Main Content Font Color */
+	
+	
+	/* Start Primary Color */
+	html .cmsmasters_color_scheme_footer #tribe-bar-views .tribe-bar-views-list li:hover, 
+	html .cmsmasters_color_scheme_footer table.tribe-events-calendar tbody td.tribe-events-past div[id*=tribe-events-daynum-] a, 
+	html .cmsmasters_color_scheme_footer .tribe-events-venue .cmsmasters_events_venue_header_right a:before, 
+	html .cmsmasters_color_scheme_footer .tribe-events-venue .cmsmasters_events_venue_header_right a:hover, 
+	html .cmsmasters_color_scheme_footer .tribe-events-organizer .cmsmasters_events_organizer_header_right a:before, 
+	html .cmsmasters_color_scheme_footer .tribe-events-organizer .cmsmasters_events_organizer_header_right a:hover, 
+	html .cmsmasters_color_scheme_footer .tribe-mini-calendar tbody a:hover, 
+	html .cmsmasters_color_scheme_footer .tribe-mini-calendar tbody .tribe-events-othermonth, 
+	html .cmsmasters_color_scheme_footer .tribe-mini-calendar tbody .tribe-events-othermonth a, 
+	html .cmsmasters_color_scheme_footer .tribe-mini-calendar-list-wrapper [class*=cmsmasters_theme_icon]:before, 
+	html .cmsmasters_color_scheme_footer .tribe-events-countdown-widget .tribe-countdown-text a:hover {
+		color:#434a54;
+	}
+	
+	html .cmsmasters_color_scheme_footer .cmsmasters_event_date, 
+	html .cmsmasters_color_scheme_footer table.tribe-events-calendar tbody td.tribe-events-has-events:before {
+		background-color:#434a54;
+	}
+	/* Finish Primary Color */
+	
+	
+	/* Start Highlight Color */
+	html .cmsmasters_color_scheme_footer .event_hover {
+		color:#abcd52;
+	}
+	/* Finish Highlight Color */
+	
+	
+	/* Start Headings Color */
+	html .cmsmasters_color_scheme_footer .tribe-bar-filters-inner > div label, 
+	html .cmsmasters_color_scheme_footer #tribe-bar-views .tribe-bar-views-list li:hover, 
+	html .cmsmasters_color_scheme_footer #tribe-bar-views .tribe-bar-views-list li.tribe-bar-active, 
+	html .cmsmasters_color_scheme_footer .tribe-events-sub-nav li a, 
+	html .cmsmasters_color_scheme_footer .tribe-events-notices, 
+	html .cmsmasters_color_scheme_footer .tribe-mini-calendar tbody a, 
+	html .cmsmasters_color_scheme_footer .tribe-events-list .tribe-events-list-separator-month, 
+	html .cmsmasters_color_scheme_footer .tribe-events-grid .tribe-week-event:hover .vevent .entry-title a, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_single_event_meta dt, 
+	html .cmsmasters_color_scheme_footer .tribe-events-venue .tribe-events-event-meta, 
+	html .cmsmasters_color_scheme_footer .tribe-events-venue .cmsmasters_events_venue_header_right a, 
+	html .cmsmasters_color_scheme_footer .tribe-events-organizer .tribe-events-event-meta, 
+	html .cmsmasters_color_scheme_footer .tribe-events-organizer .cmsmasters_events_organizer_header_right a, 
+	html .cmsmasters_color_scheme_footer .tribe-mini-calendar thead a:hover, 
+	html .cmsmasters_color_scheme_footer .tribe-this-week-events-widget .tribe-this-week-event .entry-title a, 
+	html .cmsmasters_color_scheme_footer .tribe-events-grid .tribe-grid-header a:hover, 
+	html .cmsmasters_color_scheme_footer .tribe-events-venue-widget .vcalendar .entry-title a, 
+	html .cmsmasters_color_scheme_footer .tribe-mini-calendar-list-wrapper .cmsmasters_widget_event_info, 
+	html .cmsmasters_color_scheme_footer .tribe-events-venue-widget .tribe-venue-widget-venue-name a, 
+	html .cmsmasters_color_scheme_footer .tribe-events-countdown-widget .tribe-countdown-time, 
+	html .cmsmasters_color_scheme_footer .tribe-events-countdown-widget .tribe-countdown-text, 
+	html .cmsmasters_color_scheme_footer .tribe-events-countdown-widget .tribe-countdown-text a, 
+	html .cmsmasters_color_scheme_footer .tribe-mobile-day .tribe-events-event-schedule-details, 
+	html .cmsmasters_color_scheme_footer .tribe-mobile-day .tribe-event-schedule-details {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_footer .tribe-mini-calendar .tribe-mini-calendar-nav, 
+	html .cmsmasters_color_scheme_footer table.tribe-events-calendar thead th, 
+	html .cmsmasters_color_scheme_footer .tribe-events-grid .tribe-grid-header, 
+	html .cmsmasters_color_scheme_footer .tribe-events-grid .tribe-events-tooltip, 
+	html .cmsmasters_color_scheme_footer table.tribe-events-calendar tbody td.tribe-events-has-events.mobile-active:before {
+		background-color:#ffffff;
+	}
+	/* Finish Headings Color */
+	
+	
+	/* Start Main Background Color */
+	html .cmsmasters_color_scheme_footer .tribe-events-tooltip, 
+	html .cmsmasters_color_scheme_footer .tribe-events-tooltip *, 
+	html .cmsmasters_color_scheme_footer .tribe-mini-calendar thead, 
+	html .cmsmasters_color_scheme_footer #page .tribe-mini-calendar thead a, 
+	html .cmsmasters_color_scheme_footer .tribe-events-grid .tribe-week-event .vevent .entry-title a, 
+	html .cmsmasters_color_scheme_footer table.tribe-events-calendar thead th, 
+	html .cmsmasters_color_scheme_footer .tribe-events-grid .tribe-grid-header, 
+	html .cmsmasters_color_scheme_footer .tribe-events-grid .tribe-grid-header a, 
+	html .cmsmasters_color_scheme_footer .tribe-events-grid .tribe-grid-header .tribe-week-today, 
+	html .cmsmasters_color_scheme_footer .tribe-events-sub-nav li a:hover, 
+	html .cmsmasters_color_scheme_footer .widget.tribe-events-adv-list-widget .tribe-events-list-widget-content-wrap a:hover, 
+	html .cmsmasters_color_scheme_footer .tribe-this-week-events-widget .this-week-today .tribe-this-week-widget-header-date, 
+	html .cmsmasters_color_scheme_footer #tribe-events input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]):focus, 
+	html .cmsmasters_color_scheme_footer table.tribe-events-calendar tbody td div[id*=tribe-events-daynum-] a:hover, 
+	html .cmsmasters_color_scheme_footer .tribe-events-adv-list-widget .tribe-events-list-widget-content-wrap, 
+	html .cmsmasters_color_scheme_footer .tribe-events-adv-list-widget .tribe-events-list-widget-content-wrap a, 
+	html .cmsmasters_color_scheme_footer table.tribe-events-calendar tbody td.tribe-events-present div[id*=tribe-events-daynum-], 
+	html .cmsmasters_color_scheme_footer table.tribe-events-calendar tbody td.tribe-events-present div[id*=tribe-events-daynum-] a, 
+	html .cmsmasters_color_scheme_footer .event_bg {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_footer .tribe-events-grid .tribe-week-event .vevent .entry-title {
+		border-color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_footer .tribe-mini-calendar tbody a:before, 
+	html .cmsmasters_color_scheme_footer .tribe-events-grid .tribe-scroller, 
+	html .cmsmasters_color_scheme_footer .tribe-events-grid .tribe-week-grid-hours {
+		background-color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_footer #tribe-events textarea:focus::-moz-placeholder {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_footer #tribe-events textarea:focus::-webkit-input-placeholder {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_footer #tribe-events input:focus::-moz-placeholder {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_footer #tribe-events input:focus::-webkit-input-placeholder {
+		color:#ffffff;
+	}
+	
+	/* Finish Main Background Color */
+	
+	
+	/* Start Alternate Background Color */  
+	html .cmsmasters_color_scheme_footer .cmsmasters_event_date {
+		color:#f3ba29;
+	}
+	
+	html .cmsmasters_color_scheme_footer table.tribe-events-calendar tbody td div[id*=tribe-events-daynum-], 
+	html .cmsmasters_color_scheme_footer .tribe-events-notices, 
+	html .cmsmasters_color_scheme_footer .tribe-events-sub-nav li.tribe-events-nav-next span:not([class]), 
+	html .cmsmasters_color_scheme_footer .tribe-events-sub-nav li.tribe-events-nav-previous span:not([class]), 
+	html .cmsmasters_color_scheme_footer .tribe-events-sub-nav li.nav-next span:not([class]), 
+	html .cmsmasters_color_scheme_footer .tribe-events-grid .tribe-grid-header a:hover, 
+	html .cmsmasters_color_scheme_footer .tribe-events-grid .tribe-week-event:hover .vevent .entry-title a, 
+	html .cmsmasters_color_scheme_footer #tribe-bar-views .tribe-bar-views-list li.tribe-bar-active, 
+	html .cmsmasters_color_scheme_footer .tribe-mini-calendar, 
+	html .cmsmasters_color_scheme_footer .tribe-events-venue-widget .tribe-venue-widget-venue {
+		background-color:#f3ba29;
+	}
+	/* Finish Alternate Background Color */
+	
+	
+	/* Start Borders Color */
+	html .cmsmasters_color_scheme_footer table.tribe-events-calendar tbody td.tribe-events-othermonth div[id*=tribe-events-daynum-] {
+		color:#f4f4f4;
+	}
+	
+	.tribe-events-photo #tribe-events-photo-events:before, 
+	.tribe-events-single .post_nav:before, 
+	.tribe-events-single .post_nav:after {
+		background-color:#f4f4f4;
+	}
+	
+	html .cmsmasters_color_scheme_footer table.tribe-events-calendar, 
+	html .cmsmasters_color_scheme_footer table.tribe-events-calendar tbody td, 
+	html .cmsmasters_color_scheme_footer table.tribe-events-calendar tbody td .tribe_events, 
+	html .cmsmasters_color_scheme_footer .tribe-events-list .tribe-events-list-separator-month, 
+	html .cmsmasters_color_scheme_footer .tribe-events-list .tribe-events-day-time-slot > h5, 
+	html .cmsmasters_color_scheme_footer .tribe-events-list .type-tribe_events, 
+	html .cmsmasters_color_scheme_footer .tribe-events-photo .tribe-events-page-title, 
+	html .cmsmasters_color_scheme_footer .tribe-events-map .tribe-events-page-title, 
+	html .cmsmasters_color_scheme_footer .tribe-events-grid .tribe-scroller, 
+	html .cmsmasters_color_scheme_footer .tribe-events-grid .tribe-week-grid-block div, 
+	html .cmsmasters_color_scheme_footer .tribe-events-grid .tribe-grid-allday, 
+	html .cmsmasters_color_scheme_footer .tribe-events-grid .tribe-grid-content-wrap .column, 
+	html .cmsmasters_color_scheme_footer .tribe-events-grid .tribe-week-grid-hours div, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_single_event, 
+	html .cmsmasters_color_scheme_footer .widget .vcalendar .type-tribe_events, 
+	html .cmsmasters_color_scheme_footer .tribe-mini-calendar-list-wrapper .type-tribe_events, 
+	html .cmsmasters_color_scheme_footer .tribe-mobile-day .tribe-events-mobile, 
+	html .cmsmasters_color_scheme_footer .tribe-this-week-events-widget .tribe-this-week-widget-day {
+		border-color:#f4f4f4;
+	}
+	/* Finish Borders Color */
+	
+	/* Start Secondary Color */
+	html .cmsmasters_color_scheme_footer .tribe-events-tooltip, 
+	html .cmsmasters_color_scheme_footer .tribe-events-sub-nav li.tribe-events-nav-next:hover span:not([class]), 
+	html .cmsmasters_color_scheme_footer .tribe-events-sub-nav li.tribe-events-nav-previous:hover span:not([class]), 
+	html .cmsmasters_color_scheme_footer .tribe-this-week-events-widget .this-week-today .tribe-this-week-widget-header-date, 
+	html .cmsmasters_color_scheme_footer .tribe-mini-calendar thead, 
+	html .cmsmasters_color_scheme_footer .tribe-events-grid .tribe-week-event .vevent .entry-title a, 
+	html .cmsmasters_color_scheme_footer .tribe-events-grid .tribe-grid-header .tribe-week-today, 
+	html .cmsmasters_color_scheme_footer #tribe-bar-views.tribe-bar-views-open .button, 
+	html .cmsmasters_color_scheme_footer .tribe-events-adv-list-widget .tribe-events-list-widget-content-wrap, 
+	html .cmsmasters_color_scheme_footer table.tribe-events-calendar tbody td div[id*=tribe-events-daynum-] a:hover, 
+	html .cmsmasters_color_scheme_footer .tribe-events-sub-nav li a:hover > span, 
+	html .cmsmasters_color_scheme_footer table.tribe-events-calendar tbody td.tribe-events-present div[id*=tribe-events-daynum-] {
+		background-color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_footer .tribe-events-countdown-widget .tribe-countdown-time span, 
+	html .cmsmasters_color_scheme_footer .tribe-events-photo .time-details:before, 
+	html .cmsmasters_color_scheme_footer .tribe-events-venue-widget .cmsmasters_widget_event_info > div:before, 
+	html .cmsmasters_color_scheme_footer .tribe-events-venue-widget .tribe-venue-widget-venue-name:before, 
+	html .cmsmasters_color_scheme_footer .tribe-this-week-events-widget .tribe-this-week-event .entry-title a:hover, 
+	html .cmsmasters_color_scheme_footer #page .tribe-mini-calendar tbody a:hover, 
+	html .cmsmasters_color_scheme_footer #page .tribe-mini-calendar thead a:hover, 
+	html .cmsmasters_color_scheme_footer .tribe-events-venue-widget .vcalendar .entry-title a:hover, 
+	html .cmsmasters_color_scheme_footer .tribe-events-venue-widget .tribe-venue-widget-venue-name a:hover, 
+	html .cmsmasters_color_scheme_footer .tribe-this-week-events-widget .tribe-this-week-event .duration:before, 
+	html .cmsmasters_color_scheme_footer .tribe-this-week-events-widget .tribe-this-week-event .tribe-venue:before, 
+	html .cmsmasters_color_scheme_footer .tribe-this-week-events-widget .tribe-events-sub-nav li a:hover, 
+	html .cmsmasters_color_scheme_footer .tribe-mini-calendar tbody .tribe-events-present, 
+	html .cmsmasters_color_scheme_footer .tribe-mini-calendar tbody .tribe-events-present a, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_single_event .tribe-events-date:before, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_single_event .cmsmasters_single_event_header_right a:before, 
+	html .cmsmasters_color_scheme_footer .cmsmasters_single_event .tribe-events-cost:before, 
+	html .cmsmasters_color_scheme_footer .tribe-events-list .tribe-events-event-meta .author > div:before {
+		color:#ffffff;
+	}
+	
+	.tribe-this-week-events-widget .tribe-events-sub-nav li a:hover > span {
+		background-color:transparent;
+	}
+	
+	.tribe_mini_calendar_widget .tribe-events-list-widget-content-wrap {
+		background-color:transparent !important;
+	}
+	
+	html .cmsmasters_color_scheme_footer .recurringinfo .recurring-info-tooltip:before {
+		border-bottom-color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_footer .tribe-events-tooltip:before {
+		border-top-color:#ffffff;
+	}
+	
+	/* Finish Secondary Color */
+/***************** Finish Footer Events Color Scheme Rules ******************/
+
+
+
+/***************** Start Custom 1 CMSMASTERS Donations Color Scheme Rules ******************/
+
+	/* Start Main Content Font Color */
+	/* Finish Main Content Font Color */
+	
+	
+	/* Start Primary Color */
+	/* Finish Primary Color */
+	
+	
+	/* Start Highlight Color */
+		html .cmsmasters_color_scheme_first .tt_booking a.tt_btn {
+			background-color:#fb6b47;
+		}
+	/* Finish Highlight Color */
+	
+	
+	/* Start Headings Color */
+	html .cmsmasters_color_scheme_first .tt_upcoming_events_wrapper .tt_upcoming_event_controls > a {
+		color:#ffffff;
+	}
+	/* Finish Headings Color */
+	
+	
+	/* Start Main Background Color */
+	html .cmsmasters_color_scheme_first .tt_upcoming_events_wrapper .tt_upcoming_event_controls > a:hover,
+	html .cmsmasters_color_scheme_first .tt_booking a.tt_btn, 
+	html .cmsmasters_color_scheme_first .tt_booking a.tt_btn:hover {
+		color:rgba(255,255,255,0.8);
+	}
+
+	html .cmsmasters_color_scheme_first .tt_booking .tt_booking_message_wrapper {
+		background-color:rgba(255,255,255,0.8);
+	}
+	/* Finish Main Background Color */
+	
+	
+	/* Start Alternate Background Color */
+	html .cmsmasters_color_scheme_first .cmsmasters_tt_event_details_title, 
+	html .cmsmasters_color_scheme_first .tt_upcoming_events_wrapper .tt_upcoming_event_controls > a, 
+	html .cmsmasters_color_scheme_first .cmsmasters_tt_event_hours_title,
+	html .cmsmasters_color_scheme_first ul.tt_items_list li {
+		background-color:#65517a;
+	}
+	/* Finish Alternate Background Color */
+	
+	
+	/* Start Borders Color */
+	/* Finish Borders Color */
+	
+	
+	
+	/* Start Secondary Color */
+	html .cmsmasters_color_scheme_first .tt_booking a.tt_btn:hover, 
+	html .cmsmasters_color_scheme_first .tt_upcoming_events_wrapper .tt_upcoming_event_controls > a:hover {
+		background-color:#a6a6a6;
+	}
+	/* Finish Secondary Color */
+	
+/***************** Finish Custom 1 CMSMASTERS Donations Color Scheme Rules ******************/
+
+
+
+/***************** Start Custom 1 WooCommerce Color Scheme Rules ******************/
+
+	/* Start Main Content Font Color */
+	html .cmsmasters_color_scheme_first #shipping_method li label, 
+	html .cmsmasters_color_scheme_first .widget_price_filter .price_slider_amount .price_label, 
+	html .cmsmasters_color_scheme_first .widget > .product_list_widget .amount, 
+	html .cmsmasters_color_scheme_first .shop_table.my_account_orders tbody tr td, 
+	html .cmsmasters_color_scheme_first .shop_table.customer_details td, 
+	html .cmsmasters_color_scheme_first ul.order_details strong, 
+	html .cmsmasters_color_scheme_first .shop_table.order_details tfoot tr td, 
+	html .cmsmasters_color_scheme_first .shop_table.order_details .product-name strong, 
+	html .cmsmasters_color_scheme_first .woocommerce input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]), 
+	html .cmsmasters_color_scheme_first .woocommerce-checkout .payment_methods label, 
+	html .cmsmasters_color_scheme_first .select2-container .select2-choice, 
+	html .cmsmasters_color_scheme_first .shop_table .amount, 
+	html .cmsmasters_color_scheme_first .shop_attributes th, 
+	html .cmsmasters_color_scheme_first .woocommerce select, 
+	html .cmsmasters_color_scheme_first .checkout .product-quantity, 
+	html .cmsmasters_color_scheme_first .woocommerce-message, 
+	html .cmsmasters_color_scheme_first .woocommerce-info, 
+	html .cmsmasters_color_scheme_first .woocommerce-error, 
+	html .cmsmasters_color_scheme_first .woocommerce-error li, 
+	html .cmsmasters_color_scheme_first .select2-container--default .select2-selection--single .select2-selection__rendered, 
+	html .cmsmasters_color_scheme_first .select2-container.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_first .select2-container.select2-container-active .select2-choice, 
+	html .cmsmasters_color_scheme_first .select2-container.select2-container-active.select2-drop-above .select2-choice,
+	html .cmsmasters_color_scheme_first .cmsmasters_woo_wrap_result .woocommerce-result-count,  
+	html .cmsmasters_color_scheme_first .select2-drop.select2-drop-active, 
+	html .cmsmasters_color_scheme_first .select2-drop.select2-drop-above.select2-drop-active {
+		color:#8b8a8a;
+	}
+	
+	html .cmsmasters_color_scheme_first .woocommerce input::-webkit-input-placeholder {
+		color:#8b8a8a;
+	}
+	
+	html .cmsmasters_color_scheme_first .woocommerce input:-moz-placeholder {
+		color:#8b8a8a;
+	}
+	
+	html .cmsmasters_color_scheme_first .woocommerce textarea:-moz-placeholder {
+		color:#8b8a8a;
+	}
+	
+	html .cmsmasters_color_scheme_first .woocommerce textarea::-webkit-input-placeholder {
+		color:#8b8a8a;
+	}
+	
+	/* Finish Main Content Font Color */
+	
+	
+	/* Start Primary Color */
+	html .cmsmasters_color_scheme_first .cmsmasters_star_rating .cmsmasters_star_color_wrap, 
+	html .cmsmasters_color_scheme_first .widget_layered_nav ul li a:hover, 
+	html .cmsmasters_color_scheme_first .widget_layered_nav ul li.chosen a, 
+	html .cmsmasters_color_scheme_first .widget_layered_nav_filters ul li a:hover, 
+	html .cmsmasters_color_scheme_first .widget_layered_nav_filters ul li.chosen a, 
+	html .cmsmasters_color_scheme_first .widget_product_categories ul li a:hover, 
+	html .cmsmasters_color_scheme_first .widget_product_categories ul li.current-cat a, 
+	html .cmsmasters_color_scheme_first .woocommerce-store-notice .woocommerce-store-notice__dismiss-link {
+		color:#65517a;
+	}
+	
+	html .cmsmasters_color_scheme_first .widget_price_filter .ui-slider-handle, 
+	html .cmsmasters_color_scheme_first .woocommerce-store-notice {
+		background-color:#65517a;
+	}
+	
+	html .cmsmasters_color_scheme_first .select2-container.select2-container-active .select2-choice, 
+	html .cmsmasters_color_scheme_first .select2-container.select2-container-active.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_first .select2-drop.select2-drop-active, 
+	html .cmsmasters_color_scheme_first .select2-drop.select2-drop-above.select2-drop-active {
+		border-color:#65517a;
+	}
+	/* Finish Primary Color */
+	
+	
+	/* Start Highlight Color */
+	html .cmsmasters_color_scheme_first .link_hover_color {
+		border-color:#fb6b47;
+	}
+	
+	html .cmsmasters_color_scheme_first .shipping-calculator-button,
+	html .cmsmasters_color_scheme_first .cmsmasters_tabs.cmsmasters_woo_tabs .cmsmasters_tabs_list_item a, 
+	html .cmsmasters_color_scheme_first #page .woocommerce .widget_shopping_cart_content .cart_list a, 
+	html .cmsmasters_color_scheme_first .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list a, 
+	html .cmsmasters_color_scheme_first .woocommerce-MyAccount-navigation ul > li.is-active, 
+	html .cmsmasters_color_scheme_first .woocommerce-MyAccount-navigation ul > li.is-active a {
+		color:#fb6b47;
+	}
+	
+	html .cmsmasters_color_scheme_first .input-checkbox + label:after, 
+	html .cmsmasters_color_scheme_first .widget_product_tag_cloud a:hover, 
+	html .cmsmasters_color_scheme_first .input-radio + label:after, 
+	html .cmsmasters_color_scheme_first input.shipping_method + label:after, 
+	html .cmsmasters_color_scheme_first .cmsmasters_product .button:hover,
+	html .cmsmasters_color_scheme_first .tribe-bar-views-toggle {
+		background-color:#fb6b47;
+	}
+	/* Finish Highlight Color */
+	
+	
+	/* Start Headings Color */
+	html .cmsmasters_color_scheme_first .woocommerce-checkout label, 
+	html .cmsmasters_color_scheme_first #page .woocommerce .remove, 
+	html .cmsmasters_color_scheme_first .cmsmasters_product .cmsmasters_product_cat, 
+	html .cmsmasters_color_scheme_first .cmsmasters_product .price, 
+	html .cmsmasters_color_scheme_first .cmsmasters_single_product .price, 
+	html .cmsmasters_color_scheme_first .shop_table, 
+	html .cmsmasters_color_scheme_first .shop_table a:not(.button), 
+	html .cmsmasters_color_scheme_first .cart_totals table, 
+	html .cmsmasters_color_scheme_first .cmsmasters_dynamic_cart .widget_shopping_cart_content .total, 
+	html .cmsmasters_color_scheme_first .cmsmasters_dynamic_cart .widget_shopping_cart_content .total strong, 
+	html .cmsmasters_color_scheme_first .comment-form-rating > label, 
+	html .cmsmasters_color_scheme_first .shop_table.customer_details th, 
+	html .cmsmasters_color_scheme_first .widget_layered_nav ul li, 
+	html .cmsmasters_color_scheme_first .widget_layered_nav ul li a, 
+	html .cmsmasters_color_scheme_first .cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button, 
+	html .cmsmasters_color_scheme_first .widget_layered_nav_filters ul li, 
+	html .cmsmasters_color_scheme_first .widget_layered_nav_filters ul li a, 
+	html .cmsmasters_color_scheme_first .widget_product_categories ul li, 
+	html .cmsmasters_color_scheme_first .widget_product_categories ul li a, 
+	html .cmsmasters_color_scheme_first #page .widget > .product_list_widget a, 
+	html .cmsmasters_color_scheme_first .widget_shopping_cart .total {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_first .out-of-stock, 
+	html .cmsmasters_color_scheme_first ul.order_details li, 
+	html .cmsmasters_color_scheme_first .shop_table thead tr th, 
+	html .cmsmasters_color_scheme_first .stock {
+		background-color:#ffffff;
+	}
+	/* Finish Headings Color */
+	
+	
+	/* Start Main Background Color */
+	html .cmsmasters_color_scheme_first .cmsmasters_product .button, 
+	html .cmsmasters_color_scheme_first .woocommerce input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]):focus, 
+	html .cmsmasters_color_scheme_first .shop_table thead, 
+	html .cmsmasters_color_scheme_first .cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button:hover, 
+	html .cmsmasters_color_scheme_first .cmsmasters_dynamic_cart:hover .cmsmasters_dynamic_cart_button,
+	html .cmsmasters_color_scheme_first .woocommerce-store-notice, 
+	html .cmsmasters_color_scheme_first .woocommerce-store-notice p a, 
+	html .cmsmasters_color_scheme_first .woocommerce-store-notice p a:hover,
+	html .cmsmasters_color_scheme_first #page .widget_product_tag_cloud a, 
+	html .cmsmasters_color_scheme_first #page .widget_product_tag_cloud a:hover, 
+	html .cmsmasters_color_scheme_first .shop_table.order_details tfoot tr:last-child th, 
+	html .cmsmasters_color_scheme_first .shop_table.order_details tfoot tr:last-child td .amount, 
+	html .cmsmasters_color_scheme_first .cmsmasters_tabs.cmsmasters_woo_tabs .cmsmasters_tabs_list_item:hover a,
+	html .cmsmasters_color_scheme_first .cmsmasters_tabs.cmsmasters_woo_tabs .cmsmasters_tabs_list_item.current_tab a,
+	html .cmsmasters_color_scheme_first .shop_table tfoot .order-total .amount, 
+	html .cmsmasters_color_scheme_first .shop_table tfoot .order-total th,
+	html .cmsmasters_color_scheme_first .tribe-bar-views-toggle,
+	html .cmsmasters_color_scheme_first .tribe-bar-views-toggle:hover {
+		color:rgba(255,255,255,0.8);
+	}
+	
+	html .cmsmasters_color_scheme_first #page .cmsmasters_dynamic_cart .remove, 
+	html .cmsmasters_color_scheme_first .woocommerce-store-notice .woocommerce-store-notice__dismiss-link {
+		background-color:rgba(255,255,255,0.8);
+	}
+	
+	html .cmsmasters_color_scheme_first .cmsmasters_product .cmsmasters_product_add_wrap {
+		background-color:rgba(rgb(255, 255, 255), 0.85);
+	}
+	
+	html .cmsmasters_color_scheme_first .woocommerce textarea:focus:-moz-placeholder {
+		color:rgba(255,255,255,0.8);
+	}
+	
+	html .cmsmasters_color_scheme_first .woocommerce textarea:focus::-webkit-input-placeholder {
+		color:rgba(255,255,255,0.8);
+	}
+	
+	html .cmsmasters_color_scheme_first .woocommerce input:focus:-moz-placeholder {
+		color:rgba(255,255,255,0.8);
+	}
+	
+	html .cmsmasters_color_scheme_first .woocommerce input:focus::-webkit-input-placeholder {
+		color:rgba(255,255,255,0.8);
+	}
+	
+	/* Finish Main Background Color */
+	
+	
+	/* Start Alternate Background Color */
+	html .cmsmasters_color_scheme_first .onsale, 
+	html .cmsmasters_color_scheme_first .out-of-stock, 
+	html .cmsmasters_color_scheme_first .stock, 
+	html .cmsmasters_color_scheme_first .cmsmasters_star.cmsmasters_theme_icon_star_empty, 
+	html .cmsmasters_color_scheme_first ul.order_details {
+		color:#65517a;
+	}
+	
+	html .cmsmasters_color_scheme_first .woocommerce-info, 
+	html .cmsmasters_color_scheme_first .woocommerce-message, 
+	html .cmsmasters_color_scheme_first .woocommerce-error, 
+	html .cmsmasters_color_scheme_first .cmsmasters_added_product_info, 
+	html .cmsmasters_color_scheme_first .widget_price_filter .price_slider, 
+	html .cmsmasters_color_scheme_first .cmsmasters_dynamic_cart .cmsmasters_added_product_info, 
+	html .cmsmasters_color_scheme_first .cmsmasters_dynamic_cart .widget_shopping_cart_content, 
+	html .cmsmasters_color_scheme_first .select2-container .select2-choice, 
+	html .cmsmasters_color_scheme_first .select2-container.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_first .select2-container.select2-container-active .select2-choice, 
+	html .cmsmasters_color_scheme_first .select2-container.select2-container-active.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_first .select2-container .select2-selection--single, 
+	html .cmsmasters_color_scheme_first .select2-drop.select2-drop-active, 
+	html .cmsmasters_color_scheme_first .select2-drop.select2-drop-above.select2-drop-active, 
+	html .cmsmasters_color_scheme_first .input-checkbox + label:before, 
+	html .cmsmasters_color_scheme_first .cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button, 
+	html .cmsmasters_color_scheme_first .input-radio + label:before, 
+	html .cmsmasters_color_scheme_first input.shipping_method + label:before, 
+	html .cmsmasters_color_scheme_first ul.order_details strong, 
+	html .cmsmasters_color_scheme_first .remove, 
+	html .cmsmasters_color_scheme_first .shop_table.my_account_orders tr td, 
+	html .cmsmasters_color_scheme_first .cmsmasters_tabs.cmsmasters_woo_tabs .cmsmasters_tabs_list_item a {
+		background-color:#65517a;
+	}
+	
+	html .cmsmasters_color_scheme_first .cmsmasters_dynamic_cart .widget_shopping_cart_content:after {
+		border-bottom-color:#65517a;
+	}
+	
+	/* Finish Alternate Background Color */
+	
+	
+	/* Start Borders Color */
+	html .cmsmasters_color_scheme_first .cmsmasters_star_rating .cmsmasters_star_trans_wrap, 
+	html .cmsmasters_color_scheme_first .comment-form-rating .stars > span {
+		color:#f2f2f2;
+	}
+	
+	html .cmsmasters_color_scheme_first .cmsmasters_woo_tabs:before, 
+	html .cmsmasters_color_scheme_first div.products:before {
+		background-color:#f2f2f2;
+	}
+	
+	html .cmsmasters_color_scheme_first .select2-container .select2-choice, 
+	html .cmsmasters_color_scheme_first .select2-container.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_first .input-checkbox + label:before, 
+	html .cmsmasters_color_scheme_first .input-radio + label:before, 
+	html .cmsmasters_color_scheme_first input.shipping_method + label:before, 
+	html .cmsmasters_color_scheme_first .shop_table th, 
+	html .cmsmasters_color_scheme_first .shop_table td, 
+	html .cmsmasters_color_scheme_first .cmsmasters_products .product.product-category img, 
+	html .cmsmasters_color_scheme_first .cart_totals table th, 
+	html .cmsmasters_color_scheme_first .cart_totals table td, 
+	html .cmsmasters_color_scheme_first .shop_table .cart_item {
+		border-color:#f2f2f2;
+	}
+	/* Finish Borders Color */
+	
+	
+	/* Start Secondary Color */
+	html .cmsmasters_color_scheme_first .cmsmasters_product .button, 
+	html .cmsmasters_color_scheme_first .widget_product_tag_cloud a, 
+	html .cmsmasters_color_scheme_first .shop_table.order_details tfoot tr:last-child th, 
+	html .cmsmasters_color_scheme_first .shop_table.order_details tfoot tr:last-child td, 
+	html .cmsmasters_color_scheme_first .cmsmasters_tabs.cmsmasters_woo_tabs .cmsmasters_tabs_list_item.current_tab a, 
+	html .cmsmasters_color_scheme_first .cmsmasters_tabs.cmsmasters_woo_tabs .cmsmasters_tabs_list_item:hover a, 
+	html .cmsmasters_color_scheme_first .cmsmasters_dynamic_cart:hover .cmsmasters_dynamic_cart_button, 
+	html .cmsmasters_color_scheme_first .cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button:hover, 
+	html .cmsmasters_color_scheme_first .shop_table tfoot .order-total th, 
+	html .cmsmasters_color_scheme_first .shop_table tfoot .order-total td, 
+	html .cmsmasters_color_scheme_first .widget_price_filter .ui-slider-range, 
+	html .cmsmasters_color_scheme_first .onsale,
+	html .cmsmasters_color_scheme_first .tribe-bar-views-toggle:hover {
+		background-color:#a6a6a6;
+	}
+	
+	html .cmsmasters_color_scheme_first .shipping-calculator-button:hover, 
+	html .cmsmasters_color_scheme_first .required, 
+	html .cmsmasters_color_scheme_first .cmsmasters_products .product.product-category h2:hover, 
+	html .cmsmasters_color_scheme_first .cmsmasters_products .product.product-category h2 mark, 
+	html .cmsmasters_color_scheme_first #page .widget > .product_list_widget a:hover, 
+	html .cmsmasters_color_scheme_first .comment-form-rating .stars > span a:hover, 
+	html .cmsmasters_color_scheme_first .comment-form-rating .stars > span a.active, 
+	html .cmsmasters_color_scheme_first .shop_table a:not(.button):hover, 
+	html .cmsmasters_color_scheme_first .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list a:hover, 
+	html .cmsmasters_color_scheme_first #page .woocommerce .widget_shopping_cart_content .cart_list a:hover, 
+	html .cmsmasters_color_scheme_first #page .woocommerce .remove:hover, 
+	html .cmsmasters_color_scheme_first .cmsmasters_star.cmsmasters_theme_icon_star_full {
+		color:#a6a6a6;
+	}
+	/* Finish Secondary Color */
+	
+/***************** Finish Custom 1 WooCommerce Color Scheme Rules ******************/
+
+
+
+/***************** Start Custom 1 Events Color Scheme Rules ******************/
+
+	/* Start Main Content Font Color */
+	html .cmsmasters_color_scheme_first .tribe-mini-calendar tbody, 
+	html .cmsmasters_color_scheme_first .cmsmasters_single_event_meta .cmsmasters_event_meta_info_item_title, 
+	html .cmsmasters_color_scheme_first .cmsmasters_single_event .tribe-events-schedule, 
+	html .cmsmasters_color_scheme_first .cmsmasters_single_event .tribe-events-cost, 
+	html .cmsmasters_color_scheme_first #tribe-events input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]), 
+	html .cmsmasters_color_scheme_first .tribe-events-list .tribe-events-event-meta, 
+	html .cmsmasters_color_scheme_first .tribe-events-photo .tribe-events-event-meta, 
+	html .cmsmasters_color_scheme_first #tribe-bar-views .tribe-bar-views-list li, 
+	html .cmsmasters_color_scheme_first table.tribe-events-calendar tbody td div[id*=tribe-events-daynum-], 
+	html .cmsmasters_color_scheme_first table.tribe-events-calendar tbody td div[id*=tribe-events-daynum-] a, 
+	html .cmsmasters_color_scheme_first .tribe-this-week-events-widget .tribe-events-page-title, 
+	html .cmsmasters_color_scheme_first .tribe-this-week-events-widget .tribe-this-week-event .tribe-venue a {
+		color:#8b8a8a;
+	}
+	
+	html .cmsmasters_color_scheme_first #tribe-events textarea::-moz-placeholder {
+		color:#8b8a8a;
+	}
+	
+	html .cmsmasters_color_scheme_first #tribe-events textarea::-webkit-input-placeholder {
+		color:#8b8a8a;
+	}
+	
+	html .cmsmasters_color_scheme_first #tribe-events input::-moz-placeholder {
+		color:#8b8a8a;
+	}
+	
+	html .cmsmasters_color_scheme_first #tribe-events input::-webkit-input-placeholder {
+		color:#8b8a8a;
+	}
+	
+	/* Finish Main Content Font Color */
+	
+	
+	/* Start Primary Color */
+	html .cmsmasters_color_scheme_first #tribe-bar-views .tribe-bar-views-list li:hover, 
+	html .cmsmasters_color_scheme_first table.tribe-events-calendar tbody td.tribe-events-past div[id*=tribe-events-daynum-] a, 
+	html .cmsmasters_color_scheme_first .tribe-events-venue .cmsmasters_events_venue_header_right a:before, 
+	html .cmsmasters_color_scheme_first .tribe-events-venue .cmsmasters_events_venue_header_right a:hover, 
+	html .cmsmasters_color_scheme_first .tribe-events-organizer .cmsmasters_events_organizer_header_right a:before, 
+	html .cmsmasters_color_scheme_first .tribe-events-organizer .cmsmasters_events_organizer_header_right a:hover, 
+	html .cmsmasters_color_scheme_first .tribe-mini-calendar tbody a:hover, 
+	html .cmsmasters_color_scheme_first .tribe-mini-calendar tbody .tribe-events-othermonth, 
+	html .cmsmasters_color_scheme_first .tribe-mini-calendar tbody .tribe-events-othermonth a, 
+	html .cmsmasters_color_scheme_first .tribe-mini-calendar-list-wrapper [class*=cmsmasters_theme_icon]:before, 
+	html .cmsmasters_color_scheme_first .tribe-events-countdown-widget .tribe-countdown-text a:hover {
+		color:#65517a;
+	}
+	
+	html .cmsmasters_color_scheme_first .cmsmasters_event_date, 
+	html .cmsmasters_color_scheme_first table.tribe-events-calendar tbody td.tribe-events-has-events:before {
+		background-color:#65517a;
+	}
+	/* Finish Primary Color */
+	
+	
+	/* Start Highlight Color */
+	html .cmsmasters_color_scheme_first .event_hover {
+		color:#fb6b47;
+	}
+	/* Finish Highlight Color */
+	
+	
+	/* Start Headings Color */
+	html .cmsmasters_color_scheme_first .tribe-bar-filters-inner > div label, 
+	html .cmsmasters_color_scheme_first #tribe-bar-views .tribe-bar-views-list li:hover, 
+	html .cmsmasters_color_scheme_first #tribe-bar-views .tribe-bar-views-list li.tribe-bar-active, 
+	html .cmsmasters_color_scheme_first .tribe-events-sub-nav li a, 
+	html .cmsmasters_color_scheme_first .tribe-events-notices, 
+	html .cmsmasters_color_scheme_first .tribe-mini-calendar tbody a, 
+	html .cmsmasters_color_scheme_first .tribe-events-list .tribe-events-list-separator-month, 
+	html .cmsmasters_color_scheme_first .tribe-events-grid .tribe-week-event:hover .vevent .entry-title a, 
+	html .cmsmasters_color_scheme_first .cmsmasters_single_event_meta dt, 
+	html .cmsmasters_color_scheme_first .tribe-events-venue .tribe-events-event-meta, 
+	html .cmsmasters_color_scheme_first .tribe-events-venue .cmsmasters_events_venue_header_right a, 
+	html .cmsmasters_color_scheme_first .tribe-events-organizer .tribe-events-event-meta, 
+	html .cmsmasters_color_scheme_first .tribe-events-organizer .cmsmasters_events_organizer_header_right a, 
+	html .cmsmasters_color_scheme_first .tribe-mini-calendar thead a:hover, 
+	html .cmsmasters_color_scheme_first .tribe-this-week-events-widget .tribe-this-week-event .entry-title a, 
+	html .cmsmasters_color_scheme_first .tribe-events-grid .tribe-grid-header a:hover, 
+	html .cmsmasters_color_scheme_first .tribe-events-venue-widget .vcalendar .entry-title a, 
+	html .cmsmasters_color_scheme_first .tribe-mini-calendar-list-wrapper .cmsmasters_widget_event_info, 
+	html .cmsmasters_color_scheme_first .tribe-events-venue-widget .tribe-venue-widget-venue-name a, 
+	html .cmsmasters_color_scheme_first .tribe-events-countdown-widget .tribe-countdown-time, 
+	html .cmsmasters_color_scheme_first .tribe-events-countdown-widget .tribe-countdown-text, 
+	html .cmsmasters_color_scheme_first .tribe-events-countdown-widget .tribe-countdown-text a, 
+	html .cmsmasters_color_scheme_first .tribe-mobile-day .tribe-events-event-schedule-details, 
+	html .cmsmasters_color_scheme_first .tribe-mobile-day .tribe-event-schedule-details {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_first .tribe-mini-calendar .tribe-mini-calendar-nav, 
+	html .cmsmasters_color_scheme_first table.tribe-events-calendar thead th, 
+	html .cmsmasters_color_scheme_first .tribe-events-grid .tribe-grid-header, 
+	html .cmsmasters_color_scheme_first .tribe-events-grid .tribe-events-tooltip, 
+	html .cmsmasters_color_scheme_first table.tribe-events-calendar tbody td.tribe-events-has-events.mobile-active:before {
+		background-color:#ffffff;
+	}
+	/* Finish Headings Color */
+	
+	
+	/* Start Main Background Color */
+	html .cmsmasters_color_scheme_first .tribe-events-tooltip, 
+	html .cmsmasters_color_scheme_first .tribe-events-tooltip *, 
+	html .cmsmasters_color_scheme_first .tribe-mini-calendar thead, 
+	html .cmsmasters_color_scheme_first #page .tribe-mini-calendar thead a, 
+	html .cmsmasters_color_scheme_first .tribe-events-grid .tribe-week-event .vevent .entry-title a, 
+	html .cmsmasters_color_scheme_first table.tribe-events-calendar thead th, 
+	html .cmsmasters_color_scheme_first .tribe-events-grid .tribe-grid-header, 
+	html .cmsmasters_color_scheme_first .tribe-events-grid .tribe-grid-header a, 
+	html .cmsmasters_color_scheme_first .tribe-events-grid .tribe-grid-header .tribe-week-today, 
+	html .cmsmasters_color_scheme_first .tribe-events-sub-nav li a:hover, 
+	html .cmsmasters_color_scheme_first .widget.tribe-events-adv-list-widget .tribe-events-list-widget-content-wrap a:hover, 
+	html .cmsmasters_color_scheme_first .tribe-this-week-events-widget .this-week-today .tribe-this-week-widget-header-date, 
+	html .cmsmasters_color_scheme_first #tribe-events input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]):focus, 
+	html .cmsmasters_color_scheme_first table.tribe-events-calendar tbody td div[id*=tribe-events-daynum-] a:hover, 
+	html .cmsmasters_color_scheme_first .tribe-events-adv-list-widget .tribe-events-list-widget-content-wrap, 
+	html .cmsmasters_color_scheme_first .tribe-events-adv-list-widget .tribe-events-list-widget-content-wrap a, 
+	html .cmsmasters_color_scheme_first table.tribe-events-calendar tbody td.tribe-events-present div[id*=tribe-events-daynum-], 
+	html .cmsmasters_color_scheme_first table.tribe-events-calendar tbody td.tribe-events-present div[id*=tribe-events-daynum-] a, 
+	html .cmsmasters_color_scheme_first .event_bg {
+		color:rgba(255,255,255,0.8);
+	}
+	
+	html .cmsmasters_color_scheme_first .tribe-events-grid .tribe-week-event .vevent .entry-title {
+		border-color:rgba(255,255,255,0.8);
+	}
+	
+	html .cmsmasters_color_scheme_first .tribe-mini-calendar tbody a:before, 
+	html .cmsmasters_color_scheme_first .tribe-events-grid .tribe-scroller, 
+	html .cmsmasters_color_scheme_first .tribe-events-grid .tribe-week-grid-hours {
+		background-color:rgba(255,255,255,0.8);
+	}
+	
+	html .cmsmasters_color_scheme_first #tribe-events textarea:focus::-moz-placeholder {
+		color:rgba(255,255,255,0.8);
+	}
+	
+	html .cmsmasters_color_scheme_first #tribe-events textarea:focus::-webkit-input-placeholder {
+		color:rgba(255,255,255,0.8);
+	}
+	
+	html .cmsmasters_color_scheme_first #tribe-events input:focus::-moz-placeholder {
+		color:rgba(255,255,255,0.8);
+	}
+	
+	html .cmsmasters_color_scheme_first #tribe-events input:focus::-webkit-input-placeholder {
+		color:rgba(255,255,255,0.8);
+	}
+	
+	/* Finish Main Background Color */
+	
+	
+	/* Start Alternate Background Color */  
+	html .cmsmasters_color_scheme_first .cmsmasters_event_date {
+		color:#65517a;
+	}
+	
+	html .cmsmasters_color_scheme_first table.tribe-events-calendar tbody td div[id*=tribe-events-daynum-], 
+	html .cmsmasters_color_scheme_first .tribe-events-notices, 
+	html .cmsmasters_color_scheme_first .tribe-events-sub-nav li.tribe-events-nav-next span:not([class]), 
+	html .cmsmasters_color_scheme_first .tribe-events-sub-nav li.tribe-events-nav-previous span:not([class]), 
+	html .cmsmasters_color_scheme_first .tribe-events-sub-nav li.nav-next span:not([class]), 
+	html .cmsmasters_color_scheme_first .tribe-events-grid .tribe-grid-header a:hover, 
+	html .cmsmasters_color_scheme_first .tribe-events-grid .tribe-week-event:hover .vevent .entry-title a, 
+	html .cmsmasters_color_scheme_first #tribe-bar-views .tribe-bar-views-list li.tribe-bar-active, 
+	html .cmsmasters_color_scheme_first .tribe-mini-calendar, 
+	html .cmsmasters_color_scheme_first .tribe-events-venue-widget .tribe-venue-widget-venue {
+		background-color:#65517a;
+	}
+	/* Finish Alternate Background Color */
+	
+	
+	/* Start Borders Color */
+	html .cmsmasters_color_scheme_first table.tribe-events-calendar tbody td.tribe-events-othermonth div[id*=tribe-events-daynum-] {
+		color:#f2f2f2;
+	}
+	
+	.tribe-events-photo #tribe-events-photo-events:before, 
+	.tribe-events-single .post_nav:before, 
+	.tribe-events-single .post_nav:after {
+		background-color:#f2f2f2;
+	}
+	
+	html .cmsmasters_color_scheme_first table.tribe-events-calendar, 
+	html .cmsmasters_color_scheme_first table.tribe-events-calendar tbody td, 
+	html .cmsmasters_color_scheme_first table.tribe-events-calendar tbody td .tribe_events, 
+	html .cmsmasters_color_scheme_first .tribe-events-list .tribe-events-list-separator-month, 
+	html .cmsmasters_color_scheme_first .tribe-events-list .tribe-events-day-time-slot > h5, 
+	html .cmsmasters_color_scheme_first .tribe-events-list .type-tribe_events, 
+	html .cmsmasters_color_scheme_first .tribe-events-photo .tribe-events-page-title, 
+	html .cmsmasters_color_scheme_first .tribe-events-map .tribe-events-page-title, 
+	html .cmsmasters_color_scheme_first .tribe-events-grid .tribe-scroller, 
+	html .cmsmasters_color_scheme_first .tribe-events-grid .tribe-week-grid-block div, 
+	html .cmsmasters_color_scheme_first .tribe-events-grid .tribe-grid-allday, 
+	html .cmsmasters_color_scheme_first .tribe-events-grid .tribe-grid-content-wrap .column, 
+	html .cmsmasters_color_scheme_first .tribe-events-grid .tribe-week-grid-hours div, 
+	html .cmsmasters_color_scheme_first .cmsmasters_single_event, 
+	html .cmsmasters_color_scheme_first .widget .vcalendar .type-tribe_events, 
+	html .cmsmasters_color_scheme_first .tribe-mini-calendar-list-wrapper .type-tribe_events, 
+	html .cmsmasters_color_scheme_first .tribe-mobile-day .tribe-events-mobile, 
+	html .cmsmasters_color_scheme_first .tribe-this-week-events-widget .tribe-this-week-widget-day {
+		border-color:#f2f2f2;
+	}
+	/* Finish Borders Color */
+	
+	/* Start Secondary Color */
+	html .cmsmasters_color_scheme_first .tribe-events-tooltip, 
+	html .cmsmasters_color_scheme_first .tribe-events-sub-nav li.tribe-events-nav-next:hover span:not([class]), 
+	html .cmsmasters_color_scheme_first .tribe-events-sub-nav li.tribe-events-nav-previous:hover span:not([class]), 
+	html .cmsmasters_color_scheme_first .tribe-this-week-events-widget .this-week-today .tribe-this-week-widget-header-date, 
+	html .cmsmasters_color_scheme_first .tribe-mini-calendar thead, 
+	html .cmsmasters_color_scheme_first .tribe-events-grid .tribe-week-event .vevent .entry-title a, 
+	html .cmsmasters_color_scheme_first .tribe-events-grid .tribe-grid-header .tribe-week-today, 
+	html .cmsmasters_color_scheme_first #tribe-bar-views.tribe-bar-views-open .button, 
+	html .cmsmasters_color_scheme_first .tribe-events-adv-list-widget .tribe-events-list-widget-content-wrap, 
+	html .cmsmasters_color_scheme_first table.tribe-events-calendar tbody td div[id*=tribe-events-daynum-] a:hover, 
+	html .cmsmasters_color_scheme_first .tribe-events-sub-nav li a:hover > span, 
+	html .cmsmasters_color_scheme_first table.tribe-events-calendar tbody td.tribe-events-present div[id*=tribe-events-daynum-] {
+		background-color:#a6a6a6;
+	}
+	
+	html .cmsmasters_color_scheme_first .tribe-events-countdown-widget .tribe-countdown-time span, 
+	html .cmsmasters_color_scheme_first .tribe-events-photo .time-details:before, 
+	html .cmsmasters_color_scheme_first .tribe-events-venue-widget .cmsmasters_widget_event_info > div:before, 
+	html .cmsmasters_color_scheme_first .tribe-events-venue-widget .tribe-venue-widget-venue-name:before, 
+	html .cmsmasters_color_scheme_first .tribe-this-week-events-widget .tribe-this-week-event .entry-title a:hover, 
+	html .cmsmasters_color_scheme_first #page .tribe-mini-calendar tbody a:hover, 
+	html .cmsmasters_color_scheme_first #page .tribe-mini-calendar thead a:hover, 
+	html .cmsmasters_color_scheme_first .tribe-events-venue-widget .vcalendar .entry-title a:hover, 
+	html .cmsmasters_color_scheme_first .tribe-events-venue-widget .tribe-venue-widget-venue-name a:hover, 
+	html .cmsmasters_color_scheme_first .tribe-this-week-events-widget .tribe-this-week-event .duration:before, 
+	html .cmsmasters_color_scheme_first .tribe-this-week-events-widget .tribe-this-week-event .tribe-venue:before, 
+	html .cmsmasters_color_scheme_first .tribe-this-week-events-widget .tribe-events-sub-nav li a:hover, 
+	html .cmsmasters_color_scheme_first .tribe-mini-calendar tbody .tribe-events-present, 
+	html .cmsmasters_color_scheme_first .tribe-mini-calendar tbody .tribe-events-present a, 
+	html .cmsmasters_color_scheme_first .cmsmasters_single_event .tribe-events-date:before, 
+	html .cmsmasters_color_scheme_first .cmsmasters_single_event .cmsmasters_single_event_header_right a:before, 
+	html .cmsmasters_color_scheme_first .cmsmasters_single_event .tribe-events-cost:before, 
+	html .cmsmasters_color_scheme_first .tribe-events-list .tribe-events-event-meta .author > div:before {
+		color:#a6a6a6;
+	}
+	
+	.tribe-this-week-events-widget .tribe-events-sub-nav li a:hover > span {
+		background-color:transparent;
+	}
+	
+	.tribe_mini_calendar_widget .tribe-events-list-widget-content-wrap {
+		background-color:transparent !important;
+	}
+	
+	html .cmsmasters_color_scheme_first .recurringinfo .recurring-info-tooltip:before {
+		border-bottom-color:#a6a6a6;
+	}
+	
+	html .cmsmasters_color_scheme_first .tribe-events-tooltip:before {
+		border-top-color:#a6a6a6;
+	}
+	
+	/* Finish Secondary Color */
+/***************** Finish Custom 1 Events Color Scheme Rules ******************/
+
+
+
+/***************** Start Custom 2 CMSMASTERS Donations Color Scheme Rules ******************/
+
+	/* Start Main Content Font Color */
+	/* Finish Main Content Font Color */
+	
+	
+	/* Start Primary Color */
+	/* Finish Primary Color */
+	
+	
+	/* Start Highlight Color */
+		html .cmsmasters_color_scheme_second .tt_booking a.tt_btn {
+			background-color:#86abb9;
+		}
+	/* Finish Highlight Color */
+	
+	
+	/* Start Headings Color */
+	html .cmsmasters_color_scheme_second .tt_upcoming_events_wrapper .tt_upcoming_event_controls > a {
+		color:#ffffff;
+	}
+	/* Finish Headings Color */
+	
+	
+	/* Start Main Background Color */
+	html .cmsmasters_color_scheme_second .tt_upcoming_events_wrapper .tt_upcoming_event_controls > a:hover,
+	html .cmsmasters_color_scheme_second .tt_booking a.tt_btn, 
+	html .cmsmasters_color_scheme_second .tt_booking a.tt_btn:hover {
+		color:#ffffff;
+	}
+
+	html .cmsmasters_color_scheme_second .tt_booking .tt_booking_message_wrapper {
+		background-color:#ffffff;
+	}
+	/* Finish Main Background Color */
+	
+	
+	/* Start Alternate Background Color */
+	html .cmsmasters_color_scheme_second .cmsmasters_tt_event_details_title, 
+	html .cmsmasters_color_scheme_second .tt_upcoming_events_wrapper .tt_upcoming_event_controls > a, 
+	html .cmsmasters_color_scheme_second .cmsmasters_tt_event_hours_title,
+	html .cmsmasters_color_scheme_second ul.tt_items_list li {
+		background-color:#60425f;
+	}
+	/* Finish Alternate Background Color */
+	
+	
+	/* Start Borders Color */
+	/* Finish Borders Color */
+	
+	
+	
+	/* Start Secondary Color */
+	html .cmsmasters_color_scheme_second .tt_booking a.tt_btn:hover, 
+	html .cmsmasters_color_scheme_second .tt_upcoming_events_wrapper .tt_upcoming_event_controls > a:hover {
+		background-color:#fe677a;
+	}
+	/* Finish Secondary Color */
+	
+/***************** Finish Custom 2 CMSMASTERS Donations Color Scheme Rules ******************/
+
+
+
+/***************** Start Custom 2 WooCommerce Color Scheme Rules ******************/
+
+	/* Start Main Content Font Color */
+	html .cmsmasters_color_scheme_second #shipping_method li label, 
+	html .cmsmasters_color_scheme_second .widget_price_filter .price_slider_amount .price_label, 
+	html .cmsmasters_color_scheme_second .widget > .product_list_widget .amount, 
+	html .cmsmasters_color_scheme_second .shop_table.my_account_orders tbody tr td, 
+	html .cmsmasters_color_scheme_second .shop_table.customer_details td, 
+	html .cmsmasters_color_scheme_second ul.order_details strong, 
+	html .cmsmasters_color_scheme_second .shop_table.order_details tfoot tr td, 
+	html .cmsmasters_color_scheme_second .shop_table.order_details .product-name strong, 
+	html .cmsmasters_color_scheme_second .woocommerce input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]), 
+	html .cmsmasters_color_scheme_second .woocommerce-checkout .payment_methods label, 
+	html .cmsmasters_color_scheme_second .select2-container .select2-choice, 
+	html .cmsmasters_color_scheme_second .shop_table .amount, 
+	html .cmsmasters_color_scheme_second .shop_attributes th, 
+	html .cmsmasters_color_scheme_second .woocommerce select, 
+	html .cmsmasters_color_scheme_second .checkout .product-quantity, 
+	html .cmsmasters_color_scheme_second .woocommerce-message, 
+	html .cmsmasters_color_scheme_second .woocommerce-info, 
+	html .cmsmasters_color_scheme_second .woocommerce-error, 
+	html .cmsmasters_color_scheme_second .woocommerce-error li, 
+	html .cmsmasters_color_scheme_second .select2-container--default .select2-selection--single .select2-selection__rendered, 
+	html .cmsmasters_color_scheme_second .select2-container.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_second .select2-container.select2-container-active .select2-choice, 
+	html .cmsmasters_color_scheme_second .select2-container.select2-container-active.select2-drop-above .select2-choice,
+	html .cmsmasters_color_scheme_second .cmsmasters_woo_wrap_result .woocommerce-result-count,  
+	html .cmsmasters_color_scheme_second .select2-drop.select2-drop-active, 
+	html .cmsmasters_color_scheme_second .select2-drop.select2-drop-above.select2-drop-active {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_second .woocommerce input::-webkit-input-placeholder {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_second .woocommerce input:-moz-placeholder {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_second .woocommerce textarea:-moz-placeholder {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_second .woocommerce textarea::-webkit-input-placeholder {
+		color:#ffffff;
+	}
+	
+	/* Finish Main Content Font Color */
+	
+	
+	/* Start Primary Color */
+	html .cmsmasters_color_scheme_second .cmsmasters_star_rating .cmsmasters_star_color_wrap, 
+	html .cmsmasters_color_scheme_second .widget_layered_nav ul li a:hover, 
+	html .cmsmasters_color_scheme_second .widget_layered_nav ul li.chosen a, 
+	html .cmsmasters_color_scheme_second .widget_layered_nav_filters ul li a:hover, 
+	html .cmsmasters_color_scheme_second .widget_layered_nav_filters ul li.chosen a, 
+	html .cmsmasters_color_scheme_second .widget_product_categories ul li a:hover, 
+	html .cmsmasters_color_scheme_second .widget_product_categories ul li.current-cat a, 
+	html .cmsmasters_color_scheme_second .woocommerce-store-notice .woocommerce-store-notice__dismiss-link {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_second .widget_price_filter .ui-slider-handle, 
+	html .cmsmasters_color_scheme_second .woocommerce-store-notice {
+		background-color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_second .select2-container.select2-container-active .select2-choice, 
+	html .cmsmasters_color_scheme_second .select2-container.select2-container-active.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_second .select2-drop.select2-drop-active, 
+	html .cmsmasters_color_scheme_second .select2-drop.select2-drop-above.select2-drop-active {
+		border-color:#ffffff;
+	}
+	/* Finish Primary Color */
+	
+	
+	/* Start Highlight Color */
+	html .cmsmasters_color_scheme_second .link_hover_color {
+		border-color:#86abb9;
+	}
+	
+	html .cmsmasters_color_scheme_second .shipping-calculator-button,
+	html .cmsmasters_color_scheme_second .cmsmasters_tabs.cmsmasters_woo_tabs .cmsmasters_tabs_list_item a, 
+	html .cmsmasters_color_scheme_second #page .woocommerce .widget_shopping_cart_content .cart_list a, 
+	html .cmsmasters_color_scheme_second .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list a, 
+	html .cmsmasters_color_scheme_second .woocommerce-MyAccount-navigation ul > li.is-active, 
+	html .cmsmasters_color_scheme_second .woocommerce-MyAccount-navigation ul > li.is-active a {
+		color:#86abb9;
+	}
+	
+	html .cmsmasters_color_scheme_second .input-checkbox + label:after, 
+	html .cmsmasters_color_scheme_second .widget_product_tag_cloud a:hover, 
+	html .cmsmasters_color_scheme_second .input-radio + label:after, 
+	html .cmsmasters_color_scheme_second input.shipping_method + label:after, 
+	html .cmsmasters_color_scheme_second .cmsmasters_product .button:hover,
+	html .cmsmasters_color_scheme_second .tribe-bar-views-toggle {
+		background-color:#86abb9;
+	}
+	/* Finish Highlight Color */
+	
+	
+	/* Start Headings Color */
+	html .cmsmasters_color_scheme_second .woocommerce-checkout label, 
+	html .cmsmasters_color_scheme_second #page .woocommerce .remove, 
+	html .cmsmasters_color_scheme_second .cmsmasters_product .cmsmasters_product_cat, 
+	html .cmsmasters_color_scheme_second .cmsmasters_product .price, 
+	html .cmsmasters_color_scheme_second .cmsmasters_single_product .price, 
+	html .cmsmasters_color_scheme_second .shop_table, 
+	html .cmsmasters_color_scheme_second .shop_table a:not(.button), 
+	html .cmsmasters_color_scheme_second .cart_totals table, 
+	html .cmsmasters_color_scheme_second .cmsmasters_dynamic_cart .widget_shopping_cart_content .total, 
+	html .cmsmasters_color_scheme_second .cmsmasters_dynamic_cart .widget_shopping_cart_content .total strong, 
+	html .cmsmasters_color_scheme_second .comment-form-rating > label, 
+	html .cmsmasters_color_scheme_second .shop_table.customer_details th, 
+	html .cmsmasters_color_scheme_second .widget_layered_nav ul li, 
+	html .cmsmasters_color_scheme_second .widget_layered_nav ul li a, 
+	html .cmsmasters_color_scheme_second .cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button, 
+	html .cmsmasters_color_scheme_second .widget_layered_nav_filters ul li, 
+	html .cmsmasters_color_scheme_second .widget_layered_nav_filters ul li a, 
+	html .cmsmasters_color_scheme_second .widget_product_categories ul li, 
+	html .cmsmasters_color_scheme_second .widget_product_categories ul li a, 
+	html .cmsmasters_color_scheme_second #page .widget > .product_list_widget a, 
+	html .cmsmasters_color_scheme_second .widget_shopping_cart .total {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_second .out-of-stock, 
+	html .cmsmasters_color_scheme_second ul.order_details li, 
+	html .cmsmasters_color_scheme_second .shop_table thead tr th, 
+	html .cmsmasters_color_scheme_second .stock {
+		background-color:#ffffff;
+	}
+	/* Finish Headings Color */
+	
+	
+	/* Start Main Background Color */
+	html .cmsmasters_color_scheme_second .cmsmasters_product .button, 
+	html .cmsmasters_color_scheme_second .woocommerce input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]):focus, 
+	html .cmsmasters_color_scheme_second .shop_table thead, 
+	html .cmsmasters_color_scheme_second .cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button:hover, 
+	html .cmsmasters_color_scheme_second .cmsmasters_dynamic_cart:hover .cmsmasters_dynamic_cart_button,
+	html .cmsmasters_color_scheme_second .woocommerce-store-notice, 
+	html .cmsmasters_color_scheme_second .woocommerce-store-notice p a, 
+	html .cmsmasters_color_scheme_second .woocommerce-store-notice p a:hover,
+	html .cmsmasters_color_scheme_second #page .widget_product_tag_cloud a, 
+	html .cmsmasters_color_scheme_second #page .widget_product_tag_cloud a:hover, 
+	html .cmsmasters_color_scheme_second .shop_table.order_details tfoot tr:last-child th, 
+	html .cmsmasters_color_scheme_second .shop_table.order_details tfoot tr:last-child td .amount, 
+	html .cmsmasters_color_scheme_second .cmsmasters_tabs.cmsmasters_woo_tabs .cmsmasters_tabs_list_item:hover a,
+	html .cmsmasters_color_scheme_second .cmsmasters_tabs.cmsmasters_woo_tabs .cmsmasters_tabs_list_item.current_tab a,
+	html .cmsmasters_color_scheme_second .shop_table tfoot .order-total .amount, 
+	html .cmsmasters_color_scheme_second .shop_table tfoot .order-total th,
+	html .cmsmasters_color_scheme_second .tribe-bar-views-toggle,
+	html .cmsmasters_color_scheme_second .tribe-bar-views-toggle:hover {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_second #page .cmsmasters_dynamic_cart .remove, 
+	html .cmsmasters_color_scheme_second .woocommerce-store-notice .woocommerce-store-notice__dismiss-link {
+		background-color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_second .cmsmasters_product .cmsmasters_product_add_wrap {
+		background-color:rgba(255, 255, 255, 0.85);
+	}
+	
+	html .cmsmasters_color_scheme_second .woocommerce textarea:focus:-moz-placeholder {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_second .woocommerce textarea:focus::-webkit-input-placeholder {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_second .woocommerce input:focus:-moz-placeholder {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_second .woocommerce input:focus::-webkit-input-placeholder {
+		color:#ffffff;
+	}
+	
+	/* Finish Main Background Color */
+	
+	
+	/* Start Alternate Background Color */
+	html .cmsmasters_color_scheme_second .onsale, 
+	html .cmsmasters_color_scheme_second .out-of-stock, 
+	html .cmsmasters_color_scheme_second .stock, 
+	html .cmsmasters_color_scheme_second .cmsmasters_star.cmsmasters_theme_icon_star_empty, 
+	html .cmsmasters_color_scheme_second ul.order_details {
+		color:#60425f;
+	}
+	
+	html .cmsmasters_color_scheme_second .woocommerce-info, 
+	html .cmsmasters_color_scheme_second .woocommerce-message, 
+	html .cmsmasters_color_scheme_second .woocommerce-error, 
+	html .cmsmasters_color_scheme_second .cmsmasters_added_product_info, 
+	html .cmsmasters_color_scheme_second .widget_price_filter .price_slider, 
+	html .cmsmasters_color_scheme_second .cmsmasters_dynamic_cart .cmsmasters_added_product_info, 
+	html .cmsmasters_color_scheme_second .cmsmasters_dynamic_cart .widget_shopping_cart_content, 
+	html .cmsmasters_color_scheme_second .select2-container .select2-choice, 
+	html .cmsmasters_color_scheme_second .select2-container.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_second .select2-container.select2-container-active .select2-choice, 
+	html .cmsmasters_color_scheme_second .select2-container.select2-container-active.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_second .select2-container .select2-selection--single, 
+	html .cmsmasters_color_scheme_second .select2-drop.select2-drop-active, 
+	html .cmsmasters_color_scheme_second .select2-drop.select2-drop-above.select2-drop-active, 
+	html .cmsmasters_color_scheme_second .input-checkbox + label:before, 
+	html .cmsmasters_color_scheme_second .cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button, 
+	html .cmsmasters_color_scheme_second .input-radio + label:before, 
+	html .cmsmasters_color_scheme_second input.shipping_method + label:before, 
+	html .cmsmasters_color_scheme_second ul.order_details strong, 
+	html .cmsmasters_color_scheme_second .remove, 
+	html .cmsmasters_color_scheme_second .shop_table.my_account_orders tr td, 
+	html .cmsmasters_color_scheme_second .cmsmasters_tabs.cmsmasters_woo_tabs .cmsmasters_tabs_list_item a {
+		background-color:#60425f;
+	}
+	
+	html .cmsmasters_color_scheme_second .cmsmasters_dynamic_cart .widget_shopping_cart_content:after {
+		border-bottom-color:#60425f;
+	}
+	
+	/* Finish Alternate Background Color */
+	
+	
+	/* Start Borders Color */
+	html .cmsmasters_color_scheme_second .cmsmasters_star_rating .cmsmasters_star_trans_wrap, 
+	html .cmsmasters_color_scheme_second .comment-form-rating .stars > span {
+		color:#e0eef0;
+	}
+	
+	html .cmsmasters_color_scheme_second .cmsmasters_woo_tabs:before, 
+	html .cmsmasters_color_scheme_second div.products:before {
+		background-color:#e0eef0;
+	}
+	
+	html .cmsmasters_color_scheme_second .select2-container .select2-choice, 
+	html .cmsmasters_color_scheme_second .select2-container.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_second .input-checkbox + label:before, 
+	html .cmsmasters_color_scheme_second .input-radio + label:before, 
+	html .cmsmasters_color_scheme_second input.shipping_method + label:before, 
+	html .cmsmasters_color_scheme_second .shop_table th, 
+	html .cmsmasters_color_scheme_second .shop_table td, 
+	html .cmsmasters_color_scheme_second .cmsmasters_products .product.product-category img, 
+	html .cmsmasters_color_scheme_second .cart_totals table th, 
+	html .cmsmasters_color_scheme_second .cart_totals table td, 
+	html .cmsmasters_color_scheme_second .shop_table .cart_item {
+		border-color:#e0eef0;
+	}
+	/* Finish Borders Color */
+	
+	
+	/* Start Secondary Color */
+	html .cmsmasters_color_scheme_second .cmsmasters_product .button, 
+	html .cmsmasters_color_scheme_second .widget_product_tag_cloud a, 
+	html .cmsmasters_color_scheme_second .shop_table.order_details tfoot tr:last-child th, 
+	html .cmsmasters_color_scheme_second .shop_table.order_details tfoot tr:last-child td, 
+	html .cmsmasters_color_scheme_second .cmsmasters_tabs.cmsmasters_woo_tabs .cmsmasters_tabs_list_item.current_tab a, 
+	html .cmsmasters_color_scheme_second .cmsmasters_tabs.cmsmasters_woo_tabs .cmsmasters_tabs_list_item:hover a, 
+	html .cmsmasters_color_scheme_second .cmsmasters_dynamic_cart:hover .cmsmasters_dynamic_cart_button, 
+	html .cmsmasters_color_scheme_second .cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button:hover, 
+	html .cmsmasters_color_scheme_second .shop_table tfoot .order-total th, 
+	html .cmsmasters_color_scheme_second .shop_table tfoot .order-total td, 
+	html .cmsmasters_color_scheme_second .widget_price_filter .ui-slider-range, 
+	html .cmsmasters_color_scheme_second .onsale,
+	html .cmsmasters_color_scheme_second .tribe-bar-views-toggle:hover {
+		background-color:#fe677a;
+	}
+	
+	html .cmsmasters_color_scheme_second .shipping-calculator-button:hover, 
+	html .cmsmasters_color_scheme_second .required, 
+	html .cmsmasters_color_scheme_second .cmsmasters_products .product.product-category h2:hover, 
+	html .cmsmasters_color_scheme_second .cmsmasters_products .product.product-category h2 mark, 
+	html .cmsmasters_color_scheme_second #page .widget > .product_list_widget a:hover, 
+	html .cmsmasters_color_scheme_second .comment-form-rating .stars > span a:hover, 
+	html .cmsmasters_color_scheme_second .comment-form-rating .stars > span a.active, 
+	html .cmsmasters_color_scheme_second .shop_table a:not(.button):hover, 
+	html .cmsmasters_color_scheme_second .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list a:hover, 
+	html .cmsmasters_color_scheme_second #page .woocommerce .widget_shopping_cart_content .cart_list a:hover, 
+	html .cmsmasters_color_scheme_second #page .woocommerce .remove:hover, 
+	html .cmsmasters_color_scheme_second .cmsmasters_star.cmsmasters_theme_icon_star_full {
+		color:#fe677a;
+	}
+	/* Finish Secondary Color */
+	
+/***************** Finish Custom 2 WooCommerce Color Scheme Rules ******************/
+
+
+
+/***************** Start Custom 2 Events Color Scheme Rules ******************/
+
+	/* Start Main Content Font Color */
+	html .cmsmasters_color_scheme_second .tribe-mini-calendar tbody, 
+	html .cmsmasters_color_scheme_second .cmsmasters_single_event_meta .cmsmasters_event_meta_info_item_title, 
+	html .cmsmasters_color_scheme_second .cmsmasters_single_event .tribe-events-schedule, 
+	html .cmsmasters_color_scheme_second .cmsmasters_single_event .tribe-events-cost, 
+	html .cmsmasters_color_scheme_second #tribe-events input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]), 
+	html .cmsmasters_color_scheme_second .tribe-events-list .tribe-events-event-meta, 
+	html .cmsmasters_color_scheme_second .tribe-events-photo .tribe-events-event-meta, 
+	html .cmsmasters_color_scheme_second #tribe-bar-views .tribe-bar-views-list li, 
+	html .cmsmasters_color_scheme_second table.tribe-events-calendar tbody td div[id*=tribe-events-daynum-], 
+	html .cmsmasters_color_scheme_second table.tribe-events-calendar tbody td div[id*=tribe-events-daynum-] a, 
+	html .cmsmasters_color_scheme_second .tribe-this-week-events-widget .tribe-events-page-title, 
+	html .cmsmasters_color_scheme_second .tribe-this-week-events-widget .tribe-this-week-event .tribe-venue a {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_second #tribe-events textarea::-moz-placeholder {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_second #tribe-events textarea::-webkit-input-placeholder {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_second #tribe-events input::-moz-placeholder {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_second #tribe-events input::-webkit-input-placeholder {
+		color:#ffffff;
+	}
+	
+	/* Finish Main Content Font Color */
+	
+	
+	/* Start Primary Color */
+	html .cmsmasters_color_scheme_second #tribe-bar-views .tribe-bar-views-list li:hover, 
+	html .cmsmasters_color_scheme_second table.tribe-events-calendar tbody td.tribe-events-past div[id*=tribe-events-daynum-] a, 
+	html .cmsmasters_color_scheme_second .tribe-events-venue .cmsmasters_events_venue_header_right a:before, 
+	html .cmsmasters_color_scheme_second .tribe-events-venue .cmsmasters_events_venue_header_right a:hover, 
+	html .cmsmasters_color_scheme_second .tribe-events-organizer .cmsmasters_events_organizer_header_right a:before, 
+	html .cmsmasters_color_scheme_second .tribe-events-organizer .cmsmasters_events_organizer_header_right a:hover, 
+	html .cmsmasters_color_scheme_second .tribe-mini-calendar tbody a:hover, 
+	html .cmsmasters_color_scheme_second .tribe-mini-calendar tbody .tribe-events-othermonth, 
+	html .cmsmasters_color_scheme_second .tribe-mini-calendar tbody .tribe-events-othermonth a, 
+	html .cmsmasters_color_scheme_second .tribe-mini-calendar-list-wrapper [class*=cmsmasters_theme_icon]:before, 
+	html .cmsmasters_color_scheme_second .tribe-events-countdown-widget .tribe-countdown-text a:hover {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_second .cmsmasters_event_date, 
+	html .cmsmasters_color_scheme_second table.tribe-events-calendar tbody td.tribe-events-has-events:before {
+		background-color:#ffffff;
+	}
+	/* Finish Primary Color */
+	
+	
+	/* Start Highlight Color */
+	html .cmsmasters_color_scheme_second .event_hover {
+		color:#86abb9;
+	}
+	/* Finish Highlight Color */
+	
+	
+	/* Start Headings Color */
+	html .cmsmasters_color_scheme_second .tribe-bar-filters-inner > div label, 
+	html .cmsmasters_color_scheme_second #tribe-bar-views .tribe-bar-views-list li:hover, 
+	html .cmsmasters_color_scheme_second #tribe-bar-views .tribe-bar-views-list li.tribe-bar-active, 
+	html .cmsmasters_color_scheme_second .tribe-events-sub-nav li a, 
+	html .cmsmasters_color_scheme_second .tribe-events-notices, 
+	html .cmsmasters_color_scheme_second .tribe-mini-calendar tbody a, 
+	html .cmsmasters_color_scheme_second .tribe-events-list .tribe-events-list-separator-month, 
+	html .cmsmasters_color_scheme_second .tribe-events-grid .tribe-week-event:hover .vevent .entry-title a, 
+	html .cmsmasters_color_scheme_second .cmsmasters_single_event_meta dt, 
+	html .cmsmasters_color_scheme_second .tribe-events-venue .tribe-events-event-meta, 
+	html .cmsmasters_color_scheme_second .tribe-events-venue .cmsmasters_events_venue_header_right a, 
+	html .cmsmasters_color_scheme_second .tribe-events-organizer .tribe-events-event-meta, 
+	html .cmsmasters_color_scheme_second .tribe-events-organizer .cmsmasters_events_organizer_header_right a, 
+	html .cmsmasters_color_scheme_second .tribe-mini-calendar thead a:hover, 
+	html .cmsmasters_color_scheme_second .tribe-this-week-events-widget .tribe-this-week-event .entry-title a, 
+	html .cmsmasters_color_scheme_second .tribe-events-grid .tribe-grid-header a:hover, 
+	html .cmsmasters_color_scheme_second .tribe-events-venue-widget .vcalendar .entry-title a, 
+	html .cmsmasters_color_scheme_second .tribe-mini-calendar-list-wrapper .cmsmasters_widget_event_info, 
+	html .cmsmasters_color_scheme_second .tribe-events-venue-widget .tribe-venue-widget-venue-name a, 
+	html .cmsmasters_color_scheme_second .tribe-events-countdown-widget .tribe-countdown-time, 
+	html .cmsmasters_color_scheme_second .tribe-events-countdown-widget .tribe-countdown-text, 
+	html .cmsmasters_color_scheme_second .tribe-events-countdown-widget .tribe-countdown-text a, 
+	html .cmsmasters_color_scheme_second .tribe-mobile-day .tribe-events-event-schedule-details, 
+	html .cmsmasters_color_scheme_second .tribe-mobile-day .tribe-event-schedule-details {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_second .tribe-mini-calendar .tribe-mini-calendar-nav, 
+	html .cmsmasters_color_scheme_second table.tribe-events-calendar thead th, 
+	html .cmsmasters_color_scheme_second .tribe-events-grid .tribe-grid-header, 
+	html .cmsmasters_color_scheme_second .tribe-events-grid .tribe-events-tooltip, 
+	html .cmsmasters_color_scheme_second table.tribe-events-calendar tbody td.tribe-events-has-events.mobile-active:before {
+		background-color:#ffffff;
+	}
+	/* Finish Headings Color */
+	
+	
+	/* Start Main Background Color */
+	html .cmsmasters_color_scheme_second .tribe-events-tooltip, 
+	html .cmsmasters_color_scheme_second .tribe-events-tooltip *, 
+	html .cmsmasters_color_scheme_second .tribe-mini-calendar thead, 
+	html .cmsmasters_color_scheme_second #page .tribe-mini-calendar thead a, 
+	html .cmsmasters_color_scheme_second .tribe-events-grid .tribe-week-event .vevent .entry-title a, 
+	html .cmsmasters_color_scheme_second table.tribe-events-calendar thead th, 
+	html .cmsmasters_color_scheme_second .tribe-events-grid .tribe-grid-header, 
+	html .cmsmasters_color_scheme_second .tribe-events-grid .tribe-grid-header a, 
+	html .cmsmasters_color_scheme_second .tribe-events-grid .tribe-grid-header .tribe-week-today, 
+	html .cmsmasters_color_scheme_second .tribe-events-sub-nav li a:hover, 
+	html .cmsmasters_color_scheme_second .widget.tribe-events-adv-list-widget .tribe-events-list-widget-content-wrap a:hover, 
+	html .cmsmasters_color_scheme_second .tribe-this-week-events-widget .this-week-today .tribe-this-week-widget-header-date, 
+	html .cmsmasters_color_scheme_second #tribe-events input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]):focus, 
+	html .cmsmasters_color_scheme_second table.tribe-events-calendar tbody td div[id*=tribe-events-daynum-] a:hover, 
+	html .cmsmasters_color_scheme_second .tribe-events-adv-list-widget .tribe-events-list-widget-content-wrap, 
+	html .cmsmasters_color_scheme_second .tribe-events-adv-list-widget .tribe-events-list-widget-content-wrap a, 
+	html .cmsmasters_color_scheme_second table.tribe-events-calendar tbody td.tribe-events-present div[id*=tribe-events-daynum-], 
+	html .cmsmasters_color_scheme_second table.tribe-events-calendar tbody td.tribe-events-present div[id*=tribe-events-daynum-] a, 
+	html .cmsmasters_color_scheme_second .event_bg {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_second .tribe-events-grid .tribe-week-event .vevent .entry-title {
+		border-color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_second .tribe-mini-calendar tbody a:before, 
+	html .cmsmasters_color_scheme_second .tribe-events-grid .tribe-scroller, 
+	html .cmsmasters_color_scheme_second .tribe-events-grid .tribe-week-grid-hours {
+		background-color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_second #tribe-events textarea:focus::-moz-placeholder {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_second #tribe-events textarea:focus::-webkit-input-placeholder {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_second #tribe-events input:focus::-moz-placeholder {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_second #tribe-events input:focus::-webkit-input-placeholder {
+		color:#ffffff;
+	}
+	
+	/* Finish Main Background Color */
+	
+	
+	/* Start Alternate Background Color */  
+	html .cmsmasters_color_scheme_second .cmsmasters_event_date {
+		color:#60425f;
+	}
+	
+	html .cmsmasters_color_scheme_second table.tribe-events-calendar tbody td div[id*=tribe-events-daynum-], 
+	html .cmsmasters_color_scheme_second .tribe-events-notices, 
+	html .cmsmasters_color_scheme_second .tribe-events-sub-nav li.tribe-events-nav-next span:not([class]), 
+	html .cmsmasters_color_scheme_second .tribe-events-sub-nav li.tribe-events-nav-previous span:not([class]), 
+	html .cmsmasters_color_scheme_second .tribe-events-sub-nav li.nav-next span:not([class]), 
+	html .cmsmasters_color_scheme_second .tribe-events-grid .tribe-grid-header a:hover, 
+	html .cmsmasters_color_scheme_second .tribe-events-grid .tribe-week-event:hover .vevent .entry-title a, 
+	html .cmsmasters_color_scheme_second #tribe-bar-views .tribe-bar-views-list li.tribe-bar-active, 
+	html .cmsmasters_color_scheme_second .tribe-mini-calendar, 
+	html .cmsmasters_color_scheme_second .tribe-events-venue-widget .tribe-venue-widget-venue {
+		background-color:#60425f;
+	}
+	/* Finish Alternate Background Color */
+	
+	
+	/* Start Borders Color */
+	html .cmsmasters_color_scheme_second table.tribe-events-calendar tbody td.tribe-events-othermonth div[id*=tribe-events-daynum-] {
+		color:#e0eef0;
+	}
+	
+	.tribe-events-photo #tribe-events-photo-events:before, 
+	.tribe-events-single .post_nav:before, 
+	.tribe-events-single .post_nav:after {
+		background-color:#e0eef0;
+	}
+	
+	html .cmsmasters_color_scheme_second table.tribe-events-calendar, 
+	html .cmsmasters_color_scheme_second table.tribe-events-calendar tbody td, 
+	html .cmsmasters_color_scheme_second table.tribe-events-calendar tbody td .tribe_events, 
+	html .cmsmasters_color_scheme_second .tribe-events-list .tribe-events-list-separator-month, 
+	html .cmsmasters_color_scheme_second .tribe-events-list .tribe-events-day-time-slot > h5, 
+	html .cmsmasters_color_scheme_second .tribe-events-list .type-tribe_events, 
+	html .cmsmasters_color_scheme_second .tribe-events-photo .tribe-events-page-title, 
+	html .cmsmasters_color_scheme_second .tribe-events-map .tribe-events-page-title, 
+	html .cmsmasters_color_scheme_second .tribe-events-grid .tribe-scroller, 
+	html .cmsmasters_color_scheme_second .tribe-events-grid .tribe-week-grid-block div, 
+	html .cmsmasters_color_scheme_second .tribe-events-grid .tribe-grid-allday, 
+	html .cmsmasters_color_scheme_second .tribe-events-grid .tribe-grid-content-wrap .column, 
+	html .cmsmasters_color_scheme_second .tribe-events-grid .tribe-week-grid-hours div, 
+	html .cmsmasters_color_scheme_second .cmsmasters_single_event, 
+	html .cmsmasters_color_scheme_second .widget .vcalendar .type-tribe_events, 
+	html .cmsmasters_color_scheme_second .tribe-mini-calendar-list-wrapper .type-tribe_events, 
+	html .cmsmasters_color_scheme_second .tribe-mobile-day .tribe-events-mobile, 
+	html .cmsmasters_color_scheme_second .tribe-this-week-events-widget .tribe-this-week-widget-day {
+		border-color:#e0eef0;
+	}
+	/* Finish Borders Color */
+	
+	/* Start Secondary Color */
+	html .cmsmasters_color_scheme_second .tribe-events-tooltip, 
+	html .cmsmasters_color_scheme_second .tribe-events-sub-nav li.tribe-events-nav-next:hover span:not([class]), 
+	html .cmsmasters_color_scheme_second .tribe-events-sub-nav li.tribe-events-nav-previous:hover span:not([class]), 
+	html .cmsmasters_color_scheme_second .tribe-this-week-events-widget .this-week-today .tribe-this-week-widget-header-date, 
+	html .cmsmasters_color_scheme_second .tribe-mini-calendar thead, 
+	html .cmsmasters_color_scheme_second .tribe-events-grid .tribe-week-event .vevent .entry-title a, 
+	html .cmsmasters_color_scheme_second .tribe-events-grid .tribe-grid-header .tribe-week-today, 
+	html .cmsmasters_color_scheme_second #tribe-bar-views.tribe-bar-views-open .button, 
+	html .cmsmasters_color_scheme_second .tribe-events-adv-list-widget .tribe-events-list-widget-content-wrap, 
+	html .cmsmasters_color_scheme_second table.tribe-events-calendar tbody td div[id*=tribe-events-daynum-] a:hover, 
+	html .cmsmasters_color_scheme_second .tribe-events-sub-nav li a:hover > span, 
+	html .cmsmasters_color_scheme_second table.tribe-events-calendar tbody td.tribe-events-present div[id*=tribe-events-daynum-] {
+		background-color:#fe677a;
+	}
+	
+	html .cmsmasters_color_scheme_second .tribe-events-countdown-widget .tribe-countdown-time span, 
+	html .cmsmasters_color_scheme_second .tribe-events-photo .time-details:before, 
+	html .cmsmasters_color_scheme_second .tribe-events-venue-widget .cmsmasters_widget_event_info > div:before, 
+	html .cmsmasters_color_scheme_second .tribe-events-venue-widget .tribe-venue-widget-venue-name:before, 
+	html .cmsmasters_color_scheme_second .tribe-this-week-events-widget .tribe-this-week-event .entry-title a:hover, 
+	html .cmsmasters_color_scheme_second #page .tribe-mini-calendar tbody a:hover, 
+	html .cmsmasters_color_scheme_second #page .tribe-mini-calendar thead a:hover, 
+	html .cmsmasters_color_scheme_second .tribe-events-venue-widget .vcalendar .entry-title a:hover, 
+	html .cmsmasters_color_scheme_second .tribe-events-venue-widget .tribe-venue-widget-venue-name a:hover, 
+	html .cmsmasters_color_scheme_second .tribe-this-week-events-widget .tribe-this-week-event .duration:before, 
+	html .cmsmasters_color_scheme_second .tribe-this-week-events-widget .tribe-this-week-event .tribe-venue:before, 
+	html .cmsmasters_color_scheme_second .tribe-this-week-events-widget .tribe-events-sub-nav li a:hover, 
+	html .cmsmasters_color_scheme_second .tribe-mini-calendar tbody .tribe-events-present, 
+	html .cmsmasters_color_scheme_second .tribe-mini-calendar tbody .tribe-events-present a, 
+	html .cmsmasters_color_scheme_second .cmsmasters_single_event .tribe-events-date:before, 
+	html .cmsmasters_color_scheme_second .cmsmasters_single_event .cmsmasters_single_event_header_right a:before, 
+	html .cmsmasters_color_scheme_second .cmsmasters_single_event .tribe-events-cost:before, 
+	html .cmsmasters_color_scheme_second .tribe-events-list .tribe-events-event-meta .author > div:before {
+		color:#fe677a;
+	}
+	
+	.tribe-this-week-events-widget .tribe-events-sub-nav li a:hover > span {
+		background-color:transparent;
+	}
+	
+	.tribe_mini_calendar_widget .tribe-events-list-widget-content-wrap {
+		background-color:transparent !important;
+	}
+	
+	html .cmsmasters_color_scheme_second .recurringinfo .recurring-info-tooltip:before {
+		border-bottom-color:#fe677a;
+	}
+	
+	html .cmsmasters_color_scheme_second .tribe-events-tooltip:before {
+		border-top-color:#fe677a;
+	}
+	
+	/* Finish Secondary Color */
+/***************** Finish Custom 2 Events Color Scheme Rules ******************/
+
+
+
+/***************** Start Custom 3 CMSMASTERS Donations Color Scheme Rules ******************/
+
+	/* Start Main Content Font Color */
+	/* Finish Main Content Font Color */
+	
+	
+	/* Start Primary Color */
+	/* Finish Primary Color */
+	
+	
+	/* Start Highlight Color */
+		html .cmsmasters_color_scheme_third .tt_booking a.tt_btn {
+			background-color:#f96c7e;
+		}
+	/* Finish Highlight Color */
+	
+	
+	/* Start Headings Color */
+	html .cmsmasters_color_scheme_third .tt_upcoming_events_wrapper .tt_upcoming_event_controls > a {
+		color:#ffffff;
+	}
+	/* Finish Headings Color */
+	
+	
+	/* Start Main Background Color */
+	html .cmsmasters_color_scheme_third .tt_upcoming_events_wrapper .tt_upcoming_event_controls > a:hover,
+	html .cmsmasters_color_scheme_third .tt_booking a.tt_btn, 
+	html .cmsmasters_color_scheme_third .tt_booking a.tt_btn:hover {
+		color:#ffffff;
+	}
+
+	html .cmsmasters_color_scheme_third .tt_booking .tt_booking_message_wrapper {
+		background-color:#ffffff;
+	}
+	/* Finish Main Background Color */
+	
+	
+	/* Start Alternate Background Color */
+	html .cmsmasters_color_scheme_third .cmsmasters_tt_event_details_title, 
+	html .cmsmasters_color_scheme_third .tt_upcoming_events_wrapper .tt_upcoming_event_controls > a, 
+	html .cmsmasters_color_scheme_third .cmsmasters_tt_event_hours_title,
+	html .cmsmasters_color_scheme_third ul.tt_items_list li {
+		background-color:#60425f;
+	}
+	/* Finish Alternate Background Color */
+	
+	
+	/* Start Borders Color */
+	/* Finish Borders Color */
+	
+	
+	
+	/* Start Secondary Color */
+	html .cmsmasters_color_scheme_third .tt_booking a.tt_btn:hover, 
+	html .cmsmasters_color_scheme_third .tt_upcoming_events_wrapper .tt_upcoming_event_controls > a:hover {
+		background-color:#ffffff;
+	}
+	/* Finish Secondary Color */
+	
+/***************** Finish Custom 3 CMSMASTERS Donations Color Scheme Rules ******************/
+
+
+
+/***************** Start Custom 3 WooCommerce Color Scheme Rules ******************/
+
+	/* Start Main Content Font Color */
+	html .cmsmasters_color_scheme_third #shipping_method li label, 
+	html .cmsmasters_color_scheme_third .widget_price_filter .price_slider_amount .price_label, 
+	html .cmsmasters_color_scheme_third .widget > .product_list_widget .amount, 
+	html .cmsmasters_color_scheme_third .shop_table.my_account_orders tbody tr td, 
+	html .cmsmasters_color_scheme_third .shop_table.customer_details td, 
+	html .cmsmasters_color_scheme_third ul.order_details strong, 
+	html .cmsmasters_color_scheme_third .shop_table.order_details tfoot tr td, 
+	html .cmsmasters_color_scheme_third .shop_table.order_details .product-name strong, 
+	html .cmsmasters_color_scheme_third .woocommerce input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]), 
+	html .cmsmasters_color_scheme_third .woocommerce-checkout .payment_methods label, 
+	html .cmsmasters_color_scheme_third .select2-container .select2-choice, 
+	html .cmsmasters_color_scheme_third .shop_table .amount, 
+	html .cmsmasters_color_scheme_third .shop_attributes th, 
+	html .cmsmasters_color_scheme_third .woocommerce select, 
+	html .cmsmasters_color_scheme_third .checkout .product-quantity, 
+	html .cmsmasters_color_scheme_third .woocommerce-message, 
+	html .cmsmasters_color_scheme_third .woocommerce-info, 
+	html .cmsmasters_color_scheme_third .woocommerce-error, 
+	html .cmsmasters_color_scheme_third .woocommerce-error li, 
+	html .cmsmasters_color_scheme_third .select2-container--default .select2-selection--single .select2-selection__rendered, 
+	html .cmsmasters_color_scheme_third .select2-container.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_third .select2-container.select2-container-active .select2-choice, 
+	html .cmsmasters_color_scheme_third .select2-container.select2-container-active.select2-drop-above .select2-choice,
+	html .cmsmasters_color_scheme_third .cmsmasters_woo_wrap_result .woocommerce-result-count,  
+	html .cmsmasters_color_scheme_third .select2-drop.select2-drop-active, 
+	html .cmsmasters_color_scheme_third .select2-drop.select2-drop-above.select2-drop-active {
+		color:#8b8a8a;
+	}
+	
+	html .cmsmasters_color_scheme_third .woocommerce input::-webkit-input-placeholder {
+		color:#8b8a8a;
+	}
+	
+	html .cmsmasters_color_scheme_third .woocommerce input:-moz-placeholder {
+		color:#8b8a8a;
+	}
+	
+	html .cmsmasters_color_scheme_third .woocommerce textarea:-moz-placeholder {
+		color:#8b8a8a;
+	}
+	
+	html .cmsmasters_color_scheme_third .woocommerce textarea::-webkit-input-placeholder {
+		color:#8b8a8a;
+	}
+	
+	/* Finish Main Content Font Color */
+	
+	
+	/* Start Primary Color */
+	html .cmsmasters_color_scheme_third .cmsmasters_star_rating .cmsmasters_star_color_wrap, 
+	html .cmsmasters_color_scheme_third .widget_layered_nav ul li a:hover, 
+	html .cmsmasters_color_scheme_third .widget_layered_nav ul li.chosen a, 
+	html .cmsmasters_color_scheme_third .widget_layered_nav_filters ul li a:hover, 
+	html .cmsmasters_color_scheme_third .widget_layered_nav_filters ul li.chosen a, 
+	html .cmsmasters_color_scheme_third .widget_product_categories ul li a:hover, 
+	html .cmsmasters_color_scheme_third .widget_product_categories ul li.current-cat a, 
+	html .cmsmasters_color_scheme_third .woocommerce-store-notice .woocommerce-store-notice__dismiss-link {
+		color:#207b9e;
+	}
+	
+	html .cmsmasters_color_scheme_third .widget_price_filter .ui-slider-handle, 
+	html .cmsmasters_color_scheme_third .woocommerce-store-notice {
+		background-color:#207b9e;
+	}
+	
+	html .cmsmasters_color_scheme_third .select2-container.select2-container-active .select2-choice, 
+	html .cmsmasters_color_scheme_third .select2-container.select2-container-active.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_third .select2-drop.select2-drop-active, 
+	html .cmsmasters_color_scheme_third .select2-drop.select2-drop-above.select2-drop-active {
+		border-color:#207b9e;
+	}
+	/* Finish Primary Color */
+	
+	
+	/* Start Highlight Color */
+	html .cmsmasters_color_scheme_third .link_hover_color {
+		border-color:#f96c7e;
+	}
+	
+	html .cmsmasters_color_scheme_third .shipping-calculator-button,
+	html .cmsmasters_color_scheme_third .cmsmasters_tabs.cmsmasters_woo_tabs .cmsmasters_tabs_list_item a, 
+	html .cmsmasters_color_scheme_third #page .woocommerce .widget_shopping_cart_content .cart_list a, 
+	html .cmsmasters_color_scheme_third .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list a, 
+	html .cmsmasters_color_scheme_third .woocommerce-MyAccount-navigation ul > li.is-active, 
+	html .cmsmasters_color_scheme_third .woocommerce-MyAccount-navigation ul > li.is-active a {
+		color:#f96c7e;
+	}
+	
+	html .cmsmasters_color_scheme_third .input-checkbox + label:after, 
+	html .cmsmasters_color_scheme_third .widget_product_tag_cloud a:hover, 
+	html .cmsmasters_color_scheme_third .input-radio + label:after, 
+	html .cmsmasters_color_scheme_third input.shipping_method + label:after, 
+	html .cmsmasters_color_scheme_third .cmsmasters_product .button:hover,
+	html .cmsmasters_color_scheme_third .tribe-bar-views-toggle {
+		background-color:#f96c7e;
+	}
+	/* Finish Highlight Color */
+	
+	
+	/* Start Headings Color */
+	html .cmsmasters_color_scheme_third .woocommerce-checkout label, 
+	html .cmsmasters_color_scheme_third #page .woocommerce .remove, 
+	html .cmsmasters_color_scheme_third .cmsmasters_product .cmsmasters_product_cat, 
+	html .cmsmasters_color_scheme_third .cmsmasters_product .price, 
+	html .cmsmasters_color_scheme_third .cmsmasters_single_product .price, 
+	html .cmsmasters_color_scheme_third .shop_table, 
+	html .cmsmasters_color_scheme_third .shop_table a:not(.button), 
+	html .cmsmasters_color_scheme_third .cart_totals table, 
+	html .cmsmasters_color_scheme_third .cmsmasters_dynamic_cart .widget_shopping_cart_content .total, 
+	html .cmsmasters_color_scheme_third .cmsmasters_dynamic_cart .widget_shopping_cart_content .total strong, 
+	html .cmsmasters_color_scheme_third .comment-form-rating > label, 
+	html .cmsmasters_color_scheme_third .shop_table.customer_details th, 
+	html .cmsmasters_color_scheme_third .widget_layered_nav ul li, 
+	html .cmsmasters_color_scheme_third .widget_layered_nav ul li a, 
+	html .cmsmasters_color_scheme_third .cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button, 
+	html .cmsmasters_color_scheme_third .widget_layered_nav_filters ul li, 
+	html .cmsmasters_color_scheme_third .widget_layered_nav_filters ul li a, 
+	html .cmsmasters_color_scheme_third .widget_product_categories ul li, 
+	html .cmsmasters_color_scheme_third .widget_product_categories ul li a, 
+	html .cmsmasters_color_scheme_third #page .widget > .product_list_widget a, 
+	html .cmsmasters_color_scheme_third .widget_shopping_cart .total {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_third .out-of-stock, 
+	html .cmsmasters_color_scheme_third ul.order_details li, 
+	html .cmsmasters_color_scheme_third .shop_table thead tr th, 
+	html .cmsmasters_color_scheme_third .stock {
+		background-color:#ffffff;
+	}
+	/* Finish Headings Color */
+	
+	
+	/* Start Main Background Color */
+	html .cmsmasters_color_scheme_third .cmsmasters_product .button, 
+	html .cmsmasters_color_scheme_third .woocommerce input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]):focus, 
+	html .cmsmasters_color_scheme_third .shop_table thead, 
+	html .cmsmasters_color_scheme_third .cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button:hover, 
+	html .cmsmasters_color_scheme_third .cmsmasters_dynamic_cart:hover .cmsmasters_dynamic_cart_button,
+	html .cmsmasters_color_scheme_third .woocommerce-store-notice, 
+	html .cmsmasters_color_scheme_third .woocommerce-store-notice p a, 
+	html .cmsmasters_color_scheme_third .woocommerce-store-notice p a:hover,
+	html .cmsmasters_color_scheme_third #page .widget_product_tag_cloud a, 
+	html .cmsmasters_color_scheme_third #page .widget_product_tag_cloud a:hover, 
+	html .cmsmasters_color_scheme_third .shop_table.order_details tfoot tr:last-child th, 
+	html .cmsmasters_color_scheme_third .shop_table.order_details tfoot tr:last-child td .amount, 
+	html .cmsmasters_color_scheme_third .cmsmasters_tabs.cmsmasters_woo_tabs .cmsmasters_tabs_list_item:hover a,
+	html .cmsmasters_color_scheme_third .cmsmasters_tabs.cmsmasters_woo_tabs .cmsmasters_tabs_list_item.current_tab a,
+	html .cmsmasters_color_scheme_third .shop_table tfoot .order-total .amount, 
+	html .cmsmasters_color_scheme_third .shop_table tfoot .order-total th,
+	html .cmsmasters_color_scheme_third .tribe-bar-views-toggle,
+	html .cmsmasters_color_scheme_third .tribe-bar-views-toggle:hover {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_third #page .cmsmasters_dynamic_cart .remove, 
+	html .cmsmasters_color_scheme_third .woocommerce-store-notice .woocommerce-store-notice__dismiss-link {
+		background-color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_third .cmsmasters_product .cmsmasters_product_add_wrap {
+		background-color:rgba(255, 255, 255, 0.85);
+	}
+	
+	html .cmsmasters_color_scheme_third .woocommerce textarea:focus:-moz-placeholder {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_third .woocommerce textarea:focus::-webkit-input-placeholder {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_third .woocommerce input:focus:-moz-placeholder {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_third .woocommerce input:focus::-webkit-input-placeholder {
+		color:#ffffff;
+	}
+	
+	/* Finish Main Background Color */
+	
+	
+	/* Start Alternate Background Color */
+	html .cmsmasters_color_scheme_third .onsale, 
+	html .cmsmasters_color_scheme_third .out-of-stock, 
+	html .cmsmasters_color_scheme_third .stock, 
+	html .cmsmasters_color_scheme_third .cmsmasters_star.cmsmasters_theme_icon_star_empty, 
+	html .cmsmasters_color_scheme_third ul.order_details {
+		color:#60425f;
+	}
+	
+	html .cmsmasters_color_scheme_third .woocommerce-info, 
+	html .cmsmasters_color_scheme_third .woocommerce-message, 
+	html .cmsmasters_color_scheme_third .woocommerce-error, 
+	html .cmsmasters_color_scheme_third .cmsmasters_added_product_info, 
+	html .cmsmasters_color_scheme_third .widget_price_filter .price_slider, 
+	html .cmsmasters_color_scheme_third .cmsmasters_dynamic_cart .cmsmasters_added_product_info, 
+	html .cmsmasters_color_scheme_third .cmsmasters_dynamic_cart .widget_shopping_cart_content, 
+	html .cmsmasters_color_scheme_third .select2-container .select2-choice, 
+	html .cmsmasters_color_scheme_third .select2-container.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_third .select2-container.select2-container-active .select2-choice, 
+	html .cmsmasters_color_scheme_third .select2-container.select2-container-active.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_third .select2-container .select2-selection--single, 
+	html .cmsmasters_color_scheme_third .select2-drop.select2-drop-active, 
+	html .cmsmasters_color_scheme_third .select2-drop.select2-drop-above.select2-drop-active, 
+	html .cmsmasters_color_scheme_third .input-checkbox + label:before, 
+	html .cmsmasters_color_scheme_third .cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button, 
+	html .cmsmasters_color_scheme_third .input-radio + label:before, 
+	html .cmsmasters_color_scheme_third input.shipping_method + label:before, 
+	html .cmsmasters_color_scheme_third ul.order_details strong, 
+	html .cmsmasters_color_scheme_third .remove, 
+	html .cmsmasters_color_scheme_third .shop_table.my_account_orders tr td, 
+	html .cmsmasters_color_scheme_third .cmsmasters_tabs.cmsmasters_woo_tabs .cmsmasters_tabs_list_item a {
+		background-color:#60425f;
+	}
+	
+	html .cmsmasters_color_scheme_third .cmsmasters_dynamic_cart .widget_shopping_cart_content:after {
+		border-bottom-color:#60425f;
+	}
+	
+	/* Finish Alternate Background Color */
+	
+	
+	/* Start Borders Color */
+	html .cmsmasters_color_scheme_third .cmsmasters_star_rating .cmsmasters_star_trans_wrap, 
+	html .cmsmasters_color_scheme_third .comment-form-rating .stars > span {
+		color:#e0eef0;
+	}
+	
+	html .cmsmasters_color_scheme_third .cmsmasters_woo_tabs:before, 
+	html .cmsmasters_color_scheme_third div.products:before {
+		background-color:#e0eef0;
+	}
+	
+	html .cmsmasters_color_scheme_third .select2-container .select2-choice, 
+	html .cmsmasters_color_scheme_third .select2-container.select2-drop-above .select2-choice, 
+	html .cmsmasters_color_scheme_third .input-checkbox + label:before, 
+	html .cmsmasters_color_scheme_third .input-radio + label:before, 
+	html .cmsmasters_color_scheme_third input.shipping_method + label:before, 
+	html .cmsmasters_color_scheme_third .shop_table th, 
+	html .cmsmasters_color_scheme_third .shop_table td, 
+	html .cmsmasters_color_scheme_third .cmsmasters_products .product.product-category img, 
+	html .cmsmasters_color_scheme_third .cart_totals table th, 
+	html .cmsmasters_color_scheme_third .cart_totals table td, 
+	html .cmsmasters_color_scheme_third .shop_table .cart_item {
+		border-color:#e0eef0;
+	}
+	/* Finish Borders Color */
+	
+	
+	/* Start Secondary Color */
+	html .cmsmasters_color_scheme_third .cmsmasters_product .button, 
+	html .cmsmasters_color_scheme_third .widget_product_tag_cloud a, 
+	html .cmsmasters_color_scheme_third .shop_table.order_details tfoot tr:last-child th, 
+	html .cmsmasters_color_scheme_third .shop_table.order_details tfoot tr:last-child td, 
+	html .cmsmasters_color_scheme_third .cmsmasters_tabs.cmsmasters_woo_tabs .cmsmasters_tabs_list_item.current_tab a, 
+	html .cmsmasters_color_scheme_third .cmsmasters_tabs.cmsmasters_woo_tabs .cmsmasters_tabs_list_item:hover a, 
+	html .cmsmasters_color_scheme_third .cmsmasters_dynamic_cart:hover .cmsmasters_dynamic_cart_button, 
+	html .cmsmasters_color_scheme_third .cmsmasters_dynamic_cart .cmsmasters_dynamic_cart_button:hover, 
+	html .cmsmasters_color_scheme_third .shop_table tfoot .order-total th, 
+	html .cmsmasters_color_scheme_third .shop_table tfoot .order-total td, 
+	html .cmsmasters_color_scheme_third .widget_price_filter .ui-slider-range, 
+	html .cmsmasters_color_scheme_third .onsale,
+	html .cmsmasters_color_scheme_third .tribe-bar-views-toggle:hover {
+		background-color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_third .shipping-calculator-button:hover, 
+	html .cmsmasters_color_scheme_third .required, 
+	html .cmsmasters_color_scheme_third .cmsmasters_products .product.product-category h2:hover, 
+	html .cmsmasters_color_scheme_third .cmsmasters_products .product.product-category h2 mark, 
+	html .cmsmasters_color_scheme_third #page .widget > .product_list_widget a:hover, 
+	html .cmsmasters_color_scheme_third .comment-form-rating .stars > span a:hover, 
+	html .cmsmasters_color_scheme_third .comment-form-rating .stars > span a.active, 
+	html .cmsmasters_color_scheme_third .shop_table a:not(.button):hover, 
+	html .cmsmasters_color_scheme_third .cmsmasters_dynamic_cart .widget_shopping_cart_content .cart_list a:hover, 
+	html .cmsmasters_color_scheme_third #page .woocommerce .widget_shopping_cart_content .cart_list a:hover, 
+	html .cmsmasters_color_scheme_third #page .woocommerce .remove:hover, 
+	html .cmsmasters_color_scheme_third .cmsmasters_star.cmsmasters_theme_icon_star_full {
+		color:#ffffff;
+	}
+	/* Finish Secondary Color */
+	
+/***************** Finish Custom 3 WooCommerce Color Scheme Rules ******************/
+
+
+
+/***************** Start Custom 3 Events Color Scheme Rules ******************/
+
+	/* Start Main Content Font Color */
+	html .cmsmasters_color_scheme_third .tribe-mini-calendar tbody, 
+	html .cmsmasters_color_scheme_third .cmsmasters_single_event_meta .cmsmasters_event_meta_info_item_title, 
+	html .cmsmasters_color_scheme_third .cmsmasters_single_event .tribe-events-schedule, 
+	html .cmsmasters_color_scheme_third .cmsmasters_single_event .tribe-events-cost, 
+	html .cmsmasters_color_scheme_third #tribe-events input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]), 
+	html .cmsmasters_color_scheme_third .tribe-events-list .tribe-events-event-meta, 
+	html .cmsmasters_color_scheme_third .tribe-events-photo .tribe-events-event-meta, 
+	html .cmsmasters_color_scheme_third #tribe-bar-views .tribe-bar-views-list li, 
+	html .cmsmasters_color_scheme_third table.tribe-events-calendar tbody td div[id*=tribe-events-daynum-], 
+	html .cmsmasters_color_scheme_third table.tribe-events-calendar tbody td div[id*=tribe-events-daynum-] a, 
+	html .cmsmasters_color_scheme_third .tribe-this-week-events-widget .tribe-events-page-title, 
+	html .cmsmasters_color_scheme_third .tribe-this-week-events-widget .tribe-this-week-event .tribe-venue a {
+		color:#8b8a8a;
+	}
+	
+	html .cmsmasters_color_scheme_third #tribe-events textarea::-moz-placeholder {
+		color:#8b8a8a;
+	}
+	
+	html .cmsmasters_color_scheme_third #tribe-events textarea::-webkit-input-placeholder {
+		color:#8b8a8a;
+	}
+	
+	html .cmsmasters_color_scheme_third #tribe-events input::-moz-placeholder {
+		color:#8b8a8a;
+	}
+	
+	html .cmsmasters_color_scheme_third #tribe-events input::-webkit-input-placeholder {
+		color:#8b8a8a;
+	}
+	
+	/* Finish Main Content Font Color */
+	
+	
+	/* Start Primary Color */
+	html .cmsmasters_color_scheme_third #tribe-bar-views .tribe-bar-views-list li:hover, 
+	html .cmsmasters_color_scheme_third table.tribe-events-calendar tbody td.tribe-events-past div[id*=tribe-events-daynum-] a, 
+	html .cmsmasters_color_scheme_third .tribe-events-venue .cmsmasters_events_venue_header_right a:before, 
+	html .cmsmasters_color_scheme_third .tribe-events-venue .cmsmasters_events_venue_header_right a:hover, 
+	html .cmsmasters_color_scheme_third .tribe-events-organizer .cmsmasters_events_organizer_header_right a:before, 
+	html .cmsmasters_color_scheme_third .tribe-events-organizer .cmsmasters_events_organizer_header_right a:hover, 
+	html .cmsmasters_color_scheme_third .tribe-mini-calendar tbody a:hover, 
+	html .cmsmasters_color_scheme_third .tribe-mini-calendar tbody .tribe-events-othermonth, 
+	html .cmsmasters_color_scheme_third .tribe-mini-calendar tbody .tribe-events-othermonth a, 
+	html .cmsmasters_color_scheme_third .tribe-mini-calendar-list-wrapper [class*=cmsmasters_theme_icon]:before, 
+	html .cmsmasters_color_scheme_third .tribe-events-countdown-widget .tribe-countdown-text a:hover {
+		color:#207b9e;
+	}
+	
+	html .cmsmasters_color_scheme_third .cmsmasters_event_date, 
+	html .cmsmasters_color_scheme_third table.tribe-events-calendar tbody td.tribe-events-has-events:before {
+		background-color:#207b9e;
+	}
+	/* Finish Primary Color */
+	
+	
+	/* Start Highlight Color */
+	html .cmsmasters_color_scheme_third .event_hover {
+		color:#f96c7e;
+	}
+	/* Finish Highlight Color */
+	
+	
+	/* Start Headings Color */
+	html .cmsmasters_color_scheme_third .tribe-bar-filters-inner > div label, 
+	html .cmsmasters_color_scheme_third #tribe-bar-views .tribe-bar-views-list li:hover, 
+	html .cmsmasters_color_scheme_third #tribe-bar-views .tribe-bar-views-list li.tribe-bar-active, 
+	html .cmsmasters_color_scheme_third .tribe-events-sub-nav li a, 
+	html .cmsmasters_color_scheme_third .tribe-events-notices, 
+	html .cmsmasters_color_scheme_third .tribe-mini-calendar tbody a, 
+	html .cmsmasters_color_scheme_third .tribe-events-list .tribe-events-list-separator-month, 
+	html .cmsmasters_color_scheme_third .tribe-events-grid .tribe-week-event:hover .vevent .entry-title a, 
+	html .cmsmasters_color_scheme_third .cmsmasters_single_event_meta dt, 
+	html .cmsmasters_color_scheme_third .tribe-events-venue .tribe-events-event-meta, 
+	html .cmsmasters_color_scheme_third .tribe-events-venue .cmsmasters_events_venue_header_right a, 
+	html .cmsmasters_color_scheme_third .tribe-events-organizer .tribe-events-event-meta, 
+	html .cmsmasters_color_scheme_third .tribe-events-organizer .cmsmasters_events_organizer_header_right a, 
+	html .cmsmasters_color_scheme_third .tribe-mini-calendar thead a:hover, 
+	html .cmsmasters_color_scheme_third .tribe-this-week-events-widget .tribe-this-week-event .entry-title a, 
+	html .cmsmasters_color_scheme_third .tribe-events-grid .tribe-grid-header a:hover, 
+	html .cmsmasters_color_scheme_third .tribe-events-venue-widget .vcalendar .entry-title a, 
+	html .cmsmasters_color_scheme_third .tribe-mini-calendar-list-wrapper .cmsmasters_widget_event_info, 
+	html .cmsmasters_color_scheme_third .tribe-events-venue-widget .tribe-venue-widget-venue-name a, 
+	html .cmsmasters_color_scheme_third .tribe-events-countdown-widget .tribe-countdown-time, 
+	html .cmsmasters_color_scheme_third .tribe-events-countdown-widget .tribe-countdown-text, 
+	html .cmsmasters_color_scheme_third .tribe-events-countdown-widget .tribe-countdown-text a, 
+	html .cmsmasters_color_scheme_third .tribe-mobile-day .tribe-events-event-schedule-details, 
+	html .cmsmasters_color_scheme_third .tribe-mobile-day .tribe-event-schedule-details {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_third .tribe-mini-calendar .tribe-mini-calendar-nav, 
+	html .cmsmasters_color_scheme_third table.tribe-events-calendar thead th, 
+	html .cmsmasters_color_scheme_third .tribe-events-grid .tribe-grid-header, 
+	html .cmsmasters_color_scheme_third .tribe-events-grid .tribe-events-tooltip, 
+	html .cmsmasters_color_scheme_third table.tribe-events-calendar tbody td.tribe-events-has-events.mobile-active:before {
+		background-color:#ffffff;
+	}
+	/* Finish Headings Color */
+	
+	
+	/* Start Main Background Color */
+	html .cmsmasters_color_scheme_third .tribe-events-tooltip, 
+	html .cmsmasters_color_scheme_third .tribe-events-tooltip *, 
+	html .cmsmasters_color_scheme_third .tribe-mini-calendar thead, 
+	html .cmsmasters_color_scheme_third #page .tribe-mini-calendar thead a, 
+	html .cmsmasters_color_scheme_third .tribe-events-grid .tribe-week-event .vevent .entry-title a, 
+	html .cmsmasters_color_scheme_third table.tribe-events-calendar thead th, 
+	html .cmsmasters_color_scheme_third .tribe-events-grid .tribe-grid-header, 
+	html .cmsmasters_color_scheme_third .tribe-events-grid .tribe-grid-header a, 
+	html .cmsmasters_color_scheme_third .tribe-events-grid .tribe-grid-header .tribe-week-today, 
+	html .cmsmasters_color_scheme_third .tribe-events-sub-nav li a:hover, 
+	html .cmsmasters_color_scheme_third .widget.tribe-events-adv-list-widget .tribe-events-list-widget-content-wrap a:hover, 
+	html .cmsmasters_color_scheme_third .tribe-this-week-events-widget .this-week-today .tribe-this-week-widget-header-date, 
+	html .cmsmasters_color_scheme_third #tribe-events input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]):focus, 
+	html .cmsmasters_color_scheme_third table.tribe-events-calendar tbody td div[id*=tribe-events-daynum-] a:hover, 
+	html .cmsmasters_color_scheme_third .tribe-events-adv-list-widget .tribe-events-list-widget-content-wrap, 
+	html .cmsmasters_color_scheme_third .tribe-events-adv-list-widget .tribe-events-list-widget-content-wrap a, 
+	html .cmsmasters_color_scheme_third table.tribe-events-calendar tbody td.tribe-events-present div[id*=tribe-events-daynum-], 
+	html .cmsmasters_color_scheme_third table.tribe-events-calendar tbody td.tribe-events-present div[id*=tribe-events-daynum-] a, 
+	html .cmsmasters_color_scheme_third .event_bg {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_third .tribe-events-grid .tribe-week-event .vevent .entry-title {
+		border-color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_third .tribe-mini-calendar tbody a:before, 
+	html .cmsmasters_color_scheme_third .tribe-events-grid .tribe-scroller, 
+	html .cmsmasters_color_scheme_third .tribe-events-grid .tribe-week-grid-hours {
+		background-color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_third #tribe-events textarea:focus::-moz-placeholder {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_third #tribe-events textarea:focus::-webkit-input-placeholder {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_third #tribe-events input:focus::-moz-placeholder {
+		color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_third #tribe-events input:focus::-webkit-input-placeholder {
+		color:#ffffff;
+	}
+	
+	/* Finish Main Background Color */
+	
+	
+	/* Start Alternate Background Color */  
+	html .cmsmasters_color_scheme_third .cmsmasters_event_date {
+		color:#60425f;
+	}
+	
+	html .cmsmasters_color_scheme_third table.tribe-events-calendar tbody td div[id*=tribe-events-daynum-], 
+	html .cmsmasters_color_scheme_third .tribe-events-notices, 
+	html .cmsmasters_color_scheme_third .tribe-events-sub-nav li.tribe-events-nav-next span:not([class]), 
+	html .cmsmasters_color_scheme_third .tribe-events-sub-nav li.tribe-events-nav-previous span:not([class]), 
+	html .cmsmasters_color_scheme_third .tribe-events-sub-nav li.nav-next span:not([class]), 
+	html .cmsmasters_color_scheme_third .tribe-events-grid .tribe-grid-header a:hover, 
+	html .cmsmasters_color_scheme_third .tribe-events-grid .tribe-week-event:hover .vevent .entry-title a, 
+	html .cmsmasters_color_scheme_third #tribe-bar-views .tribe-bar-views-list li.tribe-bar-active, 
+	html .cmsmasters_color_scheme_third .tribe-mini-calendar, 
+	html .cmsmasters_color_scheme_third .tribe-events-venue-widget .tribe-venue-widget-venue {
+		background-color:#60425f;
+	}
+	/* Finish Alternate Background Color */
+	
+	
+	/* Start Borders Color */
+	html .cmsmasters_color_scheme_third table.tribe-events-calendar tbody td.tribe-events-othermonth div[id*=tribe-events-daynum-] {
+		color:#e0eef0;
+	}
+	
+	.tribe-events-photo #tribe-events-photo-events:before, 
+	.tribe-events-single .post_nav:before, 
+	.tribe-events-single .post_nav:after {
+		background-color:#e0eef0;
+	}
+	
+	html .cmsmasters_color_scheme_third table.tribe-events-calendar, 
+	html .cmsmasters_color_scheme_third table.tribe-events-calendar tbody td, 
+	html .cmsmasters_color_scheme_third table.tribe-events-calendar tbody td .tribe_events, 
+	html .cmsmasters_color_scheme_third .tribe-events-list .tribe-events-list-separator-month, 
+	html .cmsmasters_color_scheme_third .tribe-events-list .tribe-events-day-time-slot > h5, 
+	html .cmsmasters_color_scheme_third .tribe-events-list .type-tribe_events, 
+	html .cmsmasters_color_scheme_third .tribe-events-photo .tribe-events-page-title, 
+	html .cmsmasters_color_scheme_third .tribe-events-map .tribe-events-page-title, 
+	html .cmsmasters_color_scheme_third .tribe-events-grid .tribe-scroller, 
+	html .cmsmasters_color_scheme_third .tribe-events-grid .tribe-week-grid-block div, 
+	html .cmsmasters_color_scheme_third .tribe-events-grid .tribe-grid-allday, 
+	html .cmsmasters_color_scheme_third .tribe-events-grid .tribe-grid-content-wrap .column, 
+	html .cmsmasters_color_scheme_third .tribe-events-grid .tribe-week-grid-hours div, 
+	html .cmsmasters_color_scheme_third .cmsmasters_single_event, 
+	html .cmsmasters_color_scheme_third .widget .vcalendar .type-tribe_events, 
+	html .cmsmasters_color_scheme_third .tribe-mini-calendar-list-wrapper .type-tribe_events, 
+	html .cmsmasters_color_scheme_third .tribe-mobile-day .tribe-events-mobile, 
+	html .cmsmasters_color_scheme_third .tribe-this-week-events-widget .tribe-this-week-widget-day {
+		border-color:#e0eef0;
+	}
+	/* Finish Borders Color */
+	
+	/* Start Secondary Color */
+	html .cmsmasters_color_scheme_third .tribe-events-tooltip, 
+	html .cmsmasters_color_scheme_third .tribe-events-sub-nav li.tribe-events-nav-next:hover span:not([class]), 
+	html .cmsmasters_color_scheme_third .tribe-events-sub-nav li.tribe-events-nav-previous:hover span:not([class]), 
+	html .cmsmasters_color_scheme_third .tribe-this-week-events-widget .this-week-today .tribe-this-week-widget-header-date, 
+	html .cmsmasters_color_scheme_third .tribe-mini-calendar thead, 
+	html .cmsmasters_color_scheme_third .tribe-events-grid .tribe-week-event .vevent .entry-title a, 
+	html .cmsmasters_color_scheme_third .tribe-events-grid .tribe-grid-header .tribe-week-today, 
+	html .cmsmasters_color_scheme_third #tribe-bar-views.tribe-bar-views-open .button, 
+	html .cmsmasters_color_scheme_third .tribe-events-adv-list-widget .tribe-events-list-widget-content-wrap, 
+	html .cmsmasters_color_scheme_third table.tribe-events-calendar tbody td div[id*=tribe-events-daynum-] a:hover, 
+	html .cmsmasters_color_scheme_third .tribe-events-sub-nav li a:hover > span, 
+	html .cmsmasters_color_scheme_third table.tribe-events-calendar tbody td.tribe-events-present div[id*=tribe-events-daynum-] {
+		background-color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_third .tribe-events-countdown-widget .tribe-countdown-time span, 
+	html .cmsmasters_color_scheme_third .tribe-events-photo .time-details:before, 
+	html .cmsmasters_color_scheme_third .tribe-events-venue-widget .cmsmasters_widget_event_info > div:before, 
+	html .cmsmasters_color_scheme_third .tribe-events-venue-widget .tribe-venue-widget-venue-name:before, 
+	html .cmsmasters_color_scheme_third .tribe-this-week-events-widget .tribe-this-week-event .entry-title a:hover, 
+	html .cmsmasters_color_scheme_third #page .tribe-mini-calendar tbody a:hover, 
+	html .cmsmasters_color_scheme_third #page .tribe-mini-calendar thead a:hover, 
+	html .cmsmasters_color_scheme_third .tribe-events-venue-widget .vcalendar .entry-title a:hover, 
+	html .cmsmasters_color_scheme_third .tribe-events-venue-widget .tribe-venue-widget-venue-name a:hover, 
+	html .cmsmasters_color_scheme_third .tribe-this-week-events-widget .tribe-this-week-event .duration:before, 
+	html .cmsmasters_color_scheme_third .tribe-this-week-events-widget .tribe-this-week-event .tribe-venue:before, 
+	html .cmsmasters_color_scheme_third .tribe-this-week-events-widget .tribe-events-sub-nav li a:hover, 
+	html .cmsmasters_color_scheme_third .tribe-mini-calendar tbody .tribe-events-present, 
+	html .cmsmasters_color_scheme_third .tribe-mini-calendar tbody .tribe-events-present a, 
+	html .cmsmasters_color_scheme_third .cmsmasters_single_event .tribe-events-date:before, 
+	html .cmsmasters_color_scheme_third .cmsmasters_single_event .cmsmasters_single_event_header_right a:before, 
+	html .cmsmasters_color_scheme_third .cmsmasters_single_event .tribe-events-cost:before, 
+	html .cmsmasters_color_scheme_third .tribe-events-list .tribe-events-event-meta .author > div:before {
+		color:#ffffff;
+	}
+	
+	.tribe-this-week-events-widget .tribe-events-sub-nav li a:hover > span {
+		background-color:transparent;
+	}
+	
+	.tribe_mini_calendar_widget .tribe-events-list-widget-content-wrap {
+		background-color:transparent !important;
+	}
+	
+	html .cmsmasters_color_scheme_third .recurringinfo .recurring-info-tooltip:before {
+		border-bottom-color:#ffffff;
+	}
+	
+	html .cmsmasters_color_scheme_third .tribe-events-tooltip:before {
+		border-top-color:#ffffff;
+	}
+	
+	/* Finish Secondary Color */
+/***************** Finish Custom 3 Events Color Scheme Rules ******************/
+
+
+
+/***************** Start Header Middle Color Scheme Rules ******************/
+
+	/* Start Header Middle Content Color */
+	.header_mid,
+	.header_mid textarea,
+	.header_mid select,
+	.header_mid option {
+		color:#656f73;
+	}
+	/* Finish Header Middle Content Color */
+	
+	
+	/* Start Header Middle Primary Color */
+	.header_mid a,
+	.header_mid .cmsmasters_social_icon:hover,
+	.header_mid .search_wrap .search_bar_wrap .search_button button {
+		color:#a671be;
+	}
+	
+	.header_mid .button:hover, 
+	.header_mid input[type=submit]:hover, 
+	.header_mid input[type=button]:hover, 
+	.header_mid .resp_mid_nav_wrap .resp_mid_nav, 
+	.header_mid .cmsmasters_dynamic_cart_wrap .cmsmasters_dynamic_cart_button, 
+	.header_mid input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]) {
+		background-color:#a671be;
+	}
+	
+	.header_mid input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]):focus,
+	.header_mid input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]) {
+		border-color:#a671be;
+	}
+	/* Finish Header Middle Primary Color */
+	
+	
+	/* Start Header Middle Rollover Color */
+	.header_mid a:hover,
+	.header_mid .search_wrap .search_bar_wrap .search_button button:hover	{
+		color:#a6a6a6;
+	}
+	
+	.header_mid .button, 
+	.header_mid input[type=submit], 
+	.header_mid input[type=button], 
+	.header_mid button,
+	.header_mid .cmsmasters_dynamic_cart_wrap .cmsmasters_dynamic_cart_button:hover, 
+	.header_mid .resp_mid_nav_wrap .resp_mid_nav:hover, 
+	.header_mid .resp_mid_nav_wrap .resp_mid_nav.active {
+		background-color:#a6a6a6;
+	}
+	
+	.header_mid textarea:focus,
+	.header_mid select:focus {
+		border-color:#a6a6a6;
+	}
+	/* Finish Header Middle Rollover Color */
+	
+	
+	/* Start Header Middle Background Color */
+	.header_mid .button, 
+	.header_mid input[type=submit], 
+	.header_mid input[type=button], 
+	.header_mid button, 
+	.header_mid .cmsmasters_social_icon,
+	.header_mid .button:hover, 
+	.header_mid input[type=submit]:hover, 
+	.header_mid input[type=button]:hover, 
+	.header_mid .cmsmasters_dynamic_cart_wrap .cmsmasters_dynamic_cart_button,
+	.header_mid .cmsmasters_dynamic_cart_wrap .cmsmasters_dynamic_cart_button:hover,
+	.header_mid .resp_mid_nav_wrap .resp_mid_nav, 
+	.header_mid .resp_mid_nav_wrap .resp_mid_nav:hover, 
+	.header_mid .resp_mid_nav_wrap .resp_mid_nav.active {
+		color:#ffffff;
+	}
+	
+	.header_mid,
+	.header_mid textarea,
+	.header_mid select,
+	.header_mid option {
+		background-color:#ffffff;
+	}
+	
+	.header_mid:before {
+		background-image: -webkit-gradient(linear, 0 0, 300% 100%, color-stop(0.25, #ffffff), color-stop(0.25, #ffffff));
+		background-image: linear-gradient(135deg, #ffffff 25%, transparent 25%), linear-gradient(225deg, #ffffff 25%, transparent 25%);
+	}
+	
+	@media only screen and (max-width: 768px) {
+		#header .header_mid .search_wrap .search_bar_wrap .search_button button {
+			color:#ffffff;
+		}
+	}
+	
+	.header_mid input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]):focus {
+		color:#ffffff;
+	}
+	
+	.header_mid input:-moz-placeholder {
+		color:#ffffff;
+	}
+	
+	.header_mid input::-webkit-input-placeholder {
+		color:#ffffff;
+	}
+	
+	.header_mid input:focus:-moz-placeholder {
+		color:#ffffff;
+	}
+	
+	.header_mid input:focus::-webkit-input-placeholder {
+		color:#ffffff;
+	}
+	
+	
+	/* Finish Header Middle Background Color */
+	
+	
+	/* Start Header Middle Background Color on Scroll */
+	.header_mid.header_mid_scroll {
+		background-color:#ffffff;
+	}
+	
+	.header_mid.header_mid_scroll:before {
+		background-image: -webkit-gradient(linear, 0 0, 300% 100%, color-stop(0.25, #ffffff), color-stop(0.25, #ffffff));
+		background-image: linear-gradient(135deg, #ffffff 25%, transparent 25%), linear-gradient(225deg, #ffffff 25%, transparent 25%);
+	}
+	
+	.header_mid input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]):focus {
+		color:#ffffff;
+	}
+	
+	.header_mid input:-moz-placeholder {
+		color:#ffffff;
+	}
+	
+	.header_mid input::-webkit-input-placeholder {
+		color:#ffffff;
+	}
+	
+	.header_mid input:focus:-moz-placeholder {
+		color:#ffffff;
+	}
+	
+	.header_mid input:focus::-webkit-input-placeholder {
+		color:#ffffff;
+	}
+	
+	@media only screen and (max-width: 1024px) {
+		.header_mid {
+			background-color:#ffffff;
+		}
+	}
+	/* Finish Header Middle Background Color on Scroll */
+	
+	
+	/* Start Header Middle Borders Color */
+	.header_mid textarea,
+	.header_mid select,
+	.header_mid option {
+		border-color:#eaeaea;
+	}
+	
+	.header_mid:after {
+		background-image: -webkit-gradient(linear, 0 0, 300% 100%, color-stop(0.25, #eaeaea), color-stop(0.25, #eaeaea));
+		background-image: linear-gradient(135deg, #eaeaea 25%, transparent 25%), linear-gradient(225deg, #eaeaea 25%, transparent 25%);
+	}
+	
+	
+	/* Finish Header Middle Borders Color */
+	
+	
+	/* Start Header Middle Custom Rules */
+	.header_mid ::selection {
+		background:#a671be;
+		color:#ffffff;
+	}
+	
+	.header_mid ::-moz-selection {
+		background:#a671be;
+		color:#ffffff;
+	}
+	/* Finish Header Middle Custom Rules */
+
+/***************** Finish Header Middle Color Scheme Rules ******************/
+
+
+
+/***************** Start Header Bottom Color Scheme Rules ******************/
+
+	/* Start Header Bottom Content Color */
+	.header_bot,
+	.header_bot input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]),
+	.header_bot textarea,
+	.header_bot select,
+	.header_bot option {
+		color:#656f73;
+	}
+	/* Finish Header Bottom Content Color */
+	
+	
+	/* Start Header Bottom Primary Color */
+	.header_bot a {
+		color:#a6a6a6;
+	}
+	
+	.header_bot .button:hover, 
+	.header_bot input[type=submit]:hover, 
+	.header_bot input[type=button]:hover, 
+	.header_bot button:hover, 
+	.header_bot .resp_bot_nav_wrap .resp_bot_nav {
+		background-color:#a6a6a6;
+	}
+	/* Finish Header Bottom Primary Color */
+	
+	
+	/* Start Header Bottom Rollover Color */
+	.header_bot a:hover {
+		color:#6e767a;
+	}
+	
+	.header_bot .button, 
+	.header_bot input[type=submit], 
+	.header_bot input[type=button], 
+	.header_bot button,
+	.header_bot .resp_bot_nav_wrap .resp_bot_nav:hover, 
+	.header_bot .resp_bot_nav_wrap .resp_bot_nav.active {
+		background-color:#6e767a;
+	}
+	
+	.header_bot input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]):focus,
+	.header_bot textarea:focus,
+	.header_bot select:focus {
+		border-color:#6e767a;
+	}
+	/* Finish Header Bottom Rollover Color */
+	
+	
+	/* Start Header Bottom Background Color */
+	.header_bot .button, 
+	.header_bot input[type=submit], 
+	.header_bot input[type=button], 
+	.header_bot button, 
+	.header_bot .resp_bot_nav_wrap .resp_bot_nav, 
+	.header_bot .resp_bot_nav_wrap .resp_bot_nav:hover, 
+	.header_bot .resp_bot_nav_wrap .resp_bot_nav.active {
+		color:#ffffff;
+	}
+	
+	.header_bot,
+	.header_bot input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]),
+	.header_bot textarea,
+	.header_bot select,
+	.header_bot option {
+		background-color:#ffffff;
+	}
+	
+	.header_bot:before {
+		background-image: -webkit-gradient(linear, 0 0, 300% 100%, color-stop(0.25, #ffffff), color-stop(0.25, #ffffff));
+		background-image: linear-gradient(135deg, #ffffff 25%, transparent 25%), linear-gradient(225deg, #ffffff 25%, transparent 25%);
+	}
+	/* Finish Header Bottom Background Color */
+	
+	
+	/* Start Header Bottom Background Color on Scroll */
+	.header_bot.header_bot_scroll {
+		background-color:#ffffff;
+	}
+	
+	.header_bot.header_bot_scroll:before {
+		background-image: -webkit-gradient(linear, 0 0, 300% 100%, color-stop(0.25, #ffffff), color-stop(0.25, #ffffff));
+		background-image: linear-gradient(135deg, #ffffff 25%, transparent 25%), linear-gradient(225deg, #ffffff 25%, transparent 25%);
+	}
+	
+	@media only screen and (max-width: 1024px) {
+		.header_bot {
+			background-color:#ffffff;
+		}
+	}
+	/* Finish Header Bottom Background Color on Scroll */
+	
+	
+	/* Start Header Bottom Borders Color */
+	.header_bot input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]),
+	.header_bot textarea,
+	.header_bot select,
+	.header_bot option {
+		border-color:#f2f2f2;
+	}
+	
+	.header_bot:after {
+		background-image: -webkit-gradient(linear, 0 0, 300% 100%, color-stop(0.25, #f2f2f2), color-stop(0.25, #f2f2f2));
+		background-image: linear-gradient(135deg, #f2f2f2 25%, transparent 25%), linear-gradient(225deg, #f2f2f2 25%, transparent 25%);
+	}
+	
+	/* Finish Header Bottom Borders Color */
+	
+	
+	/* Start Header Bottom Custom Rules */
+	.header_bot ::selection {
+		background:#a6a6a6;
+		color:#ffffff;
+	}
+	
+	.header_bot ::-moz-selection {
+		background:#a6a6a6;
+		color:#ffffff;
+	}
+	/* Finish Header Bottom Custom Rules */
+
+/***************** Finish Header Bottom Color Scheme Rules ******************/
+
+
+
+/***************** Start Navigation Color Scheme Rules ******************/
+
+	/* Start Navigation Title Link Color */
+	@media only screen and (min-width: 1025px) {
+		ul.navigation > li > a {
+			color:#fb6b47;
+		}
+		
+		.navigation li a .nav_tag {
+			background-color:#fb6b47;
+		}
+	}
+	/* Finish Navigation Title Link Color */
+	
+	
+	/* Start Navigation Title Link Hover Color */
+	@media only screen and (min-width: 1025px) {
+		ul.navigation > li > a:hover,
+		ul.navigation > li > a:hover .nav_subtitle,
+		ul.navigation > li:hover > a,
+		ul.navigation > li:hover > a .nav_subtitle {
+			color:#a6a6a6;
+		}
+		
+		ul.navigation > li:hover > a .nav_tag {
+			background-color:#a6a6a6;
+		}
+	}
+	/* Finish Navigation Title Link Hover Color */
+	
+	
+	/* Start Navigation Title Link Current Color */
+	@media only screen and (min-width: 1025px) {
+		ul.navigation > li.current_page_item > a .nav_subtitle, 
+		ul.navigation > li.current_page_item > a, 
+		ul.navigation > li.menu-item.current-menu-item > a, 
+		ul.navigation > li.menu-item.current-menu-item > a .nav_subtitle, 
+		ul.navigation > li.menu-item.current-menu-ancestor > a, 
+		ul.navigation > li.menu-item.current-menu-ancestor > a .nav_subtitle,
+		.navigation li a .nav_tag {
+			color:#ffffff;
+		}
+		
+		ul.navigation > li.current_page_item > a .nav_tag {
+			background-color:#ffffff;
+		}
+	}
+	/* Finish Navigation Title Link Current Color */
+	
+	
+	/* Start Navigation Title Link Subtitle Color */
+	@media only screen and (min-width: 1025px) {
+		ul.navigation > li > a .nav_subtitle,
+		ul.navigation > li.current_page_item > a .nav_tag {
+			color:#656f73;
+		}
+	}
+	/* Finish Navigation Title Link Subtitle Color */
+	
+	
+	/* Start Navigation Title Link Background Color */
+	@media only screen and (min-width: 1025px) {
+		ul.navigation > li > a, 
+		ul.navigation > li > a:after {
+			background-color:rgba(255,255,255,0);
+		}
+	}
+	/* Finish Navigation Title Link Background Color */
+	
+	
+	/* Start Navigation Title Link Hover Background Color */
+	@media only screen and (min-width: 1025px) {
+		ul.navigation > li > a:hover,
+		ul.navigation > li:hover > a, 
+		ul.navigation > li > a:hover:after,
+		ul.navigation > li:hover > a:after {
+			background-color:rgba(255,255,255,0);
+		}
+	}
+	/* Finish Navigation Title Link Hover Background Color */
+	
+	
+	/* Start Navigation Title Link Current Background Color */
+	@media only screen and (min-width: 1025px) {
+		ul.navigation > li.current_page_item > a, 
+		ul.navigation > li.menu-item.current-menu-item > a, 
+		ul.navigation > li.menu-item.current-menu-ancestor > a, 
+		ul.navigation > li.current_page_item > a:after, 
+		ul.navigation > li.menu-item.current-menu-item > a:after, 
+		ul.navigation > li.menu-item.current-menu-ancestor > a:after {
+			background-color:#fb6b47;
+		}
+	}
+	/* Finish Navigation Title Link Current Background Color */
+	
+	
+	/* Start Navigation Title Link Border Color */
+	@media only screen and (min-width: 1025px) {
+		ul.navigation > li > a {
+			border-color:#ffffff;
+		}
+	}
+	/* Finish Navigation Title Link Border Color */
+	
+	
+	/* Start Navigation Dropdown Text Color */
+	.navigation li .menu-item-mega-description-container, 
+	.navigation li .menu-item-mega-description-container * {
+		color:#8b8a8a;
+	}
+	/* Finish Navigation Dropdown Tex Color */
+	
+	
+	/* Start Navigation Dropdown Background Color */
+	@media only screen and (max-width: 1024px) {
+		ul.navigation {
+			background-color:#f4f4f4;
+		}
+	}
+	
+	@media only screen and (min-width: 1025px) {
+		ul.navigation ul, 
+		ul.navigation .menu-item-mega-container {
+			background-color:#f4f4f4;
+		}
+		
+		.mid_nav > li > ul:after,
+		.bot_nav > li > ul:after {
+			border-bottom-color:#f4f4f4;
+		}
+		
+		.bot_nav ul ul li:first-child:before, 
+		.mid_nav ul ul li:first-child:before {
+			border-right-color:#f4f4f4;
+		}
+	}
+	/* Finish Navigation Dropdown Background Color */
+	
+	
+	/* Start Navigation Dropdown Border Color */
+	@media only screen and (min-width: 1025px) {
+		ul.navigation ul, 
+		ul.navigation .menu-item-mega-container {
+			border-color:#f2f2f2;
+		}
+	}
+	/* Finish Navigation Dropdown Border Color */
+	
+	
+	/* Start Navigation Dropdown Link Color */
+	.navigation .cmsmasters_resp_nav_toggle, 
+	.navigation li a {
+		color:#434a54;
+	}
+	
+	/* Finish Navigation Dropdown Link Color */
+	
+	
+	/* Start Navigation Dropdown Link Hover Color */
+	.navigation li > a:hover,
+	.navigation li > a:hover .nav_subtitle,
+	.navigation li.current-menu-item > a, 
+	.navigation li.current-menu-item > a .nav_subtitle {
+		color:#fb6b47;
+	}
+	
+	.navigation li.current-menu-item > a .cmsmasters_resp_nav_toggle, 
+	.navigation li > a .cmsmasters_resp_nav_toggle.cmsmasters_theme_icon_resp_nav_slide_up, 
+	.navigation li > a:hover .cmsmasters_resp_nav_toggle {
+		background-color:#fb6b47;
+	}
+	
+	@media only screen and (min-width: 1025px) {
+		ul.navigation li > ul li:hover > a, 
+		ul.navigation li > ul li:hover > a .nav_subtitle, 
+		ul.navigation li > ul li.current-menu-ancestor > a, 
+		ul.navigation li > ul li.current-menu-ancestor > a .nav_subtitle {
+			color:#fb6b47;
+		}
+	}
+	/* Finish Navigation Dropdown Link Hover Color */
+	
+	
+	/* Start Navigation Dropdown Link Subtitle Color */
+	.navigation li a .nav_subtitle {
+		color:#8b8a8a;
+	}
+	/* Finish Navigation Dropdown Link Subtitle Color */
+	
+	
+	/* Start Navigation Dropdown Link Hover Highlight Color */
+	.navigation li > a:hover,
+	.navigation .cmsmasters_resp_nav_toggle, 
+	.navigation li.current-menu-item > a {
+		background-color:#ffffff;
+	}
+	
+	
+	.navigation li.current-menu-item > a .cmsmasters_resp_nav_toggle, 
+	.navigation li > a .cmsmasters_resp_nav_toggle.cmsmasters_theme_icon_resp_nav_slide_up, 
+	.navigation li > a:hover .cmsmasters_resp_nav_toggle {
+		color:#ffffff;
+	}
+	
+	@media only screen and (min-width: 1025px) {
+		ul.navigation li > ul li:hover > a, 
+		ul.navigation li > ul li.current-menu-ancestor > a {
+			background-color:#ffffff;
+		}
+		
+		.bot_nav ul ul li:first-child:hover:before, 
+		.mid_nav ul ul li.current_page_item:first-child:before, 
+		.mid_nav ul ul li:first-child:hover:before,
+		.bot_nav ul ul li.current_page_item:first-child:before {
+			border-right-color:#ffffff;
+		}
+	}
+	/* Finish Navigation Dropdown Link Hover Highlight Color */
+	
+	
+	/* Start Navigation Dropdown Link Border Color */
+	.navigation li {
+		border-color:#f4f4f4;
+	}
+	/* Finish Navigation Dropdown Link Border Color */
+
+/***************** Finish Navigation Color Scheme Rules ******************/
+
+
+
+/***************** Start Header Top Color Scheme Rules ******************/
+
+	/* Start Header Top Content Color */
+	.header_top,
+	.header_top .meta_wrap [class^=cmsmasters-icon-]:before,
+	.header_top .meta_wrap [class*= cmsmasters-icon-]:before {
+		color:#ffffff;
+	}
+	/* Finish Header Top Content Color */
+	
+	
+	/* Start Header Top Primary Color */
+	.header_top a, 
+	.header_top .responsive_top_nav:hover, 
+	.header_top .responsive_top_nav.active, 
+	.header_top .cmsmasters_social_icon:hover, 
+	.header_top .header_top_but, 
+	.header_top .header_top_but:hover, 
+	.header_top .header_top_but.opened {
+		color:#ffffff;
+	}
+	
+	.header_top .responsive_top_nav {
+		background-color:#ffffff;
+	}
+	/* Finish Header Top Primary Color */
+	
+	
+	/* Start Header Top Rollover Color */
+	.header_top a:hover {
+		color:#abcd52;
+	}
+	
+	.header_top .responsive_top_nav:hover, 
+	.header_top .responsive_top_nav.active, 
+	.header_top .cmsmasters_social_icon:hover {
+		background-color:#abcd52;
+	}
+	/* Finish Header Top Rollover Color */
+	
+	
+	/* Start Header Top Background Color */	
+	.header_top {
+		background-color:#484f7f;
+	}
+	
+	.header_top .cmsmasters_social_icon {
+		color:#484f7f;
+	}
+	
+	/* Finish Header Top Background Color */
+	
+	
+	/* Start Header Top Borders Color */
+	.header_top .header_top_but {
+		border-color:#f4f4f4;
+	}
+	
+	.header_top .header_top_left, 
+	.header_top .header_top_right {
+		border-color:rgba(244, 244, 244, 0.10);
+	}
+	
+	
+	/* Finish Header Top Borders Color */
+	
+	/* Start Header Top Borders Color */
+	
+	.header_top .responsive_top_nav {
+		color:#434a54;
+	}
+	
+	/* Finish Header Top Borders Color */
+	
+	/* Start Header Top Custom Rules */
+	.header_top ::selection {
+		background:#ffffff;
+		color:#484f7f;
+	}
+	
+	.header_top ::-moz-selection {
+		background:#ffffff;
+		color:#484f7f;
+	}
+	/* Finish Header Top Custom Rules */
+
+/***************** Finish Header Top Color Scheme Rules ******************/
+
+
+
+/***************** Start Header Top Navigation Color Scheme Rules ******************/
+
+	/* Start Header Top Navigation Title Link Color */
+	@media only screen and (min-width: 1025px) {
+		ul.top_line_nav > li > a {
+			color:#ffffff;
+		}
+	}
+	/* Finish Header Top Navigation Title Link Color */
+	
+	
+	/* Start Header Top Navigation Title Link Hover Color */
+	@media only screen and (min-width: 1025px) {
+		ul.top_line_nav > li > a:hover,
+		ul.top_line_nav > li:hover > a,
+		ul.top_line_nav > li.current-menu-item > a,
+		ul.top_line_nav > li.current-menu-ancestor > a {
+			color:#abcd52;
+		}
+	}
+	/* Finish Header Top Navigation Title Link Hover Color */
+	
+	
+	/* Start Header Top Navigation Title Link Background Color */
+	@media only screen and (min-width: 1025px) {
+		ul.top_line_nav > li > a {
+			background-color:#65517a;
+		}
+	}
+	/* Finish Header Top Navigation Title Link Background Color */
+	
+	
+	/* Start Header Top Navigation Title Link Hover Background Color */
+	@media only screen and (min-width: 1025px) {
+		ul.top_line_nav > li > a:hover,
+		ul.top_line_nav > li:hover > a,
+		ul.top_line_nav > li.current-menu-item > a,
+		ul.top_line_nav > li.current-menu-ancestor > a {
+			background-color:#65517a;
+		}
+	}
+	/* Finish Header Top Navigation Title Link Hover Background Color */
+	
+	
+	/* Start Header Top Navigation Title Link Border Color */
+	@media only screen and (min-width: 1025px) {
+		ul.top_line_nav > li {
+			border-color:#65517a;
+		}
+	}
+	/* Finish Header Top Navigation Title Link Border Color */
+	
+	
+	/* Start Header Top Navigation Dropdown Background Color */
+	@media only screen and (max-width: 1024px) {
+		ul.top_line_nav {
+			background-color:#f4f4f4;
+		}
+	}
+	
+	@media only screen and (min-width: 1025px) {
+		ul.top_line_nav ul {
+			background-color:#f4f4f4;
+		}
+		
+		.top_line_nav > li > ul:after {
+			border-bottom-color:#f4f4f4;
+		}
+		
+		.top_line_nav ul ul li:first-child:before {
+			border-right-color:#f4f4f4;
+		}
+	}
+	/* Finish Header Top Navigation Dropdown Background Color */
+	
+	
+	/* Start Header Top Navigation Dropdown Border Color */
+	@media only screen and (min-width: 1025px) {
+		ul.top_line_nav ul {
+			border-color:#f4f4f4;
+		}
+	}
+	/* Finish Header Top Navigation Dropdown Border Color */
+	
+	
+	/* Start Header Top Navigation Dropdown Link Color */
+	.top_line_nav li a {
+		color:#434a54;
+	}
+	/* Finish Header Top Navigation Dropdown Link Color */
+	
+	
+	/* Start Header Top Navigation Dropdown Link Hover Color */
+	.top_line_nav li > a:hover,
+	.top_line_nav li.current-menu-item > a {
+		color:#fb6b47;
+	}
+	
+	@media only screen and (min-width: 1025px) {
+		ul.top_line_nav ul li:hover > a, 
+		ul.top_line_nav ul li.current-menu-ancestor > a {
+			color:#fb6b47;
+		}
+	}
+	/* Finish Header Top Navigation Dropdown Link Hover Color */
+	
+	
+	/* Start Header Top Navigation Dropdown Link Hover Highlight Color */
+	.top_line_nav li > a:hover,
+	.top_line_nav li.current-menu-item > a {
+		background-color:#ffffff;
+	}
+	
+	.top_line_nav ul ul li.current_page_item:first-child:before,
+	.top_line_nav ul ul li:first-child:hover:before {
+		border-right-color:#ffffff;
+	}
+	
+	@media only screen and (min-width: 1025px) {
+		ul.top_line_nav ul li:hover > a,
+		ul.top_line_nav ul li.current-menu-ancestor > a {
+			background-color:#ffffff;
+		}
+	}
+	/* Finish Header Top Navigation Dropdown Link Hover Highlight Color */
+	
+	
+	/* Start Header Top Navigation Dropdown Link Border Color */
+	.top_line_nav li {
+		border-color:#e0eef0;
+	}
+	/* Finish Header Top Navigation Dropdown Link Border Color */
+
+/***************** Finish Header Top Navigation Color Scheme Rules ******************/
+
+
+/***************** Start Gutenberg Module Custom Colors Scheme Rules ******************/
+	 .wp-block-quote,
+	.editor-styles-wrapper .wp-block-freeform blockquote,
+	.editor-styles-wrapper .wp-block-freeform blockquote p {
+		color:#656f73;
+	}
+	
+	
+	/* Start Table Colors */
+	 .wp-block-table th,
+	 .wp-block-table td,
+	 .wp-block-table.is-style-stripes th,
+	 .wp-block-table.is-style-stripes td,
+	.editor-styles-wrapper .wp-block-freeform .mce-item-table tr th,
+	.editor-styles-wrapper .wp-block-freeform .mce-item-table tr td,
+	.editor-styles-wrapper .wp-block-freeform table tr th,
+	.editor-styles-wrapper .wp-block-freeform table tr td {
+		border-color:#efefef;
+	}
+	
+	 .wp-block-table.is-style-stripes tr:nth-child(odd) th,
+	 .wp-block-table.is-style-stripes tr:nth-child(odd) td {
+		background-color:#efefef;
+	}
+	/* Finish Table Colors */
+
+/***************** Finish Gutenberg Module Custom Colors Scheme Rules ******************/
+
+
+
+
+
+/***************** Start Gutenberg Module General Colors Scheme Rules ******************/
+	/* Start Main Content Font Color */
+	body .editor-styles-wrapper,
+	.editor-styles-wrapper select,
+	.editor-styles-wrapper p.wp-block-subhead,
+	 .wp-block-image figcaption,
+	 .wp-block-audio figcaption,
+	 .wp-block-video figcaption,
+	 .wp-caption dd,
+	 .wp-block-latest-posts .wp-block-latest-posts__post-date,
+	 .wp-block-latest-comments .wp-block-latest-comments__comment-date {
+		color:#656f73;
+	}
+	/* Finish Main Content Font Color */
+	
+	
+	/* Start Primary Color */
+	.editor-styles-wrapper a,
+	.editor-styles-wrapper .wp-block-freeform.block-library-rich-text__tinymce a,
+	.editor-styles-wrapper .wp-block-file .wp-block-file__textlink .editor-rich-text__tinymce {
+		color:#a6a6a6;
+	}
+	/* Finish Primary Color */
+	
+	
+	/* Start Highlight Color */
+	.editor-styles-wrapper a:hover,
+	.editor-styles-wrapper a:active,
+	.editor-styles-wrapper h1 a:hover,
+	.editor-styles-wrapper h1 a:active,
+	.editor-styles-wrapper h2 a:hover,
+	.editor-styles-wrapper h2 a:active,
+	.editor-styles-wrapper h3 a:hover,
+	.editor-styles-wrapper h3 a:active,
+	.editor-styles-wrapper h4 a:hover,
+	.editor-styles-wrapper h4 a:active,
+	.editor-styles-wrapper h5 a:hover,
+	.editor-styles-wrapper h5 a:active,
+	.editor-styles-wrapper h6 a:hover,
+	.editor-styles-wrapper h6 a:active,
+	.editor-styles-wrapper div.wp-block .wp-block-freeform.block-library-rich-text__tinymce a:hover,
+	.editor-styles-wrapper div.wp-block .wp-block-freeform.block-library-rich-text__tinymce a:active {
+		color:#454a4c;
+	}
+	
+	.editor-styles-wrapper select:focus {
+		border-color:#454a4c;
+	}
+	/* Finish Highlight Color */
+	
+	
+	/* Start Headings Color */
+	.editor-post-title__block .editor-post-title__input,
+	.editor-styles-wrapper h1,
+	.editor-styles-wrapper h1 a,
+	.editor-styles-wrapper h2,
+	.editor-styles-wrapper h2 a,
+	.editor-styles-wrapper h3,
+	.editor-styles-wrapper h3 a,
+	.editor-styles-wrapper h4,
+	.editor-styles-wrapper h4 a,
+	.editor-styles-wrapper h5,
+	.editor-styles-wrapper h5 a,
+	.editor-styles-wrapper h6,
+	.editor-styles-wrapper h6 a,
+	 .wp-block-pullquote {
+		color:#434a54;
+	}
+	
+	 .wp-block-pullquote.is-style-solid-color {
+		background-color:#434a54;
+	}
+	
+	 .wp-block-pullquote {
+		border-color:#434a54;
+	}
+	/* Finish Headings Color */
+	
+	
+	/* Start Main Background Color */
+	 .wp-block-pullquote.is-style-solid-color {
+		color:#ffffff;
+	}
+	
+	body .editor-styles-wrapper,
+	.editor-styles-wrapper select {
+		background-color:#ffffff;
+	}
+	/* Finish Main Background Color */
+	
+	
+	/* Start Borders Color */
+	 .wp-block-separator.is-style-dots:before {
+		color:#efefef;
+	}
+	
+	 .wp-block-separator:not(.is-style-dots):before {
+		background-color:#efefef;
+	}
+	
+	.editor-styles-wrapper select,
+	.editor-styles-wrapper .wp-block-freeform hr {
+		border-color:#efefef;
+	}
+	/* Finish Borders Color */
+	
+	
+	/* Start Buttons Colors */
+	 .wp-block-button .wp-block-button__link:not(.has-text-color):not(.has-background),
+	 .wp-block-file .wp-block-file__button,
+	 .wp-block-file a.wp-block-file__button {
+		color:#ffffff;
+		background-color:#a6a6a6;
+	}
+	
+	 .wp-block-button .wp-block-button__link:not(.has-text-color):not(.has-background):hover,
+	 .wp-block-button .wp-block-button__link:not(.has-text-color):not(.has-background):focus,
+	 .wp-block-button .wp-block-button__link:not(.has-text-color):not(.has-background):active,
+	 .wp-block-file .wp-block-file__button:hover,
+	 .wp-block-file .wp-block-file__button:focus,
+	 .wp-block-file .wp-block-file__button:active,
+	 .wp-block-file a.wp-block-file__button:hover,
+	 .wp-block-file a.wp-block-file__button:focus,
+	 .wp-block-file a.wp-block-file__button:active {
+		color:#ffffff;
+		background-color:#454a4c;
+	}
+	
+	 .wp-block-button.is-style-outline .wp-block-button__link:not(.has-text-color):not(.has-background) {
+		color:#a6a6a6;
+		background-color:#ffffff;
+		border-color:#a6a6a6;
+	}
+	
+	 .wp-block-button.is-style-outline .wp-block-button__link:not(.has-text-color):not(.has-background):hover,
+	 .wp-block-button.is-style-outline .wp-block-button__link:not(.has-text-color):not(.has-background):focus,
+	 .wp-block-button.is-style-outline .wp-block-button__link:not(.has-text-color):not(.has-background):active {
+		color:#ffffff;
+		background-color:#a6a6a6;
+		border-color:#a6a6a6;
+	}
+	/* Finish Buttons Colors */
+	
+
+/***************** Finish Gutenberg Module General Colors Scheme Rules ******************/
+

@@ -1,0 +1,1376 @@
+/**
+ * @package 	WordPress
+ * @subpackage 	Kids
+ * @version 	1.1.5
+ * 
+ * Theme Fonts Rules
+ * Created by CMSMasters
+ * 
+ */
+
+
+/***************** Start Theme Font Styles ******************/
+
+	/* Start Content Font */
+	body,
+	.widget .cmsmasters_slider_project_inner,
+	.blog.puzzle .cmsmasters_post_content {
+		font-family:'Lato', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:15px;
+		line-height:26px;
+		font-weight:normal;
+		font-style:normal;
+	}
+	
+	.blog.puzzle .cmsmasters_post_content {
+		font-size:14px;
+		line-height:22px;
+	}
+	
+	.widget .cmsmasters_slider_project_inner,
+	.widget_rss ul li .rssSummary,
+	.widget_custom_posts_tabs_entries .cmsmasters_tab.tab_comments li > p {
+		font-size:13px;
+		line-height:24px;
+	}
+	
+	/* Finish Content Font */
+
+
+	/* Start Link Font */
+	a, 
+	.cmsmasters_table tr.cmsmasters_table_row_footer > td, 
+	.profile_details_item_title, 
+	.cmsmasters_open_project .project_details_item_title, 
+	.profile_features_item_title, 
+	.cmsmasters_open_project .project_features_item_title, 
+	.project_details_item_desc .cmsmasters_project_category a, 
+	.cmsmasters_pricing_item_cont_wrap .feature_list, 
+	.cmsmasters_breadcrumbs_inner span, 
+	.header_top .meta_wrap, 
+	.header_top .meta_wrap a,
+	#tribe-bar-views .tribe-bar-views-list li,
+	.subpage_nav > strong,
+	.subpage_nav > span,
+	.subpage_nav > a {
+		font-family:'Lato', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:15px;
+		line-height:26px;
+		font-weight:bold;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	a:hover {
+		text-decoration:none;
+	}
+	
+	.header_top .meta_wrap,
+	.header_top .meta_wrap a {
+		font-size:13px;
+	}
+	/* Finish Link Font */
+
+
+	/* Start Navigation Title Font */
+	.navigation > li > a, 
+	.top_line_nav > li > a, 
+	.bot_nav > li .menu-item-mega-container > ul > li > a, 
+	.mid_nav > li .menu-item-mega-container > ul > li > a, 
+	.footer_nav li > a {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:18px;
+		line-height:24px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:uppercase;
+	}
+	
+	.footer_nav li > a,
+	.top_line_nav > li > a {
+		font-size:14px;
+	}
+	
+	/* Finish Navigation Title Font */
+
+
+	/* Start Navigation Dropdown Font */
+	.navigation ul li a,
+	.top_line_nav ul li a {
+		font-family:'Lato', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:20px;
+		font-weight:bold;
+		font-style:normal;
+		text-transform:none;
+	}
+	
+	.bot_nav ul ul li:first-child:before, 
+	.mid_nav ul ul li:first-child:before,
+	.top_line_nav ul ul li:first-child:before {
+		top:10px;
+	}
+	
+	@media only screen and (max-width: 1024px) {
+		.navigation > li > a {
+			font-family:'Lato', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+			font-size:13px;
+			line-height:20px;
+			font-weight:bold;
+			font-style:normal;
+			text-transform:none;
+		}
+	}
+	
+	/* Finish Navigation Dropdown Font */
+
+
+	/* Start H1 Font */
+	h1,
+	h1 a,
+	.cmsmasters_currency,
+	.cmsmasters_price,
+	.cmsmasters_coins,
+	.blog.opened-article .cmsmasters_post_header .cmsmasters_post_title ,
+	.blog.opened-article .cmsmasters_post_header .cmsmasters_post_title  a,
+	.logo .title,
+	.cmsmasters_stats.stats_mode_circles .cmsmasters_stat_wrap .cmsmasters_stat .cmsmasters_stat_inner .cmsmasters_stat_counter_wrap {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:40px;
+		line-height:46px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:uppercase;
+		text-decoration:none;
+	}
+	
+	.cmsmasters_dropcap {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:uppercase;
+		text-decoration:none;
+	}
+	
+	.cmsmasters_icon_list_items.cmsmasters_icon_list_icon_type_number .cmsmasters_icon_list_item .cmsmasters_icon_list_icon:before,
+	.cmsmasters_icon_box.box_icon_type_number:before,
+	.cmsmasters_icon_box.cmsmasters_icon_heading_left.box_icon_type_number .icon_box_heading:before {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-weight:normal;
+		font-style:normal;
+	}
+	
+	.cmsmasters_stats.stats_mode_circles .cmsmasters_stat_wrap .cmsmasters_stat .cmsmasters_stat_inner .cmsmasters_stat_counter_wrap {
+		font-size:36px;
+	}
+	
+	.cmsmasters_dropcap.type1 {
+		font-size:36px; /* static */
+	}
+	
+	.cmsmasters_dropcap.type2 {
+		font-size:20px; /* static */
+	}
+	
+	.headline_outer .headline_inner .headline_icon:before {
+		font-size:45px;
+	}
+	
+	.headline_outer .headline_inner.align_center .headline_icon:before {
+		font-size:61px;
+	}
+	
+	.headline_outer .headline_inner.align_left .headline_icon {
+		padding-left:45px;
+	}
+	
+	.headline_outer .headline_inner.align_right .headline_icon {
+		padding-right:45px;
+	}
+	
+	.headline_outer .headline_inner.align_center .headline_icon {
+		padding-top:61px;
+	}
+	
+	@media only screen and (max-width: 600px) {
+		h1,
+		h1 a,
+		.blog.opened-article .cmsmasters_post_header .cmsmasters_post_title ,
+		.blog.opened-article .cmsmasters_post_header .cmsmasters_post_title  a {
+			font-size:26px;
+			line-height:32px;
+		}
+	}
+	
+	/* Finish H1 Font */
+
+
+	/* Start H2 Font */
+	h2,
+	h2 a,
+	.cmsmasters_project_price,
+	.cmsmasters_counters .cmsmasters_counter_wrap .cmsmasters_counter .cmsmasters_counter_inner .cmsmasters_counter_counter_wrap,
+	.cmsmasters_stats.stats_mode_bars.stats_type_vertical .cmsmasters_stat_wrap .cmsmasters_stat .cmsmasters_stat_counter_wrap,
+	.comment-reply-title,
+	.about_author h4,
+	.cmsmasters_sitemap_wrap .cmsmasters_sitemap > li > a {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:24px;
+		line-height:30px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:uppercase;
+		text-decoration:none;
+	}
+	/* Finish H2 Font */
+
+
+	/* Start H3 Font */
+	h3,
+	h3 a,
+	.cmsmasters_archive_item_date_wrap, 
+	.cmsmasters_archive_item_date_wrap a, 
+	.cmsmasters_archive_item_type, 
+	.widget_rss .rsswidget, 
+	.notice_content, 
+	.cmsmasters_post_date, 
+	.cmsmasters_toggle_title a, 
+	.cmsmasters_slider_post_date, 
+	.cmsmasters_single_slider_item_inner h4, 
+	.cmsmasters_single_slider_item_inner h4 a, 
+	.cmsmasters_table tr.cmsmasters_table_row_header > th, 
+	.cmsmasters_table > caption, 
+	.cmsmasters_tabs .cmsmasters_tabs_list_item a, 
+	.post_nav > span a, 
+	.cmsmasters_stats .cmsmasters_stat_wrap .cmsmasters_stat_title, 
+	.cmsmasters_stats.stats_mode_circles .cmsmasters_stat_wrap .cmsmasters_stat_title, 
+	.cmsmasters_stats.stats_mode_bars .cmsmasters_stat_wrap .cmsmasters_stat .cmsmasters_stat_inner .cmsmasters_stat_counter_wrap, 
+	.cmsmasters_counters .cmsmasters_counter_wrap .cmsmasters_counter .cmsmasters_counter_inner .cmsmasters_counter_title {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:18px;
+		line-height:24px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:uppercase;
+		text-decoration:none;
+	}
+	
+	.cmsmasters_stats.stats_mode_bars.stats_type_horizontal .cmsmasters_stat_inner:before {
+		line-height:27px;
+	}
+	
+	/* Finish H3 Font */
+
+
+	/* Start H4 Font */
+	h4, 
+	h4 a,
+	.widget_custom_twitter_entries .tweet_time, 
+	.cmsmasters_twitter_wrap .published, 
+	.widget_recent_entries li a,
+	.widget_recent_comments li > a,
+	.widget_custom_posts_tabs_entries .cmsmasters_tab.tab_comments li > a:last-of-type,
+	.widget_custom_posts_tabs_entries .cmsmasters_lpr_tabs_cont > a,
+	.widget_custom_posts_tabs_entries .cmsmasters_tabs_list_item a,
+	.widget_nav_menu ul li a, 
+	.widget_calendar caption, 
+	.widget_calendar thead, 
+	.cmsmasters_period,
+	.blog.columns .cmsmasters_post_date,
+	.cmsmasters_comment_info_right > *,
+	.cmsmasters_project_grid .project_details_item,
+	.cmsmasters_slider_project_inner .project_details_item,
+	.share_posts_inner a, 
+	.cmsmasters_likes a, 
+	.cmsmasters_comments a, 
+	.cmsmasters_post_read_more, 
+	.cmsmasters_slider_post_read_more, 
+	.cmsmasters_sitemap_wrap .cmsmasters_sitemap > li > ul > li > a, 
+	.cmsmasters_sitemap_wrap .cmsmasters_sitemap_category > li > a {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:14px;
+		line-height:20px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:uppercase;
+		text-decoration:none;
+	}
+	
+	/* Finish H4 Font */
+
+
+	/* Start H5 Font */
+	h5,
+	h5 a {
+		font-family:'Lato', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:15px;
+		line-height:20px;
+		font-weight:bold;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	/* Finish H5 Font */
+
+
+	/* Start H6 Font */
+	h6,
+	h6 a {
+		font-family:'Lato', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:20px;
+		font-weight:bold;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	/* Finish H6 Font */
+
+
+	/* Start Button Font */
+	.cmsmasters_button, 
+	.button, 
+	.cmsmasters_wrap_pagination ul li,
+	.cmsmasters_wrap_pagination ul li a,
+	.cmsmasters_items_sort_block span,
+	input[type=submit], 
+	input[type=button], 
+	button {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:18px;
+		line-height:54px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:uppercase;
+	}
+	
+	.widget .button {
+		font-size:14px;
+		line-height:40px;
+	}
+	
+	.gform_wrapper .gform_footer input.button, 
+	.gform_wrapper .gform_footer input[type=submit] {
+		font-size:18px !important;
+	}
+	
+	.cmsmasters_items_sort_block a,
+	.cmsmasters_items_sort_block span,
+	.cmsmasters_items_filter_block a {
+		font-size:14px;
+		line-height:41px;
+	}
+	
+	.cmsmasters_button.cmsmasters_but_icon_dark_bg, 
+	.cmsmasters_button.cmsmasters_but_icon_light_bg, 
+	.cmsmasters_button.cmsmasters_but_icon_divider, 
+	.cmsmasters_button.cmsmasters_but_icon_inverse {
+		padding-left:74px;
+	}
+	
+	.cmsmasters_button.cmsmasters_but_icon_dark_bg:before, 
+	.cmsmasters_button.cmsmasters_but_icon_light_bg:before, 
+	.cmsmasters_button.cmsmasters_but_icon_divider:before, 
+	.cmsmasters_button.cmsmasters_but_icon_inverse:before, 
+	.cmsmasters_button.cmsmasters_but_icon_dark_bg:after, 
+	.cmsmasters_button.cmsmasters_but_icon_light_bg:after, 
+	.cmsmasters_button.cmsmasters_but_icon_divider:after, 
+	.cmsmasters_button.cmsmasters_but_icon_inverse:after {
+		width:54px;
+	}
+	/* Finish Button Font */
+
+
+	/* Start Small Text Font */
+	small,
+	.widget_custom_twitter_entries .tweet_text, 
+	.widget_custom_twitter_entries .tweet_text a, 
+	.widget_tag_cloud a, 
+	.widget_rss ul li .rss-date, 
+	.widget_recent_entries .post-date, 
+	.widget_recent_comments .recentcomments, 
+	.widget_recent_comments li .comment-author-link a,
+	.widget_custom_posts_tabs_entries .cmsmasters_tab.tab_comments li,
+	.widget_custom_contact_info_entries,
+	.widget_custom_contact_info_entries a,
+	.cmsmasters_quote_site,
+	.cmsmasters_quote_site a,
+	.blog.columns .cmsmasters_post_likes,
+	.blog.columns .cmsmasters_post_comments,
+	.footer_custom_html,
+	.footer_custom_html a,
+	.copyright,
+	.privacy-policy-link,
+	.sep,
+	.nav_subtitle,
+	.cmsmasters_slider_project_category,
+	.cmsmasters_slider_project_category a,
+	.cmsmasters_slider_post_author,
+	.cmsmasters_slider_post_author a,
+	.cmsmasters_slider_post_category,
+	.cmsmasters_slider_post_category a,
+	.cmsmasters_post_author, 
+	.cmsmasters_post_author a, 
+	.cmsmasters_post_tags, 
+	.cmsmasters_post_tags a, 
+	.cmsmasters_archive_item_user_name, 
+	.cmsmasters_archive_item_user_name a, 
+	.cmsmasters_archive_item_category, 
+	.cmsmasters_archive_item_category a, 
+	.cmsmasters_post_category, 
+	.cmsmasters_post_category a, 
+	.cmsmasters_project_category, 
+	.cmsmasters_project_category a, 
+	.cmsmasters_comment_item_title, 
+	.cmsmasters_comment_item_title a, 
+	.widget_custom_posts_tabs_entries .cmsmasters_lpr_tabs_cont .published, 
+	.widget input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]), 
+	.widget textarea, 
+	.widget select, 
+	.widget option, 
+	.widget .wpcf7-form, 
+	.widget .cmsmasters-form-builder label, 
+	.nav_tag,
+	form .formError .formErrorContent {
+		font-family:'Lato', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:20px;
+		font-weight:bold;
+		font-style:normal;
+		text-transform:none;
+	}
+	
+	.widget_custom_twitter_entries .tweet_text {
+		font-weight:normal;
+	}
+	
+	.gform_wrapper .description, 
+	.gform_wrapper .gfield_description, 
+	.gform_wrapper .gsection_description, 
+	.gform_wrapper .instruction {
+		font-family:'Lato', Arial, Helvetica, 'Nimbus Sans L', sans-serif !important;
+		font-size:13px !important;
+		line-height:20px !important;
+	}
+	
+	.cmsmasters_comment_item_title,
+	.cmsmasters_comment_item_title a {
+		font-size:15px;
+	}
+	
+	.widget_tag_cloud a {
+		line-height:normal;
+	}
+	
+	.cmsmasters_slider_post .cmsmasters_slider_post_meta_info > span, 
+	.blog.opened-article .cmsmasters_post_cont_info_left, 
+	.blog.opened-article .cmsmasters_post_cont_info_right, 
+	.blog.opened-article .cmsmasters_likes, 
+	.blog.opened-article .cmsmasters_comments, 
+	.blog.opened-article .cmsmasters_likes a, 
+	.blog.opened-article .cmsmasters_comments a {
+		line-height:20px;
+	}
+	
+	@media only screen and (max-width: 767px) {
+		ul.tt_items_list li .value {
+			font-family:'Lato', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+			font-size:13px;
+			line-height:20px;
+			font-weight:bold;
+			font-style:normal;
+			text-transform:none;
+		}
+	}
+	
+	/* Finish Small Text Font */
+
+
+	/* Start Text Fields Font */
+	input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]),
+	textarea,
+	select,
+	option,
+	.wpcf7-form,
+	.cmsmasters-form-builder label {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:18px;
+		line-height:24px;
+		font-weight:normal;
+		font-style:normal;
+	}
+	
+	.gform_wrapper input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]),
+	.gform_wrapper textarea, 
+	.gform_wrapper select {
+		font-size:18px !important;
+	}
+	
+	
+	.cmsmasters-form-builder .form_info > label {
+		text-transform:uppercase;
+	}
+	/* Finish Text Fields Font */
+
+
+	/* Start Blockquote Font */
+	blockquote,
+	.cmsmasters_quotes_slider .cmsmasters_quote_content {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:24px;
+		line-height:38px;
+		font-weight:normal;
+		font-style:normal;
+	}
+	
+	q {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-weight:normal;
+		font-style:normal;
+	}
+	/* Finish Blockquote Font */
+
+/***************** Finish Theme Font Styles ******************/
+
+
+
+/***************** Start CMSMASTERS Timetable Font Styles ******************/
+
+	/* Start Content Font */
+	/* Finish Content Font */
+	
+	
+	/* Start Link Font */
+	table.tt_timetable th, 
+	.cmsmasters_tt_event_hours_item_title, 
+	.cmsmasters_tt_event_details_item_title {
+		font-family:'Lato', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:15px;
+		line-height:26px;
+		font-weight:bold;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	/* Finish Link Font */
+	
+	
+	/* Start Navigation Title Font */
+	/* Finish Navigation Title Font */
+	
+	
+	/* Start H1 Font */
+	/* Finish H1 Font */
+	
+	
+	/* Start H2 Font */
+	.tt_timetable .hours {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:24px;
+		line-height:30px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:uppercase;
+		text-decoration:none;
+	}
+	/* Finish H2 Font */
+	
+	
+	/* Start H3 Font */
+	.tabs_box_navigation .tabs_box_navigation_selected label, 
+	ul.tt_upcoming_events li .tt_upcoming_events_event_container, 
+	.tt_timetable .tt_tooltip_content a, 
+	.tt_timetable .event_header,
+	.tt_timetable .event .event_hour_booking_wrapper .event_hour_booking,
+	#tt_booking_popup_message a.tt_btn {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:18px;
+		line-height:24px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:uppercase;
+		text-decoration:none;
+	}
+	/* Finish H3 Font */
+	
+	
+	/* Start H4 Font */
+	/* Finish H4 Font */
+	
+	
+	/* Start H5 Font */
+	/* Finish H5 Font */
+	
+	
+	/* Start H6 Font */
+	/* Finish H6 Font */
+	
+	
+	/* Start Button Font */
+		.tt_booking a.tt_btn {
+			font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+			font-size:18px;
+			line-height:54px;
+			font-weight:normal;
+			font-style:normal;
+			text-transform:uppercase;
+		}
+	/* Finish Button Font */
+	
+	
+	/* Start Small Text Font */
+	ul.tt_upcoming_events li .tt_upcoming_events_event_container .tt_upcoming_events_hours, 
+	ul.tt_upcoming_events li .tt_upcoming_events_event_container .tt_event_hours_description, 
+	.tabs_box_navigation .tabs_box_navigation_selected .sub-menu a, 
+	.tt_timetable .before_hour_text, 
+	.tt_timetable .tt_tooltip_content, 
+	.tt_timetable .tt_hours_column {
+		font-family:'Lato', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:20px;
+		font-weight:bold;
+		font-style:normal;
+		text-transform:none;
+	}
+	/* Finish Small Text Font */
+
+/***************** Finish CMSMASTERS Donations Font Styles ******************/
+
+
+
+/***************** Start WooCommerce Font Styles ******************/
+
+	/* Start Content Font */
+	.shop_table.woocommerce-checkout-review-order-table .product-name dl, 
+	.shop_table.order_details .product-name dl {
+		font-family:'Lato', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:15px;
+		line-height:26px;
+		font-weight:normal;
+		font-style:normal;
+	}
+	
+	.shop_table.woocommerce-checkout-review-order-table .product-name dl, 
+	.shop_table.order_details .product-name dl {
+		text-transform:none;
+	}
+	/* Finish Content Font */
+	
+	
+	/* Start Link Font */
+	.woocommerce .coupon input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]),
+	.woocommerce .checkout_coupon input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]),
+	.product-quantity, 
+	.shop_table.order_details tfoot tr:last-child th, 
+	.shop_table.order_details tfoot tr:last-child td .amount, 
+	.woocommerce-info,
+	.woocommerce-error, 
+	.woocommerce-message, 
+	.shop_table.woocommerce-checkout-review-order-table .order-total th, 
+	.shop_table.woocommerce-checkout-review-order-table .order-total td {
+		font-family:'Lato', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:15px;
+		line-height:26px;
+		font-weight:bold;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	/* Finish Link Font */
+	
+	
+	/* Start H1 Font */
+	
+	.cart_totals h2 {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:40px;
+		line-height:46px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:uppercase;
+		text-decoration:none;
+	}
+	
+	/* Finish H1 Font */
+	
+	
+	/* Start H2 Font */
+	.cart_totals .order-total th, 
+	.cart_totals .order-total td .amount, 
+	#order_review_heading, 
+	.woocommerce-billing-fields > h3, 
+	.woocommerce-shipping-fields > h3, 
+	.cmsmasters_single_product .price {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:24px;
+		line-height:30px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:uppercase;
+		text-decoration:none;
+	}
+	/* Finish H2 Font */
+	
+	
+	/* Start H3 Font */
+	.shop_table thead th, 
+	.comment-form-rating > label, 
+	.cart_totals .shop_table .cart-subtotal th, 
+	.price .amount, 
+	.widget_shopping_cart_content .total, 
+	.widget_shopping_cart_content .total strong, 
+	.cart_totals table th, 
+	.cart_totals table .cart-subtotal .amount, 
+	ul.order_details {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:18px;
+		line-height:24px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:uppercase;
+		text-decoration:none;
+	}
+	/* Finish H3 Font */
+	
+	
+	/* Start H4 Font */
+	.shipping > th, 
+	.widget > .product_list_widget a, 
+	.shop_table.customer_details tbody tr th,
+	.shop_table.order_details .product-name a, 
+	.shop_table .shipping-calculator-button, 
+	.woocommerce-billing-fields label, 
+	.woocommerce-shipping-fields label, 
+	.shop_table .cart_item a, 
+	.shop_table .cart_item .product-name, 
+	.shop_table .cart-subtotal th, 
+	.shop_table.order_details tfoot tr th {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:14px;
+		line-height:20px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:uppercase;
+		text-decoration:none;
+	}
+	
+	.onsale, 
+	.out-of-stock, 
+	.stock {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:14px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:uppercase;
+	}
+	
+	.out-of-stock {
+		line-height:14px;
+	}
+	
+	.widget_shopping_cart_content .cart_list a,
+	.price del .amount {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:14px;
+		line-height:20px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:uppercase;
+	}
+	
+	/* Finish H4 Font */
+	
+	
+	/* Start H5 Font */
+	.cmsmasters_woo_wrap_result .woocommerce-result-count, 
+	.shop_attributes th, 
+	.shipping-calculator-button, 
+	.widget_layered_nav ul li, 
+	.widget_layered_nav ul li a, 
+	.widget_layered_nav_filters ul li, 
+	.widget_layered_nav_filters ul li a, 
+	.widget_product_categories ul li a {
+		font-family:'Lato', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:15px;
+		line-height:20px;
+		font-weight:bold;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	.shipping-calculator-button, 
+	.shop_table.order_details tfoot tr td {
+		font-size:17px;
+		line-height:22px;
+	}
+	/* Finish H5 Font */
+	
+	
+	/* Start H6 Font */
+	.cmsmasters_product .cmsmasters_product_cat, 
+	.cmsmasters_product .cmsmasters_product_cat a, 
+	.cmsmasters_single_product .product_meta, 
+	.cmsmasters_single_product .product_meta a {
+		font-family:'Lato', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:20px;
+		font-weight:bold;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	.widget > .product_list_widget a, 
+	.widget_shopping_cart_content .cart_list a {
+		text-transform:uppercase;
+	}
+	/* Finish H6 Font */
+	
+	
+	/* Start Button Font */
+	.woocommerce .cmsmasters_button, 
+	.woocommerce .button, 
+	.woocommerce input[type=submit], 
+	.woocommerce input[type=button], 
+	.woocommerce button {
+		line-height:50px;
+	}
+	
+	.price_slider_wrapper .button, 
+	.cmsmasters_single_product .cart .single_add_to_cart_button, 
+	.widget_shopping_cart_content .buttons .button {
+		font-size:14px;
+		line-height:40px;
+	}
+	
+	/* Finish Button Font */
+	
+	
+	/* Start Small Text Font */
+	.product-quantity, 
+	.widget_price_filter .price_slider_amount .price_label, 
+	.widget > .product_list_widget .amount, 
+	.widget > .product_list_widget .reviewer, 
+	.shop_table.my_account_orders tbody tr td a:not(.button), 
+	.shop_table.my_account_orders tbody tr td, 
+	.shop_table.customer_details tbody tr td, 
+	ul.order_details strong, 
+	.shop_table.order_details tfoot tr td, 
+	.woocommerce select,
+	.woocommerce select option,
+	#shipping_method li, 
+	.woocommerce .select2-chosen, 
+	.woocommerce .select1-chosen, 
+	#billing_country option, 
+	.woocommerce-billing-fields textarea, 
+	.woocommerce-shipping-fields textarea, 
+	.select2-container .select2-selection--single .select2-selection__rendered, 
+	.woocommerce input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]),
+	.payment_methods label,
+	.payment_methods label a,
+	.widget_shopping_cart_content .cart_list .quantity, 
+	.shop_table td > .amount {
+		font-family:'Lato', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:20px;
+		font-weight:bold;
+		font-style:normal;
+		text-transform:none;
+	}
+	/* Finish Small Text Font */
+
+/***************** Finish WooCommerce Font Styles ******************/
+
+
+
+/***************** Start Events Font Styles ******************/
+
+	/* Start Content Font */
+	.tribe-mini-calendar-list-wrapper .cmsmasters_widget_event_info, 
+	.tribe-mini-calendar-list-wrapper .cmsmasters_widget_event_info a {
+		font-family:'Lato', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:15px;
+		line-height:26px;
+		font-weight:normal;
+		font-style:normal;
+	}
+	
+	.tribe-mini-calendar-list-wrapper .cmsmasters_widget_event_info, 
+	.tribe-mini-calendar-list-wrapper .cmsmasters_widget_event_info a, 
+	.tribe-this-week-events-widget .tribe-this-week-event .tribe-venue {
+		font-size:14px;
+	}
+	
+	.tribe-events-tooltip .tribe-events-event-body p {
+		font-size:13px;
+	}
+	
+	.tribe-events-grid .column.first, 
+	.tribe-events-grid .tribe-week-grid-hours {
+		font-size:11px;
+	}
+	
+	.tribe-mini-calendar tbody a {
+		font-weight:bold;
+	}
+	
+	.tribe-this-week-events-widget .tribe-events-page-title {
+		text-transform:none;
+	}
+	/* Finish Content Font */
+	
+	
+	/* Start Link Font */
+	/* Finish Link Font */
+	
+	
+	/* Start H1 Font */
+	.tribe-events-page-title, 
+	.tribe-events-single-event-title, 
+	.tribe-events-countdown-widget .tribe-countdown-time {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:40px;
+		line-height:46px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:uppercase;
+		text-decoration:none;
+	}
+	/* Finish H1 Font */
+	
+	
+	/* Start H2 Font */
+	.tribe-events-meta-group h3, 
+	.tribe-mobile-day .tribe-mobile-day-date {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:24px;
+		line-height:30px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:uppercase;
+		text-decoration:none;
+	}
+	/* Finish H2 Font */
+	
+	
+	/* Start H3 Font */
+	.tribe-related-events-title, 
+	.tribe-related-events-title a, 
+	.tribe-events-venue-widget .vcalendar .entry-title, 
+	.tribe-events-venue-widget .vcalendar .entry-title a, 
+	.tribe-this-week-events-widget .tribe-this-week-event .entry-title, 
+	.tribe-this-week-events-widget .tribe-this-week-event .entry-title a, 
+	.tribe-mini-calendar [id*=tribe-mini-calendar-month], 
+	.tribe-events-list .tribe-events-list-separator-month, 
+	.tribe-events-list .tribe-events-day-time-slot > h5, 
+	table.tribe-events-calendar thead th, 
+	.tribe-events-grid .tribe-grid-header span {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:18px;
+		line-height:24px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:uppercase;
+		text-decoration:none;
+	}
+	
+	@media only screen and (max-width: 768px) {
+		table.tribe-events-calendar thead th {
+			font-size:11px;
+		}	
+	}
+	
+	/* Finish H3 Font */
+	
+	
+	/* Start H4 Font */
+	.tribe-bar-filters-inner > div label, 
+	.tribe-this-week-events-widget .tribe-this-week-widget-header-date, 
+	.tribe-events-venue-widget .tribe-venue-widget-venue-name a, 
+	.tribe-events-countdown-widget .tribe-countdown-text, 
+	.tribe-events-countdown-widget .tribe-countdown-text a {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:14px;
+		line-height:20px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:uppercase;
+		text-decoration:none;
+	}
+	/* Finish H4 Font */
+	
+	
+	/* Start H5 Font */
+	table.tribe-events-calendar tbody td .tribe-events-month-event-title, 
+	table.tribe-events-calendar tbody td .tribe-events-month-event-title a, 
+	#tribe-events-content > .tribe-events-button, 
+	.tribe-events-list .tribe-events-read-more, 
+	.cmsmasters_single_event_meta .cmsmasters_event_meta_info_item_title, 
+	.cmsmasters_single_event_meta .cmsmasters_event_meta_info_item_descr a, 
+	.cmsmasters_single_event_meta dt, 
+	.cmsmasters_single_event_meta dd a, 
+	.tribe-events-venue .cmsmasters_events_venue_header_right a, 
+	.tribe-events-organizer .cmsmasters_events_organizer_header_right a, 
+	.tribe-events-widget-link a, 
+	.tribe-mobile-day .tribe-events-read-more, 
+	.tribe-this-week-events-widget .tribe-events-viewmore a {
+		font-family:'Lato', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:15px;
+		line-height:20px;
+		font-weight:bold;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	.cmsmasters_single_event_meta .cmsmasters_event_meta_info_item_descr {
+		line-height:20px;
+	}
+	
+	@media only screen and (max-width: 1024px) {
+		table.tribe-events-calendar tbody td .tribe-events-month-event-title, 
+		table.tribe-events-calendar tbody td .tribe-events-month-event-title a {
+			font-size:12px;
+		}
+	}
+	
+	
+	/* Finish H5 Font */
+	
+	
+	/* Start H6 Font */
+	.tribe-mini-calendar thead th, 
+	.tribe_mini_calendar_widget .tribe-mini-calendar-list-wrapper .entry-title, 
+	.tribe_mini_calendar_widget .tribe-mini-calendar-list-wrapper .entry-title a, 
+	.tribe_mini_calendar_widget .tribe-mini-calendar-list-wrapper .cmsmasters_widget_event_info, 
+	.tribe_mini_calendar_widget .tribe-mini-calendar-list-wrapper .cmsmasters_widget_event_info a, 
+	.tribe-events-venue-widget .vcalendar .cmsmasters_widget_event_info, 
+	.tribe-events-venue-widget .vcalendar .cmsmasters_widget_event_info a, 
+	.tribe-mobile-day .tribe-events-event-schedule-details, 
+	.tribe-mobile-day .tribe-event-schedule-details {
+		font-family:'Lato', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:20px;
+		font-weight:bold;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	
+	.tribe_mini_calendar_widget .tribe-mini-calendar-list-wrapper .entry-title, 
+	.tribe_mini_calendar_widget .tribe-mini-calendar-list-wrapper .entry-title a {
+		text-transform:uppercase;
+	}
+	/* Finish H6 Font */
+	
+	
+	/* Start Button Font */
+	.tribe_button {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:18px;
+		line-height:54px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:uppercase;
+	}
+	
+	#tribe-bar-views .button, 
+	#tribe-bar-views .tribe-bar-views-list li {
+		line-height:54px;
+	}
+	
+	#tribe-bar-views .tribe-bar-views-list li {
+		text-transform:none;
+	}
+	/* Finish Button Font */
+	
+	
+	/* Start Small Text Font */
+	.tribe-this-week-events-widget .tribe-this-week-event .duration, 
+	.tribe-this-week-events-widget .this-week-no-events-msg, 
+	.tribe-this-week-events-widget .tribe-this-week-event .tribe-venue a, 
+	.widget .vcalendar .cmsmasters_widget_event_info, 
+	.tribe-this-week-events-widget .tribe-events-page-title, 
+	.widget .vcalendar .cmsmasters_widget_event_info a, 
+	.tribe-mini-calendar tbody td, 
+	.tribe-mini-calendar tbody a, 
+	.tribe-events-countdown-widget .tribe-countdown-time span, 
+	.cmsmasters_single_event .tribe-events-cost, 
+	.tribe-events-list .tribe-events-event-meta, 
+	.tribe-events-list .tribe-events-event-meta a, 
+	.tribe-events-photo .tribe-events-event-meta, 
+	.tribe-events-photo .tribe-events-event-meta a, 
+	.cmsmasters_single_event .tribe-events-schedule, 
+	.cmsmasters_single_event .tribe-events-schedule a, 
+	.tribe-events-venue .tribe-events-event-meta, 
+	.tribe-events-venue .tribe-events-event-meta a, 
+	.tribe-events-organizer .tribe-events-event-meta, 
+	.tribe-events-organizer .tribe-events-event-meta a, 
+	.cmsmasters_single_event .cmsmasters_single_event_header_right a, 
+	#tribe-events input:not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]), 
+	.tribe-events-viewmore a, 
+	.tribe-events-tooltip .duration, 
+	table.tribe-events-calendar tbody td div[id*=tribe-events-daynum-], 
+	table.tribe-events-calendar tbody td div[id*=tribe-events-daynum-] a {
+		font-family:'Lato', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:20px;
+		font-weight:bold;
+		font-style:normal;
+		text-transform:none;
+	}
+	
+	.tribe-mini-calendar tbody td, 
+	.tribe-mini-calendar tbody a {
+		font-size:11px;
+	}
+	
+	/* Finish Small Text Font */
+
+/***************** Finish Events Font Styles ******************/
+
+
+
+/***************** Start Gutenberg Module Custom Font Styles ******************/
+/***************** Finish Gutenberg Module Custom Font Styles ******************/
+
+
+
+
+
+/***************** Start Gutenberg Module General Font Styles ******************/
+
+	/* Start Content Font */
+	body .editor-styles-wrapper,
+	body .editor-styles-wrapper p,
+	 p.has-drop-cap:not(:focus)::first-letter,
+	 .wp-block-image figcaption,
+	 .wp-block-gallery .blocks-gallery-image figcaption,
+	 .wp-block-gallery .blocks-gallery-item figcaption,
+	 .wp-block-gallery .gallery-item .gallery-caption,
+	 .wp-block-audio figcaption,
+	 .wp-block-video figcaption,
+	 .wp-caption dd,
+	 div.wp-block ul,
+	 div.wp-block ul > li,
+	 div.wp-block ol,
+	 div.wp-block ol > li,
+	 .wp-block-latest-comments.has-avatars .wp-block-latest-comments__comment-meta, 
+	 .wp-block-latest-comments .wp-block-latest-comments__comment-meta,
+	 .wp-block-latest-comments.has-avatars .wp-block-latest-comments__comment-excerpt p, 
+	 .wp-block-latest-comments .wp-block-latest-comments__comment-excerpt p,
+	 .wp-block-freeform,
+	 .wp-block-freeform p,
+	 .wp-block-freeform.mce-content-body {
+		font-family:'Lato', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:15px;
+		line-height:26px;
+		font-weight:normal;
+		font-style:normal;
+	}
+	
+	 p.has-drop-cap:not(:focus)::first-letter {
+		font-size:3em;
+		line-height:1.2em;
+	}
+	/* Finish Content Font */
+	
+	
+	/* Start Link Font */
+	.editor-styles-wrapper a,
+	.editor-styles-wrapper .wp-block-file .wp-block-file__textlink .editor-rich-text__tinymce {
+		font-family:'Lato', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:15px;
+		line-height:26px;
+		font-weight:bold;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	/* Finish Link Font */
+	
+	
+	/* Start H1 Font */
+	 .wp-block-heading h1,
+	 .wp-block-heading h1.editor-rich-text__tinymce,
+	.editor-styles-wrapper h1,
+	.editor-styles-wrapper .wp-block-freeform.block-library-rich-text__tinymce h1,
+	.editor-post-title__block .editor-post-title__input {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:40px;
+		line-height:46px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:uppercase;
+		text-decoration:none;
+	}
+	/* Finish H1 Font */
+	
+	
+	/* Start H2 Font */
+	 .wp-block-heading h2,
+	 .wp-block-heading h2.editor-rich-text__tinymce,
+	.editor-styles-wrapper h2,
+	.editor-styles-wrapper .wp-block-freeform.block-library-rich-text__tinymce h2,
+	 h2.editor-rich-text__tinymce,
+	 .wp-block-cover h2, 
+	 .wp-block-cover .wp-block-cover-text, 
+	 .wp-block-cover .wp-block-cover-image-text, 
+	 .wp-block-cover-image h2, 
+	 .wp-block-cover-image .wp-block-cover-text, 
+	 .wp-block-cover-image .wp-block-cover-image-text {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:24px;
+		line-height:30px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:uppercase;
+		text-decoration:none;
+	}
+	/* Finish H2 Font */
+	
+	
+	/* Start H3 Font */
+	 .wp-block-heading h3,
+	 .wp-block-heading h3.editor-rich-text__tinymce,
+	.editor-styles-wrapper h3,
+	.editor-styles-wrapper .wp-block-freeform.block-library-rich-text__tinymce h3 {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:18px;
+		line-height:24px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:uppercase;
+		text-decoration:none;
+	}
+	/* Finish H3 Font */
+	
+	
+	/* Start H4 Font */
+	 .wp-block-heading h4,
+	 .wp-block-heading h4.editor-rich-text__tinymce,
+	.editor-styles-wrapper h4,
+	.editor-styles-wrapper .wp-block-freeform.block-library-rich-text__tinymce h4 {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:14px;
+		line-height:20px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:uppercase;
+		text-decoration:none;
+	}
+	/* Finish H4 Font */
+	
+	
+	/* Start H5 Font */
+	 .wp-block-heading h5,
+	 .wp-block-heading h5.editor-rich-text__tinymce,
+	.editor-styles-wrapper h5,
+	.editor-styles-wrapper .wp-block-freeform.block-library-rich-text__tinymce h5 {
+		font-family:'Lato', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:15px;
+		line-height:20px;
+		font-weight:bold;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	/* Finish H5 Font */
+	
+	
+	/* Start H6 Font */
+	 .wp-block-heading h6,
+	 .wp-block-heading h6.editor-rich-text__tinymce,
+	.editor-styles-wrapper h6,
+	.editor-styles-wrapper .wp-block-freeform.block-library-rich-text__tinymce h6 {
+		font-family:'Lato', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:20px;
+		font-weight:bold;
+		font-style:normal;
+		text-transform:none;
+		text-decoration:none;
+	}
+	/* Finish H6 Font */
+	
+	
+	/* Start Button Font */
+	 .wp-block-button .wp-block-button__link,
+	 .wp-block-file .wp-block-file__button {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:18px;
+		line-height:54px;
+		font-weight:normal;
+		font-style:normal;
+		text-transform:uppercase;
+	}
+	/* Finish Button Font */
+	
+	
+	/* Start Small Text Font */
+	 small,
+	 .wp-block-latest-posts .wp-block-latest-posts__post-date,
+	 .wp-block-latest-comments .wp-block-latest-comments__comment-date {
+		font-family:'Lato', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:13px;
+		line-height:20px;
+		font-weight:bold;
+		font-style:normal;
+		text-transform:none;
+	}
+	/* Finish Small Text Font */
+	
+	
+	/* Start Text Fields Font */
+	.editor-styles-wrapper select,
+	.editor-styles-wrapper option {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:18px;
+		line-height:24px;
+		font-weight:normal;
+		font-style:normal;
+	}
+	
+	.editor-styles-wrapper select {
+		line-height:1em;
+	}
+	/* Finish Text Fields Font */
+	
+	
+	/* Start Blockquote Font */
+	 .wp-block-quote,
+	 .wp-block-quote.is-large,
+	 .wp-block-quote.is-style-large,
+	 .wp-block-pullquote,
+	.editor-styles-wrapper .wp-block-freeform blockquote,
+	.editor-styles-wrapper .wp-block-freeform blockquote p {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-size:24px;
+		line-height:38px;
+		font-weight:normal;
+		font-style:normal;
+	}
+	
+	 .wp-block-quote.is-large,
+	 .wp-block-quote.is-style-large {
+		font-size:28px;
+		line-height:42px;
+	}
+	
+	 .wp-block-pullquote {
+		font-size:20px;
+		line-height:34px;
+	}
+	
+	.editor-styles-wrapper q {
+		font-family:'Londrina Solid', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		font-weight:normal;
+		font-style:normal;
+	}
+	/* Finish Blockquote Font */
+
+/***************** Finish Gutenberg Module General Font Styles ******************/
+

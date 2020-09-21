@@ -1,0 +1,17 @@
+
+---Downloaded files---
+The import files for: Homepage Free were successfully downloaded!
+Initial max execution time = 360
+Files info:
+Site URL = http://ayman.adnskills.com
+Data file = /home/machimo/ayman.adnskills.com/wp-content/plugins/cyclone-demo-importer//themes/green-eco-planet/inc/content.xml
+Widget file = not defined!
+Customizer file = /home/machimo/ayman.adnskills.com/wp-content/plugins/cyclone-demo-importer//themes/green-eco-planet/inc/options.dat
+Redux files:
+not defined!
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+
